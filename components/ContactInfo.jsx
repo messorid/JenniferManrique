@@ -53,7 +53,7 @@ export default function ContactInfo() {
             Agenda tu <span className="text-dorado">consulta</span>
           </h1>
           <p className="mt-5 text-base md:text-lg leading-relaxed text-texto-suave max-w-xl mx-auto">
-            Contactaños por WhatsApp para agendar tu cita con la Dra. Jennifer
+            Contactanos por WhatsApp para agendar tu cita con la Dra. Jennifer
             Manrique. Atención personalizada de lunes a viernes en Barinas.
           </p>
         </div>

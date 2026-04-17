@@ -48,7 +48,7 @@ export default function ContactForm() {
               Escribenos
             </span>
             <h2 className="mt-5 font-[family-name:var(--font-display)] text-3xl md:text-4xl text-malva-900 leading-tight">
-              Cuentaños cómo podemos{" "}
+              Cuentanos cómo podemos{" "}
               <span className="text-dorado">ayudarte</span>
             </h2>
             <p className="mt-5 text-base leading-relaxed text-texto-suave">

@@ -20,7 +20,7 @@ const timeline = [
     title: "Residencia en Endocrinología",
     place: "Universidad de los Andes (ULA), Merida",
     description:
-      "Cuatro años de formación de postgrado en endocrinología clínica, metabolismo y patologia hormonal, con pacientes de alta complejidad.",
+      "Tres años de formación de postgrado en endocrinología clínica, metabolismo y patologia hormonal, con pacientes de alta complejidad.",
     icon: "stethoscope",
   },
   {

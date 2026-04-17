@@ -35,7 +35,7 @@ export default function AboutIntro() {
             <p>
               La Dra. Jennifer Manrique es Médico Cirujano y Especialista en
               Endocrinología, con formación en la Universidad Nacional
-              Experimental Francisco de Miranda y especializacion de cuatro
+              Experimental Francisco de Miranda y especializacion de tres
               años en la Universidad de los Andes, Merida.
             </p>
             <p>
