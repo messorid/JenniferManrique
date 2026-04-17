@@ -5,27 +5,27 @@ import ServiceFAQ from "@/components/ServiceFAQ";
 const categories = [
   {
     id: "consulta",
-    label: "Consulta y atencion en Barinas",
+    label: "Consulta y atención en Barinas",
     faqs: [
       {
-        q: "Como agendo una cita con la endocrinologa en Barinas?",
-        a: "La forma mas rapida es por WhatsApp al 0412-9337390. La Dra. Jennifer Manrique atiende en el Hospital Privado San Juan, Consultorio 34, Piso 2, Barinas. La atencion es de lunes a viernes de 8:00 AM a 12:00 PM y de 2:00 PM a 6:00 PM, previa cita.",
+        q: "Cómo agendo una cita con la endocrinóloga en Barinas?",
+        a: "La forma más rápida es por WhatsApp al 0412-9337390. La Dra. Jennifer Manrique atiende en el Hospital Privado San Juan, Consultorio 34, Piso 2, Barinas. La atención es de lunes a viernes de 8:00 AM a 12:00 PM y de 2:00 PM a 6:00 PM, previa cita.",
       },
       {
-        q: "Que debo llevar a la primera consulta con la endocrinologa?",
-        a: "Estudios recientes de laboratorio (glucemia, perfil tiroideo, hemoglobina glicosilada si los tienes), listado de medicamentos actuales, informes de otros especialistas e historia clinica relevante. Si no tienes estudios previos, se indicaran en la consulta.",
+        q: "Qué debo llevar a la primera consulta con la endocrinologa?",
+        a: "Estudios recientes de laboratorio (glucemia, perfil tiroideo, hemoglobina glicosilada si los tienes), listado de médicamentos actuales, informes de otros especialistas e historia clínica relevante. Si no tienes estudios previos, se indicaran en la consulta.",
       },
       {
         q: "Atienden pacientes de otras ciudades de Venezuela?",
-        a: "Si. Ademas de la sede principal en Barinas, la Dra. Manrique ofrece consulta mensual en Santa Barbara de Barinas. Pacientes de otras ciudades de Venezuela tambien son atendidos, con coordinacion previa por WhatsApp.",
+        a: "Si. Además de la sede principal en Barinas, la Dra. Manrique ofrece consulta mensual en Santa Barbara de Barinas. Pacientes de otras ciudades de Venezuela también son atendidos, con coordinación previa por WhatsApp.",
       },
       {
-        q: "Cuando es necesario consultar a un endocrinologo y no solo al medico general?",
-        a: "Cuando presentas sintomas como cansancio persistente, cambios de peso sin explicacion, alteraciones del ciclo menstrual, caida de cabello, cambios en el ritmo cardiaco, dificultad para concebir, o si tienes diagnostico de diabetes, tiroides, SOP, o trastornos hormonales que requieren seguimiento especializado.",
+        q: "Cuándo es necesario consultar a un endocrinólogo y no sólo al médico general?",
+        a: "Cuándo presentas síntomás cómo cansancio persistente, cambios de peso sin explicacion, alteraciones del ciclo menstrual, caída de cabello, cambios en el ritmo cardiaco, dificultad para concebir, o si tienes diagnóstico de diabetes, tiroides, SOP, o trastornos hormonales qué requieren seguimiento especializado.",
       },
       {
-        q: "Cuanto dura la consulta de endocrinologia en Barinas?",
-        a: "La primera consulta suele durar entre 30 y 45 minutos. Se realiza una historia clinica detallada, evaluacion del caso y se diseña un plan de estudios y tratamiento personalizado. Las consultas de seguimiento son mas cortas.",
+        q: "Cuánto dura la consulta de endocrinología en Barinas?",
+        a: "La primera consulta suele durar entre 30 y 45 minutos. Se realiza una historia clínica detallada, evaluación del caso y se diseña un plan de estudios y tratamiento personalizado. Las consultas de seguimiento son más cortas.",
       },
       {
         q: "Se puede recibir seguimiento por WhatsApp entre consultas?",
@@ -38,20 +38,20 @@ const categories = [
     label: "Diabetes en Barinas y Venezuela",
     faqs: [
       {
-        q: "Cual es el mejor endocrinologo para diabetes en Barinas?",
-        a: "La Dra. Jennifer Manrique es la endocrinologa de referencia para diabetes en Barinas. Cuenta con formacion especializada en la ULA, entrenamiento internacional en el CEMDI Bogota y experiencia en el uso de tecnologia avanzada para el control glucemico.",
+        q: "Cual es el mejor endocrinólogo para diabetes en Barinas?",
+        a: "La Dra. Jennifer Manrique es la endocrinóloga de referencia para diabetes en Barinas. Cuenta con formación especializada en la ULA, entrenamiento internacional en el CEMDI Bogota y experiencia en el uso de tecnología avanzada para el control glucémico.",
       },
       {
-        q: "Que es el monitor continuo de glucosa y esta disponible en Venezuela?",
-        a: "El monitor continuo de glucosa (CGM) es un sensor que mide la glucosa en tiempo real a lo largo del dia sin punciones frecuentes. Si, esta disponible en Venezuela. La Dra. Manrique tiene formacion especifica en su colocacion e interpretacion en Barinas.",
+        q: "Qué es el monitor continuo de glucosa y esta disponible en Venezuela?",
+        a: "El monitor continuo de glucosa (CGM) es un sensor qué mide la glucosa en tiempo real a lo largo del dia sin punciónes frecuentes. Si, esta disponible en Venezuela. La Dra. Manrique tiene formación especifica en su colocacion e interpretacion en Barinas.",
       },
       {
         q: "Se consigue insulina en Barinas actualmente?",
-        a: "La disponibilidad de insulina en Venezuela ha mejorado. La Dra. Manrique orienta a cada paciente sobre las opciones disponibles en Barinas y como optimizar el tratamiento segun la insulina accesible.",
+        a: "La disponibilidad de insulina en Venezuela ha mejorado. La Dra. Manrique orienta a cada paciente sobre las opciones disponibles en Barinas y cómo optimizar el tratamiento según la insulina accesible.",
       },
       {
         q: "Cual es la diferencia entre diabetes tipo 1 y tipo 2 en terminos de tratamiento?",
-        a: "La diabetes tipo 1 requiere insulina de por vida ya que el pancreas no la produce. La tipo 2 puede manejarse inicialmente con cambios de habitos y medicamentos orales, aunque en algunos casos tambien requiere insulina. El endocrinologo en Barinas diseña el plan segun el tipo y la evolucion de cada paciente.",
+        a: "La diabetes tipo 1 requiere insulina de por vida ya qué el páncreas no la produce. La tipo 2 puede manejarse inicialmente con cambios de hábitos y médicamentos orales, aunqué en algunos casos también requiere insulina. El endocrinólogo en Barinas diseña el plan según el tipo y la evolucion de cada paciente.",
       },
     ],
   },
@@ -61,18 +61,18 @@ const categories = [
     faqs: [
       {
         q: "Mounjaro esta disponible en Venezuela para bajar de peso?",
-        a: "Si, Mounjaro (tirzepatida) se consigue actualmente en Venezuela bajo prescripcion medica. La Dra. Manrique evalua si eres candidato ideal, indica la dosis correcta y realiza el seguimiento necesario en Barinas para garantizar resultados seguros.",
+        a: "Si, Mounjaro (tirzepatida) se consigue actualmente en Venezuela bajo prescripción médica. La Dra. Manrique evalua si eres candidato ideal, indica la dosis correcta y realiza el seguimiento necesario en Barinas para garantizar resultados seguros.",
       },
       {
         q: "Cual es la diferencia entre Ozempic y Mounjaro?",
-        a: "Ozempic (semaglutida) actua sobre el receptor GLP-1 y esta indicado para diabetes tipo 2 y obesidad. Mounjaro (tirzepatida) actua sobre dos receptores (GLP-1 y GIP), mostrando mayor eficacia en perdida de peso en estudios clinicos. La eleccion depende del perfil de cada paciente.",
+        a: "Ozempic (semaglutida) actua sobre el receptor GLP-1 y esta indicado para diabetes tipo 2 y obesidad. Mounjaro (tirzepatida) actua sobre dos receptores (GLP-1 y GIP), mostrando mayor eficacia en pérdida de peso en estudios clinicos. La eleccion depende del perfil de cada paciente.",
       },
       {
-        q: "La obesidad tiene causas hormonales que un endocrinologo puede tratar en Venezuela?",
-        a: "Si. El hipotiroidismo, el Sindrome de Cushing, el SOP, la resistencia a la insulina y el deficit de hormona de crecimiento pueden causar o agravar la obesidad. La Dra. Manrique descarta o trata estas causas en Barinas antes de disenar el plan terapeutico.",
+        q: "La obesidad tiene causas hormonales qué un endocrinólogo puede tratar en Venezuela?",
+        a: "Si. El hipotiroidismo, el Síndrome de Cushing, el SOP, la resistencia a la insulina y el deficit de hormona de crecimiento pueden causar o agravar la obesidad. La Dra. Manrique descarta o trata estas causas en Barinas antes de diseñar el plan terapeutico.",
       },
       {
-        q: "Cuanto tiempo tarda en verse resultados con el tratamiento de obesidad?",
+        q: "Cuánto tiempo tarda en verse resultados con el tratamiento de obesidad?",
         a: "Depende del tratamiento. Con GLP-1 como Mounjaro u Ozempic, los primeros resultados suelen verse en 4 a 8 semanas. El plan de la Dra. Manrique incluye ajustes progresivos y seguimiento para optimizar los resultados de forma segura.",
       },
     ],
@@ -83,19 +83,19 @@ const categories = [
     faqs: [
       {
         q: "El hipotiroidismo causa aumento de peso en Venezuela?",
-        a: "Si, el hipotiroidismo no tratado o mal controlado puede causar aumento de peso, cansancio, caida de cabello y otros sintomas. Con el tratamiento correcto con levotiroxina y seguimiento de un endocrinologo en Barinas, estos sintomas mejoran significativamente.",
+        a: "Si, el hipotiroidismo no tratado o mal controlado puede causar aumento de peso, cansancio, caída de cabello y otros síntomas. Con el tratamiento correcto con levotiroxina y seguimiento de un endocrinólogo en Barinas, estos síntomás mejoran significativamente.",
       },
       {
-        q: "Con que frecuencia debo controlar la tiroides con un endocrinologo en Barinas?",
-        a: "Para pacientes con hipotiroidismo estable, el control es cada 6 a 12 meses. Si hay ajustes recientes de dosis, nodulos en seguimiento o hipertiroidismo activo, el control puede ser mas frecuente. La Dra. Manrique establece la frecuencia segun el caso.",
+        q: "Con qué frecuencia debo controlar la tiroides con un endocrinólogo en Barinas?",
+        a: "Para pacientes con hipotiroidismo estable, el control es cada 6 a 12 meses. Si hay ajustes recientes de dosis, nódulos en seguimiento o hipertiroidismo activo, el control puede ser más frecuente. La Dra. Manrique establece la frecuencia según el caso.",
       },
       {
-        q: "Los nodulos tiroideos son peligrosos?",
-        a: "La gran mayoria de los nodulos tiroideos son benignos. Sin embargo, requieren evaluacion con ecografia y en algunos casos biopsia (PAAF) para descartar malignidad. La Dra. Manrique realiza esta evaluacion completa en Barinas.",
+        q: "Los nódulos tiroideos son peligrosos?",
+        a: "La gran mayoria de los nódulos tiroideos son benignos. Sin embargo, requieren evaluación con ecografía y en algunos casos biopsia (PAAF) para descartar malignidad. La Dra. Manrique realiza esta evaluación completa en Barinas.",
       },
       {
         q: "La enfermedad tiroidea afecta la fertilidad en mujeres venezolanas?",
-        a: "Si. Tanto el hipotiroidismo como el hipertiroidismo pueden alterar la ovulacion y aumentar el riesgo de aborto. La Dra. Manrique optimiza el control tiroideo en mujeres que desean quedar embarazadas en Barinas.",
+        a: "Si. Tanto el hipotiroidismo cómo el hipertiroidismo pueden alterar la ovulacion y aumentar el riesgo de aborto. La Dra. Manrique optimiza el control tiroideo en mujeres qué desean quedar embarazadas en Barinas.",
       },
     ],
   },
@@ -104,20 +104,20 @@ const categories = [
     label: "Salud Hormonal, SOP y Menopausia",
     faqs: [
       {
-        q: "Como saber si tengo SOP en Venezuela?",
-        a: "El SOP se diagnostica con al menos dos de tres criterios: ciclos menstruales irregulares, signos de exceso de androgenos (acne, vello) o quistes en los ovarios en la ecografia. La evaluacion hormonal completa con un endocrinologo en Barinas confirma el diagnostico.",
+        q: "Cómo saber si tengo SOP en Venezuela?",
+        a: "El SOP se diagnostica con al menos dos de tres criterios: ciclos menstruales irregulares, signos de exceso de androgenos (acne, vello) o quistes en los ovarios en la ecografía. La evaluación hormonal completa con un endocrinólogo en Barinas confirma el diagnóstico.",
       },
       {
         q: "El SOP tiene cura o es de por vida?",
-        a: "El SOP no tiene cura definitiva, pero si tiene tratamiento efectivo. Con el manejo correcto (hormonal, metabolico y de estilo de vida), los sintomas se controlan significativamente y la calidad de vida mejora. La Dra. Manrique ofrece este seguimiento integral en Barinas.",
+        a: "El SOP no tiene cura definitiva, pero si tiene tratamiento efectivo. Con el manejo correcto (hormonal, metabólico y de estilo de vida), los síntomás se controlan significativamente y la calidad de vida mejora. La Dra. Manrique ofrece este seguimiento integral en Barinas.",
       },
       {
-        q: "Que sintomas de menopausia trata un endocrinologo en Venezuela?",
-        a: "El endocrinologo evalua el impacto metabolico de la menopausia: cambios de peso, resistencia a la insulina, perdida de masa osea, colesterol elevado y trastornos hormonales asociados. La Dra. Manrique ofrece orientacion integral en Barinas.",
+        q: "Qué síntomás de menopausia trata un endocrinólogo en Venezuela?",
+        a: "El endocrinólogo evalua el impacto metabólico de la menopausia: cambios de peso, resistencia a la insulina, pérdida de masa osea, colesterol elevado y trastornos hormonales asociados. La Dra. Manrique ofrece orientación integral en Barinas.",
       },
       {
         q: "El estres puede desbalancear las hormonas?",
-        a: "Si. El estres cronico eleva el cortisol, lo que puede alterar el ciclo menstrual, favorecer el aumento de peso abdominal, empeorar la resistencia a la insulina y afectar la tiroides. La evaluacion endocrinologica incluye el analisis de estas interacciones.",
+        a: "Si. El estres cronico eleva el cortisol, lo qué puede alterar el ciclo menstrual, favorecer el aumento de peso abdominal, empeorar la resistencia a la insulina y afectar la tiroides. La evaluación endocrinológica incluye el análisis de estas interacciónes.",
       },
     ],
   },
@@ -134,12 +134,12 @@ export default function FAQPage() {
             Preguntas frecuentes
           </span>
           <h1 className="mt-6 font-[family-name:var(--font-display)] text-4xl md:text-5xl lg:text-6xl leading-[1.08] text-malva-900">
-            Endocrinologia en Barinas,{" "}
+            Endocrinología en Barinas,{" "}
             <span className="text-dorado">respondemos tus dudas</span>
           </h1>
           <p className="mt-5 text-base md:text-lg leading-relaxed text-texto-suave">
-            Respuestas claras sobre endocrinologia en Barinas y Venezuela. Diabetes,
-            obesidad, tiroides, salud hormonal, Mounjaro, Ozempic y mas.
+            Respuestas claras sobre endocrinología en Barinas y Venezuela. Diabetes,
+            obesidad, tiroides, salud hormonal, Mounjaro, Ozempic y más.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-2">
             {categories.map((c) => (

@@ -47,7 +47,7 @@ export default function CookieBanner() {
             <p className="text-xs text-malva-300 mt-0.5">
               Utilizamos cookies para mejorar tu experiencia en este sitio.{" "}
               <Link href="/cookies" className="underline text-dorado-light hover:text-dorado transition-colors">
-                Politica de cookies
+                Política de cookies
               </Link>
               {" "}y{" "}
               <Link href="/privacidad" className="underline text-dorado-light hover:text-dorado transition-colors">

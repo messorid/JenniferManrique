@@ -33,7 +33,7 @@ export default function Header() {
         >
           <Image
             src="/images/logo.png"
-            alt="Dra. Jennifer Manrique, Endocrinologa"
+            alt="Dra. Jennifer Manrique, Endocrinóloga"
             width={200}
             height={112}
             priority

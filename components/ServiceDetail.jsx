@@ -11,7 +11,7 @@ export default function ServiceDetail({ service }) {
         <div className="absolute -bottom-20 -left-20 w-[360px] h-[360px] rounded-full bg-dorado/10 blur-3xl pointer-events-none" />
 
         <div className="container-page relative">
-          <nav className="flex items-center gap-2 text-sm text-texto-suave mb-8" aria-label="Ruta de navegacion">
+          <nav className="flex items-center gap-2 text-sm text-texto-suave mb-8" aria-label="Ruta de navegación">
             <Link href="/" className="hover:text-malva transition-colors">Inicio</Link>
             <span>/</span>
             <Link href="/servicios" className="hover:text-malva transition-colors">Servicios</Link>
@@ -22,7 +22,7 @@ export default function ServiceDetail({ service }) {
           <div className="grid gap-14 lg:grid-cols-2 lg:items-center">
             <div>
               <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-dorado/15 text-dorado-dark text-xs font-semibold uppercase tracking-[0.2em]">
-                Endocrinologa en Barinas
+                Endocrinóloga en Barinas
               </span>
               <h1 className="mt-5 font-[family-name:var(--font-display)] text-4xl md:text-5xl lg:text-6xl leading-[1.08] text-malva-900">
                 {service.title}
@@ -110,7 +110,7 @@ export default function ServiceDetail({ service }) {
           <div className="grid gap-8 md:grid-cols-2">
             <div>
               <h2 className="font-[family-name:var(--font-display)] text-2xl md:text-3xl text-malva-900 mb-6">
-                Condiciones que tratamos
+                Condiciones qué tratamos
               </h2>
               <ul className="space-y-3">
                 {service.conditions.map((c) => (
@@ -169,7 +169,7 @@ export default function ServiceDetail({ service }) {
             Lista para tu <span className="text-dorado">consulta en Barinas?</span>
           </h2>
           <p className="mt-5 text-base text-malva-200">
-            Agenda tu cita con la Dra. Jennifer Manrique. Atencion personalizada
+            Agenda tu cita con la Dra. Jennifer Manrique. Atención personalizada
             en {service.title.toLowerCase()} en Barinas, Venezuela.
           </p>
           <Link

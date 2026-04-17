@@ -3,9 +3,9 @@ import Footer from "@/components/Footer";
 import { SITE_URL, CONTACT } from "@/lib/constants";
 
 export const metadata = {
-  title: "Politica de Cookies | Dra. Jennifer Manrique",
+  title: "Política de Cookies | Dra. Jennifer Manrique",
   description:
-    "Politica de uso de cookies del sitio web de la Dra. Jennifer Manrique, endocrinologa en Barinas.",
+    "Política de uso de cookies del sitio web de la Dra. Jennifer Manrique, endocrinóloga en Barinas.",
   robots: { index: false, follow: false },
   alternates: { canonical: `${SITE_URL}/cookies` },
 };
@@ -13,7 +13,7 @@ export const metadata = {
 const cookieTable = [
   {
     nombre: "cookie_consent",
-    tipo: "Tecnica / Funcional",
+    tipo: "Técnica / Funciónal",
     duracion: "1 ano",
     finalidad: "Almacena la preferencia de cookies del usuario para no volver a mostrar el aviso.",
     tercero: "No",
@@ -21,15 +21,15 @@ const cookieTable = [
   {
     nombre: "_ga, _ga_*",
     tipo: "Analitica",
-    duracion: "2 anos",
-    finalidad: "Google Analytics. Contabiliza visitas y comportamiento de navegacion de forma anonima.",
+    duracion: "2 años",
+    finalidad: "Google Analytics. Contabiliza visitas y comportamiento de navegación de forma anónima.",
     tercero: "Google LLC",
   },
   {
     nombre: "_gid",
     tipo: "Analitica",
     duracion: "24 horas",
-    finalidad: "Google Analytics. Distingue usuarios unicos durante una sesion.",
+    finalidad: "Google Analytics. Distingue usuarios únicos durante una sesion.",
     tercero: "Google LLC",
   },
 ];
@@ -45,32 +45,32 @@ export default function CookiesPage() {
             Legal
           </span>
           <h1 className="mt-5 font-[family-name:var(--font-display)] text-3xl md:text-4xl text-malva-900">
-            Politica de Cookies
+            Política de Cookies
           </h1>
           <p className="mt-3 text-sm text-texto-suave">
-            Ultima actualizacion: {year}
+            Ultima actualización: {year}
           </p>
 
           <div className="mt-10 space-y-10">
 
-            <Section title="1. Que son las cookies">
+            <Section title="1. Qué son las cookies">
               <p>
                 Las cookies son pequenos archivos de texto que los sitios web
                 almacenan en el navegador del usuario. Permiten al sitio
-                recordar informacion sobre tu visita, como el idioma de
-                preferencia y la configuracion, lo que facilita tu proxima
-                visita y hace que el sitio te resulte mas util.
+                recordar información sobre tu visita, como el idioma de
+                preferencia y la configuración, lo que facilita tu próxima
+                visita y hace que el sitio te resulte más útil.
               </p>
             </Section>
 
-            <Section title="2. Como usamos las cookies">
+            <Section title="2. Cómo usamos las cookies">
               <p>
                 El sitio <strong>www.drajennifermanrique.com</strong> utiliza
                 cookies propias y de terceros con las siguientes finalidades:
               </p>
               <ul>
-                <li><strong>Cookies tecnicas:</strong> Necesarias para el funcionamiento basico del sitio, como recordar tu preferencia de cookies.</li>
-                <li><strong>Cookies analiticas:</strong> Nos permiten conocer el numero de visitas y el comportamiento de los usuarios en el sitio de forma anonima, para mejorar la navegacion.</li>
+                <li><strong>Cookies técnicas:</strong> Necesarias para el funcionamiento basico del sitio, como recordar tu preferencia de cookies.</li>
+                <li><strong>Cookies analiticas:</strong> Nos permiten conocer el numero de visitas y el comportamiento de los usuarios en el sitio de forma anónima, para mejorar la navegación.</li>
               </ul>
               <p>
                 No utilizamos cookies de publicidad ni de seguimiento publicitario.
@@ -104,14 +104,14 @@ export default function CookiesPage() {
               </div>
             </Section>
 
-            <Section title="4. Como gestionar las cookies">
+            <Section title="4. Cómo gestiónar las cookies">
               <p>
                 Al acceder al sitio por primera vez, se muestra un aviso que
                 permite aceptar o rechazar las cookies no esenciales.
               </p>
               <p>
-                Tambien puedes gestionar o deshabilitar las cookies desde la
-                configuracion de tu navegador:
+                También puedes gestiónar o deshabilitar las cookies desde la
+                configuración de tu navegador:
               </p>
               <ul>
                 <li><strong>Google Chrome:</strong> Configuracion &gt; Privacidad y seguridad &gt; Cookies</li>
@@ -121,31 +121,31 @@ export default function CookiesPage() {
               </ul>
               <p>
                 Ten en cuenta que deshabilitar ciertas cookies puede afectar
-                la funcionalidad del sitio.
+                la funciónalidad del sitio.
               </p>
             </Section>
 
             <Section title="5. Cookies de terceros">
               <p>
                 Este sitio puede utilizar Google Analytics (Google LLC) para
-                el analisis del trafico web. Google puede utilizar estos datos
-                de acuerdo con su propia politica de privacidad, disponible en
+                el análisis del trafico web. Google puede utilizar estos datos
+                de acuerdo con su propia política de privacidad, disponible en
                 su sitio oficial. No tenemos control sobre las cookies que
                 establece Google.
               </p>
             </Section>
 
-            <Section title="6. Actualizaciones de esta politica">
+            <Section title="6. Actualizaciónes de esta política">
               <p>
-                Podemos actualizar esta politica para reflejar cambios en las
-                cookies que utilizamos. La fecha de ultima actualizacion
+                Podemos actualizar esta política para reflejar cambios en las
+                cookies qué utilizamos. La fecha de ultima actualización
                 aparece al inicio del documento.
               </p>
             </Section>
 
             <Section title="7. Contacto">
               <p>
-                Para cualquier consulta sobre esta politica de cookies, puedes
+                Para cualquier consulta sobre esta política de cookies, puedes
                 contactarnos en{" "}
                 <a href={`mailto:${CONTACT.email}`} className="text-dorado-dark hover:underline">
                   {CONTACT.email}

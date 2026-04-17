@@ -57,15 +57,15 @@ export default function ServicesPage() {
         <div className="container-page relative max-w-3xl mx-auto text-center">
           <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-malva-100 text-malva-800 text-xs font-semibold uppercase tracking-[0.2em]">
             <span className="w-1.5 h-1.5 rounded-full bg-dorado" />
-            Endocrinologa en Barinas, Venezuela
+            Endocrinóloga en Barinas, Venezuela
           </span>
           <h1 className="mt-6 font-[family-name:var(--font-display)] text-4xl md:text-5xl lg:text-6xl leading-[1.08] text-malva-900">
-            Servicios de <span className="text-dorado">Endocrinologia</span> en Barinas
+            Servicios de <span className="text-dorado">Endocrinología</span> en Barinas
           </h1>
           <p className="mt-6 text-base md:text-lg leading-relaxed text-texto-suave max-w-2xl mx-auto">
-            La Dra. Jennifer Manrique es la endocrinologa de referencia en Barinas con
-            atencion especializada en diabetes, obesidad, tiroides, salud hormonal,
-            fertilidad y crecimiento. Tambien disponible para pacientes de toda Venezuela.
+            La Dra. Jennifer Manrique es la endocrinóloga de referencia en Barinas con
+            atención especializada en diabetes, obesidad, tiroides, salud hormonal,
+            fertilidad y crecimiento. También disponible para pacientes de toda Venezuela.
           </p>
         </div>
       </section>
@@ -99,7 +99,7 @@ export default function ServicesPage() {
                   ))}
                 </ul>
                 <span className="mt-6 inline-flex items-center gap-1.5 text-sm font-semibold text-malva-700 group-hover:text-dorado-dark transition-colors">
-                  Ver mas sobre este servicio
+                  Ver más sobre este servicio
                   <svg viewBox="0 0 24 24" className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                     <line x1="5" y1="12" x2="19" y2="12" />
                     <polyline points="12 5 19 12 12 19" />
@@ -109,7 +109,7 @@ export default function ServicesPage() {
             ))}
             </div>
             <p className="mt-3 text-center text-xs text-texto-suave lg:hidden">
-              Desliza para ver mas servicios
+              Desliza para ver más servicios
             </p>
           </div>
         </div>
@@ -119,21 +119,21 @@ export default function ServicesPage() {
         <div className="container-page">
           <div className="max-w-3xl mx-auto text-center mb-14">
             <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-dorado/15 text-dorado-dark text-xs font-semibold uppercase tracking-[0.2em]">
-              Por que elegirnos
+              Por qué elegirnos
             </span>
             <h2 className="mt-5 font-[family-name:var(--font-display)] text-3xl md:text-4xl text-malva-900 leading-tight">
-              La endocrinologa de referencia en Barinas y Venezuela
+              La endocrinóloga de referencia en Barinas y Venezuela
             </h2>
           </div>
 
           <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {[
-              { title: "Especialista ULA", text: "Postgrado en endocrinologia por la Universidad de los Andes, una de las escuelas medicas mas prestigiosas de Venezuela." },
-              { title: "Formacion internacional", text: "Rotacion en el CEMDI, Bogota, con enfoque en tecnologia avanzada para diabetes y metabolismo." },
-              { title: "Tecnologia aplicada", text: "Monitores continuos de glucosa, terapias GLP-1 (Mounjaro, Ozempic) y protocolos de precision." },
-              { title: "Atencion personalizada", text: "Cada paciente recibe un plan adaptado a su caso, sin protocolos genericos." },
-              { title: "Barinas y Venezuela", text: "Atencion en Barinas con cobertura regional. Disponible tambien para pacientes de Santa Barbara y toda Venezuela." },
-              { title: "Actualizacion continua", text: "Participacion activa en congresos nacionales e internacionales de endocrinologia." },
+              { title: "Especialista ULA", text: "Postgrado en endocrinología por la Universidad de los Andes, una de las escuelas médicas más prestigiosas de Venezuela." },
+              { title: "Formación internacional", text: "Rotación en el CEMDI, Bogota, con enfoqué en tecnología avanzada para diabetes y metabolismo." },
+              { title: "Tecnología aplicada", text: "Monitores continuos de glucosa, terapias GLP-1 (Mounjaro, Ozempic) y protocolos de precisión." },
+              { title: "Atención personalizada", text: "Cada paciente recibe un plan adaptado a su caso, sin protocolos genericos." },
+              { title: "Barinas y Venezuela", text: "Atención en Barinas con cobertura regional. Disponible también para pacientes de Santa Barbara y toda Venezuela." },
+              { title: "Actualización continua", text: "Participacion activa en congresos naciónales e internacionales de endocrinología." },
             ].map((item) => (
               <div key={item.title} className="flex gap-4 p-6 rounded-2xl bg-white border border-malva-100 shadow-[0_4px_20px_rgba(44,37,48,0.03)]">
                 <span className="shrink-0 w-8 h-8 rounded-full bg-dorado/15 flex items-center justify-center text-dorado-dark">

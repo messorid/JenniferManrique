@@ -13,7 +13,7 @@ export default function Footer() {
             <div className="inline-block p-3 rounded-2xl bg-white/95">
               <Image
                 src="/images/logo.png"
-                alt="Dra. Jennifer Manrique, Endocrinologa"
+                alt="Dra. Jennifer Manrique, Endocrinóloga"
                 width={200}
                 height={112}
                 loading="lazy"
@@ -21,7 +21,7 @@ export default function Footer() {
               />
             </div>
             <p className="mt-5 text-sm leading-relaxed text-malva-200">
-              Atencion medica integral en endocrinologia. Diabetes, obesidad,
+              Atención médica integral en endocrinología. Diabetes, obesidad,
               tiroides y salud hormonal en Barinas, Venezuela.
             </p>
           </div>
@@ -85,7 +85,7 @@ export default function Footer() {
 
           <div>
             <h3 className="text-sm font-semibold uppercase tracking-wider text-white">
-              Ubicacion
+              Ubicación
             </h3>
             <address className="mt-5 not-italic text-sm leading-relaxed text-malva-200">
               {LOCATION.name}
@@ -112,7 +112,7 @@ export default function Footer() {
             &copy; {year} Dra. Jennifer Manrique. Todos los derechos reservados.
           </p>
           <p className="text-xs text-malva-300">
-            Atencion previa cita en Barinas y Santa Barbara.
+            Atención previa cita en Barinas y Santa Barbara.
           </p>
           <div className="flex flex-wrap justify-center md:justify-end gap-x-4 gap-y-1">
             <Link href="/privacidad" className="text-xs text-malva-400 hover:text-dorado transition-colors">

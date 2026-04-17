@@ -5,7 +5,7 @@ import { CONTACT } from "@/lib/constants";
 
 export const metadata = {
   title: "Pagina no encontrada | Dra. Jennifer Manrique",
-  description: "La pagina que buscas no existe. Vuelve al inicio o agenda tu consulta con la endocrinologa en Barinas.",
+  description: "La pagina que buscas no existe. Vuelve al inicio o agenda tu consulta con la endocrinóloga en Barinas.",
 };
 
 export default function NotFound() {

@@ -4,27 +4,27 @@ import EndocrinoBarinasPage from "@/components/EndocrinoBarinasPage";
 import { SITE_URL } from "@/lib/constants";
 
 export const metadata = {
-  title: "Endocrino en Barinas | Dra. Jennifer Manrique - Especialista en Endocrinologia",
+  title: "Endocrino en Barinas | Dra. Jennifer Manrique - Especialista en Endocrinología",
   description:
-    "Busca endocrino en Barinas? La Dra. Jennifer Manrique es la endocrinologa especialista de referencia en Barinas. Diabetes, obesidad, tiroides, SOP, Mounjaro, Ozempic. Cita por WhatsApp.",
+    "Busca endocrino en Barinas? La Dra. Jennifer Manrique es la endocrinóloga especialista de referencia en Barinas. Diabetes, obesidad, tiroides, SOP, Mounjaro, Ozempic. Cita por WhatsApp.",
   keywords: [
     "endocrino en Barinas",
-    "endocrinologo en Barinas",
-    "endocrinologa en Barinas",
-    "mejor endocrinologo Barinas",
-    "medico endocrinologo Barinas Venezuela",
+    "endocrinólogo en Barinas",
+    "endocrinóloga en Barinas",
+    "mejor endocrinólogo Barinas",
+    "médico endocrinólogo Barinas Venezuela",
     "especialista endocrino Barinas",
-    "consulta endocrinologo Barinas",
+    "consulta endocrinólogo Barinas",
     "endocrino diabetes Barinas",
     "endocrino tiroides Barinas",
     "endocrino obesidad Barinas",
     "endocrino SOP Barinas",
     "Mounjaro Barinas endocrinologo",
     "Ozempic Barinas Venezuela",
-    "Dra Jennifer Manrique endocrinologa Barinas",
-    "endocrinologia Barinas Venezuela",
+    "Dra Jennifer Manrique endocrinóloga Barinas",
+    "endocrinología Barinas Venezuela",
     "Hospital San Juan Barinas endocrinologo",
-    "cita endocrinologo Barinas WhatsApp",
+    "cita endocrinólogo Barinas WhatsApp",
   ],
   openGraph: {
     type: "website",
@@ -32,13 +32,13 @@ export const metadata = {
     url: `${SITE_URL}/endocrino-en-barinas`,
     title: "Endocrino en Barinas | Dra. Jennifer Manrique - Especialista",
     description:
-      "La Dra. Jennifer Manrique es la endocrinologa de referencia en Barinas. Diabetes, obesidad, tiroides, SOP y mas. Agenda tu cita por WhatsApp.",
+      "La Dra. Jennifer Manrique es la endocrinóloga de referencia en Barinas. Diabetes, obesidad, tiroides, SOP y más. Agenda tu cita por WhatsApp.",
     images: [
       {
         url: `${SITE_URL}/images/dr-jennifer-hero.jpg`,
         width: 1200,
         height: 630,
-        alt: "Endocrino en Barinas - Dra. Jennifer Manrique, Endocrinologa",
+        alt: "Endocrino en Barinas - Dra. Jennifer Manrique, Endocrinóloga",
       },
     ],
   },
@@ -46,7 +46,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Endocrino en Barinas | Dra. Jennifer Manrique",
     description:
-      "La Dra. Jennifer Manrique es la endocrinologa de referencia en Barinas. Diabetes, obesidad, tiroides, SOP y mas.",
+      "La Dra. Jennifer Manrique es la endocrinóloga de referencia en Barinas. Diabetes, obesidad, tiroides, SOP y más.",
     images: [`${SITE_URL}/images/dr-jennifer-hero.jpg`],
   },
   alternates: {
@@ -60,15 +60,15 @@ const faqSchema = {
   mainEntity: [
     {
       "@type": "Question",
-      name: "Quien es el endocrino en Barinas de referencia?",
+      name: "Quién es el endocrino en Barinas de referencia?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "La Dra. Jennifer Manrique es la endocrinologa de referencia en Barinas. Egresada de la ULA con entrenamiento internacional en el CEMDI Bogota, atiende en el Hospital Privado San Juan, Consultorio 34, Piso 2.",
+        text: "La Dra. Jennifer Manrique es la endocrinóloga de referencia en Barinas. Egresada de la ULA con entrenamiento internacional en el CEMDI Bogota, atiende en el Hospital Privado San Juan, Consultorio 34, Piso 2.",
       },
     },
     {
       "@type": "Question",
-      name: "Donde queda el consultorio del endocrino en Barinas?",
+      name: "Dónde queda el consultorio del endocrino en Barinas?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "El consultorio de la Dra. Jennifer Manrique esta en el Hospital Privado San Juan, Consultorio 34, Piso 2, Barinas. Atiende de lunes a viernes de 8:00 AM a 12:00 PM y de 2:00 PM a 6:00 PM, previa cita.",
@@ -76,18 +76,18 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "Como agendo cita con el endocrino en Barinas?",
+      name: "Cómo agendo cita con el endocrino en Barinas?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "La forma mas rapida es por WhatsApp al 0412-9337390. Tambien atiende pacientes de Santa Barbara de Barinas y otras ciudades de Venezuela con coordinacion previa.",
+        text: "La forma más rápida es por WhatsApp al 0412-9337390. También atiende pacientes de Santa Barbara de Barinas y otras ciudades de Venezuela con coordinación previa.",
       },
     },
     {
       "@type": "Question",
-      name: "Que enfermedades trata el endocrinologo en Barinas?",
+      name: "Qué enfermedades trata el endocrinólogo en Barinas?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "La Dra. Manrique trata diabetes tipo 1, 2 y gestacional, obesidad, hipotiroidismo, hipertiroidismo, nodulos tiroideos, sindrome de ovario poliquistico, menopausia, trastornos hormonales, infertilidad hormonal y talla baja en ninos.",
+        text: "La Dra. Manrique trata diabetes tipo 1, 2 y gestacional, obesidad, hipotiroidismo, hipertiroidismo, nódulos tiroideos, síndrome de ovario poliquístico, menopausia, trastornos hormonales, infertilidad hormonal y talla baja en niños.",
       },
     },
     {

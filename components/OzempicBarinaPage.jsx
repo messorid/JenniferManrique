@@ -4,30 +4,30 @@ import { CONTACT } from "@/lib/constants";
 const faqs = [
   {
     q: "Ozempic esta disponible en Barinas Venezuela?",
-    a: "Si, Ozempic (semaglutida) esta disponible en Venezuela bajo prescripcion medica. La Dra. Jennifer Manrique lo prescribe y hace seguimiento en su consultorio del Hospital Privado San Juan, Consultorio 34, Piso 2, Barinas.",
+    a: "Si, Ozempic (semaglutida) esta disponible en Venezuela bajo prescripción médica. La Dra. Jennifer Manrique lo prescribe y hace seguimiento en su consultorio del Hospital Privado San Juan, Consultorio 34, Piso 2, Barinas.",
   },
   {
-    q: "Para que sirve Ozempic?",
-    a: "Ozempic (semaglutida 0.5 mg y 1 mg) esta aprobado para el tratamiento de diabetes tipo 2. Tambien se utiliza bajo supervision medica para el manejo de la obesidad, dado su efecto en la reduccion del apetito y la perdida de peso.",
+    q: "Para qué sirve Ozempic?",
+    a: "Ozempic (semaglutida 0.5 mg y 1 mg) esta aprobado para el tratamiento de diabetes tipo 2. También se utiliza bajo supervisión médica para el manejo de la obesidad, dado su efecto en la reduccion del apetito y la pérdida de peso.",
   },
   {
     q: "Ozempic engorda o adelgaza?",
-    a: "Ozempic produce perdida de peso. Al activar el receptor GLP-1, reduce el apetito, enlentece el vaciamiento gastrico y genera mayor sensacion de saciedad. En estudios clinicos, los pacientes perdieron entre un 10% y un 15% de su peso corporal.",
+    a: "Ozempic produce pérdida de peso. Al activar el receptor GLP-1, reduce el apetito, enlentece el vaciamiento gastrico y genera mayor sensación de saciedad. En estudios clinicos, los pacientes perdieron entre un 10% y un 15% de su peso corporal.",
   },
   {
     q: "Cual es la diferencia entre Ozempic y Mounjaro?",
-    a: "Ozempic actua solo sobre el receptor GLP-1. Mounjaro actua sobre GLP-1 y GIP (doble accion), lo que le confiere mayor eficacia en perdida de peso en comparacion directa. La Dra. Manrique evalua cual es el mas adecuado segun el perfil de cada paciente en Barinas.",
+    a: "Ozempic actua sólo sobre el receptor GLP-1. Mounjaro actua sobre GLP-1 y GIP (doble acción), lo qué le confiere mayor eficacia en pérdida de peso en comparacion directa. La Dra. Manrique evalua cual es el más adecuado según el perfil de cada paciente en Barinas.",
   },
   {
     q: "Ozempic tiene efectos secundarios?",
-    a: "Los mas frecuentes son nauseas, vomitos y diarrea al inicio del tratamiento, especialmente con los primeros aumentos de dosis. Con una titulacion gradual y supervision medica estos efectos son manejables y suelen disminuir con el tiempo.",
+    a: "Los más frecuentes son náuseas, vomitos y diarrea al inicio del tratamiento, especialmente con los primeros aumentos de dosis. Con una titulacion gradual y supervisión médica estos efectos son manejables y suelen disminuir con el tiempo.",
   },
   {
-    q: "Wegovy es lo mismo que Ozempic?",
-    a: "Ambos contienen semaglutida, pero en dosis distintas. Ozempic (hasta 2 mg) esta indicado para diabetes tipo 2. Wegovy (hasta 2.4 mg) esta aprobado especificamente para obesidad. En Venezuela, la disponibilidad de cada presentacion varía. La Dra. Manrique orienta segun lo disponible.",
+    q: "Wegovy es lo mismo qué Ozempic?",
+    a: "Ambos contienen semaglutida, pero en dosis distintas. Ozempic (hasta 2 mg) esta indicado para diabetes tipo 2. Wegovy (hasta 2.4 mg) esta aprobado especificamente para obesidad. En Venezuela, la disponibilidad de cada presentacion varía. La Dra. Manrique orienta según lo disponible.",
   },
   {
-    q: "Como agendo cita para Ozempic en Barinas?",
+    q: "Cómo agendo cita para Ozempic en Barinas?",
     a: "Por WhatsApp al 0412-9337390. La Dra. Jennifer Manrique atiende de lunes a viernes de 8:00 AM a 12:00 PM y de 2:00 PM a 6:00 PM en el Hospital Privado San Juan, Barinas, previa cita.",
   },
 ];
@@ -39,7 +39,7 @@ export default function OzempicBarinaPage() {
       <section className="relative pt-36 pb-20 md:pt-44 md:pb-28 overflow-hidden bg-gradient-to-b from-malva-50 via-white to-white">
         <div className="absolute -top-40 -right-40 w-[520px] h-[520px] rounded-full bg-malva-200/40 blur-3xl pointer-events-none" />
         <div className="container-page relative max-w-3xl mx-auto text-center">
-          <nav aria-label="Ruta de navegacion" className="mb-6">
+          <nav aria-label="Ruta de navegación" className="mb-6">
             <ol className="flex justify-center flex-wrap gap-x-2 text-xs text-texto-suave">
               <li><Link href="/" className="hover:text-dorado transition-colors">Inicio</Link></li>
               <li aria-hidden="true">/</li>
@@ -52,11 +52,11 @@ export default function OzempicBarinaPage() {
           </span>
           <h1 className="mt-6 font-[family-name:var(--font-display)] text-4xl md:text-5xl lg:text-6xl leading-[1.08] text-malva-900">
             Ozempic en Barinas,{" "}
-            <span className="text-dorado">prescripcion y seguimiento</span>
+            <span className="text-dorado">prescripción y seguimiento</span>
           </h1>
           <p className="mt-5 text-base md:text-lg leading-relaxed text-texto-suave max-w-2xl mx-auto">
             Ozempic (semaglutida) esta disponible en Venezuela. La Dra. Jennifer
-            Manrique, endocrinologa en Barinas, evalua si eres candidato, indica
+            Manrique, endocrinóloga en Barinas, evalua si eres candidato, indica
             la dosis correcta y hace el seguimiento para garantizar resultados
             seguros en diabetes tipo 2 y manejo del peso.
           </p>
@@ -79,31 +79,31 @@ export default function OzempicBarinaPage() {
         </div>
       </section>
 
-      {/* Que es */}
+      {/* Qué es */}
       <section className="py-16 md:py-20 bg-white">
         <div className="container-page max-w-4xl mx-auto">
           <div className="grid gap-10 lg:grid-cols-2 items-start">
             <div>
               <span className="text-xs font-semibold uppercase tracking-[0.25em] text-dorado">Semaglutida</span>
               <h2 className="mt-3 font-[family-name:var(--font-display)] text-2xl md:text-3xl text-malva-900 leading-tight">
-                Que es Ozempic y como actua
+                Qué es Ozempic y cómo actua
               </h2>
               <p className="mt-4 text-base leading-relaxed text-texto-suave">
-                Ozempic (semaglutida) es un medicamento inyectable de la clase
-                GLP-1 (glucagon-like peptide-1). Imita la accion de una hormona
-                intestinal natural que el organismo libera despues de comer.
+                Ozempic (semaglutida) es un médicamento inyectable de la clase
+                GLP-1 (glucagon-like peptide-1). Imita la acción de una hormona
+                intestinal natural qué el organismo libera despues de comer.
                 Al activar el receptor GLP-1, produce varios efectos beneficiosos
-                para el control metabolico.
+                para el control metabólico.
               </p>
               <p className="mt-3 text-base leading-relaxed text-texto-suave">
-                Actua reduciendo la produccion de glucosa hepatica, estimulando
+                Actua reduciendo la producción de glucosa hepatica, estimulando
                 la secrecion de insulina de forma dependiente de glucosa, retrasando
                 el vaciamiento gastrico y reduciendo el apetito a nivel cerebral.
-                El resultado es mejor control glucemico y perdida de peso sostenida.
+                El resultado es mejor control glucémico y pérdida de peso sostenida.
               </p>
               <p className="mt-3 text-base leading-relaxed text-texto-suave">
-                Se administra en inyeccion subcutanea una vez por semana con un
-                autoinyector precargado, con dosis que se aumentan gradualmente
+                Se administra en inyección subcutanea una vez por semana con un
+                autoinyector precargado, con dosis qué se aumentan gradualmente
                 para minimizar efectos secundarios.
               </p>
             </div>
@@ -111,10 +111,10 @@ export default function OzempicBarinaPage() {
               {[
                 { label: "Principio activo", value: "Semaglutida" },
                 { label: "Clase", value: "Agonista del receptor GLP-1" },
-                { label: "Administracion", value: "Inyeccion subcutanea semanal" },
-                { label: "Indicacion principal", value: "Diabetes tipo 2 y obesidad" },
-                { label: "Perdida de peso promedio", value: "10% - 15% del peso corporal" },
-                { label: "Disponible en Venezuela", value: "Si, bajo prescripcion medica" },
+                { label: "Administracion", value: "Inyección subcutanea semanal" },
+                { label: "Indicación principal", value: "Diabetes tipo 2 y obesidad" },
+                { label: "Pérdida de peso promedio", value: "10% - 15% del peso corporal" },
+                { label: "Disponible en Venezuela", value: "Si, bajo prescripción médica" },
                 { label: "Seguimiento en Barinas", value: "Dra. Jennifer Manrique, endocrinologa" },
               ].map((item) => (
                 <div key={item.label} className="flex items-start justify-between gap-4 py-3 border-b border-malva-100 last:border-0">
@@ -127,26 +127,26 @@ export default function OzempicBarinaPage() {
         </div>
       </section>
 
-      {/* Por que con especialista */}
+      {/* Por qué con especialista */}
       <section className="py-16 md:py-20 bg-malva-50">
         <div className="container-page max-w-4xl mx-auto">
           <div className="text-center max-w-2xl mx-auto mb-10">
             <h2 className="font-[family-name:var(--font-display)] text-2xl md:text-3xl text-malva-900">
-              Por que usar Ozempic con un endocrinologo en Barinas
+              Por qué usar Ozempic con un endocrinólogo en Barinas
             </h2>
             <p className="mt-3 text-base text-texto-suave">
-              Ozempic no es un medicamento de venta libre. Requiere evaluacion,
-              prescripcion y seguimiento por un especialista.
+              Ozempic no es un médicamento de venta libre. Requiere evaluación,
+              prescripción y seguimiento por un especialista.
             </p>
           </div>
           <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {[
-              { title: "Evaluacion de candidatura", desc: "No todos los pacientes son candidatos. Existen contraindicaciones como antecedentes de cancer tiroideo medular o pancreatitis." },
+              { title: "Evaluación de candidatura", desc: "No todos los pacientes son candidatos. Existen contraindicaciónes cómo antecedentes de cancer tiroideo medular o pancreatitis." },
               { title: "Dosis correcta", desc: "La titulacion progresiva de la dosis reduce los efectos secundarios y optimiza la tolerancia al tratamiento." },
-              { title: "Monitoreo metabolico", desc: "La Dra. Manrique solicita los examenes necesarios para evaluar la respuesta al tratamiento y detectar efectos adversos." },
-              { title: "Ajuste del plan completo", desc: "Ozempic funciona mejor combinado con cambios en la alimentacion. El endocrinologo diseña el plan integral." },
-              { title: "Gestion de efectos secundarios", desc: "Nauseas, vomitos u otros efectos se manejan ajustando la dosis y con indicaciones especificas de la especialista." },
-              { title: "Resultados sostenibles", desc: "El seguimiento medico garantiza que los resultados se mantengan y que el tratamiento se ajuste segun la evolucion." },
+              { title: "Monitoreo metabólico", desc: "La Dra. Manrique solicita los examenes necesarios para evaluar la respuesta al tratamiento y detectar efectos adversos." },
+              { title: "Ajuste del plan completo", desc: "Ozempic funcióna mejor combinado con cambios en la alimentación. El endocrinólogo diseña el plan integral." },
+              { title: "Gestión de efectos secundarios", desc: "Náuseas, vomitos u otros efectos se manejan ajustando la dosis y con indicaciónes especificas de la especialista." },
+              { title: "Resultados sostenibles", desc: "El seguimiento médico garantiza qué los resultados se mantengan y qué el tratamiento se ajuste según la evolucion." },
             ].map((item) => (
               <div key={item.title} className="p-5 rounded-2xl bg-white border border-malva-100 shadow-[0_4px_20px_rgba(44,37,48,0.04)]">
                 <span className="inline-flex w-8 h-8 rounded-lg bg-dorado/10 items-center justify-center text-dorado-dark mb-3">

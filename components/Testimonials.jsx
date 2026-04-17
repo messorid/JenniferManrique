@@ -9,13 +9,13 @@ const testimonials = [
     initial: "L",
     name: "Luis R.",
     service: "Manejo de obesidad",
-    text: "Con el tratamiento y seguimiento que me indico baje de peso de manera saludable. Lo mejor es que se siente un acompanamiento real.",
+    text: "Con el tratamiento y seguimiento qué me indico baje de peso de manera saludable. Lo mejor es qué se siente un acompañamiento real.",
   },
   {
     initial: "C",
     name: "Carla P.",
-    service: "Sindrome de ovario poliquistico",
-    text: "Por fin encontre una endocrinologa que escucha y explica. El plan que me propuso me ayudo a regular mi ciclo y mejorar mi energia.",
+    service: "Síndrome de ovario poliquístico",
+    text: "Por fin encontre una endocrinóloga qué escucha y explica. El plan qué me propuso me ayudo a regular mi ciclo y mejorar mi energia.",
   },
 ];
 
@@ -31,11 +31,11 @@ export default function Testimonials() {
             Testimonios
           </span>
           <h2 className="mt-5 font-[family-name:var(--font-display)] text-3xl md:text-4xl lg:text-5xl leading-tight text-malva-900">
-            Pacientes que confian en <span className="text-dorado">su salud</span>
+            Pacientes qué confian en <span className="text-dorado">su salud</span>
           </h2>
           <p className="mt-5 text-base md:text-lg leading-relaxed text-texto-suave">
-            Historias reales de pacientes que han mejorado su calidad de vida
-            con un acompanamiento medico personalizado.
+            Historias reales de pacientes qué han mejorado su calidad de vida
+            con un acompañamiento médico personalizado.
           </p>
         </div>
 

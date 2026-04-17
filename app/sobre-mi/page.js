@@ -7,29 +7,29 @@ import CTAFinal from "@/components/CTAFinal";
 import { SITE_URL } from "@/lib/constants";
 
 export const metadata = {
-  title: "Sobre la Dra. Jennifer Manrique | Endocrinologa en Barinas",
+  title: "Sobre la Dra. Jennifer Manrique | Endocrinóloga en Barinas",
   description:
-    "Conoce la formacion, trayectoria y enfoque medico de la Dra. Jennifer Manrique, Especialista en Endocrinologia graduada en la ULA con experiencia en HULA, Luis Razetti y rotacion internacional en CEMDI Bogota.",
+    "Conoce la formación, trayectoria y enfoqué médico de la Dra. Jennifer Manrique, Especialista en Endocrinología graduada en la ULA con experiencia en HULA, Luis Razetti y rotación internacional en CEMDI Bogota.",
   keywords: [
     "Dra Jennifer Manrique endocrinologa",
-    "endocrinologa formacion ULA",
-    "especialista endocrinologia Barinas",
-    "medico endocrinologa Venezuela",
+    "endocrinóloga formación ULA",
+    "especialista endocrinología Barinas",
+    "médico endocrinóloga Venezuela",
     "curriculum Dra Jennifer Manrique",
   ],
   openGraph: {
     type: "profile",
     locale: "es_VE",
     url: `${SITE_URL}/sobre-mi`,
-    title: "Sobre la Dra. Jennifer Manrique | Endocrinologa en Barinas",
+    title: "Sobre la Dra. Jennifer Manrique | Endocrinóloga en Barinas",
     description:
-      "Formacion, trayectoria y enfoque medico de la Dra. Jennifer Manrique, Especialista en Endocrinologia.",
+      "Formación, trayectoria y enfoqué médico de la Dra. Jennifer Manrique, Especialista en Endocrinología.",
     images: [
       {
         url: "/images/dr-jennifer-about.jpg",
         width: 1200,
         height: 630,
-        alt: "Dra. Jennifer Manrique, Endocrinologa en Barinas",
+        alt: "Dra. Jennifer Manrique, Endocrinóloga en Barinas",
       },
     ],
   },

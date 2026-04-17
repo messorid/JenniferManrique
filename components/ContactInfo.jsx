@@ -6,7 +6,7 @@ const methods = [
     id: "whatsapp",
     label: "WhatsApp",
     value: CONTACT.phone,
-    detail: "Respuesta rapida en horas de atencion",
+    detail: "Respuesta rápida en horas de atención",
     href: CONTACT.whatsappMessage,
     external: true,
     color: "bg-green-50 border-green-200 hover:border-green-400",
@@ -28,7 +28,7 @@ const methods = [
     id: "instagram",
     label: "Instagram",
     value: CONTACT.instagram,
-    detail: "Contenido educativo sobre endocrinologia",
+    detail: "Contenido educativo sobre endocrinología",
     href: CONTACT.instagramUrl,
     external: true,
     color: "bg-dorado/5 border-dorado/30 hover:border-dorado/60",
@@ -53,8 +53,8 @@ export default function ContactInfo() {
             Agenda tu <span className="text-dorado">consulta</span>
           </h1>
           <p className="mt-5 text-base md:text-lg leading-relaxed text-texto-suave max-w-xl mx-auto">
-            Contactanos por WhatsApp para agendar tu cita con la Dra. Jennifer
-            Manrique. Atencion personalizada de lunes a viernes en Barinas.
+            Contactaños por WhatsApp para agendar tu cita con la Dra. Jennifer
+            Manrique. Atención personalizada de lunes a viernes en Barinas.
           </p>
         </div>
       </section>
@@ -101,10 +101,10 @@ export default function ContactInfo() {
         <div className="container-page">
           <div className="mb-10 text-center">
             <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-dorado/15 text-dorado-dark text-xs font-semibold uppercase tracking-[0.2em]">
-              Sedes de atencion
+              Sedes de atención
             </span>
             <h2 className="mt-4 font-[family-name:var(--font-display)] text-3xl md:text-4xl text-malva-900">
-              Donde encontrarnos
+              Dónde encontrarnos
             </h2>
           </div>
 
@@ -131,7 +131,7 @@ export default function ContactInfo() {
                       </svg>
                     </div>
                     <div>
-                      <p className="text-xs uppercase tracking-wider text-malva-200">Direccion</p>
+                      <p className="text-xs uppercase tracking-wider text-malva-200">Dirección</p>
                       <p className="mt-1 text-sm text-white font-medium leading-snug">
                         {LOCATION.name}
                         <br />{LOCATION.detail}
@@ -217,7 +217,7 @@ export default function ContactInfo() {
               </h3>
               <p className="mt-3 text-sm text-texto-suave leading-relaxed">
                 Consulta mensual disponible para pacientes del eje sur. Misma
-                calidad de atencion, con fecha confirmada por WhatsApp con
+                calidad de atención, con fecha confirmada por WhatsApp con
                 antelacion.
               </p>
 
@@ -225,8 +225,8 @@ export default function ContactInfo() {
                 {[
                   "Disponible una vez al mes",
                   "Fecha confirmada por WhatsApp",
-                  "Agenda con anticipacion recomendada",
-                  "Misma atencion integral personalizada",
+                  "Agenda con anticipación recomendada",
+                  "Misma atención integral personalizada",
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2.5 text-sm text-malva-900">
                     <span className="shrink-0 mt-1 w-4 h-4 rounded-full bg-dorado/15 flex items-center justify-center">
@@ -245,7 +245,7 @@ export default function ContactInfo() {
                 rel="noopener noreferrer"
                 className="mt-8 inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-malva text-white font-semibold hover:bg-malva-700 hover:-translate-y-0.5 transition-all duration-300"
               >
-                Consultar proxima fecha
+                Consultar próxima fecha
               </Link>
             </article>
           </div>

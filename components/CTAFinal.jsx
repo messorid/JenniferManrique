@@ -15,13 +15,13 @@ export default function CTAFinal() {
 
         <h2 className="mt-6 font-[family-name:var(--font-display)] text-3xl md:text-5xl lg:text-6xl leading-[1.08] text-white">
           Tu salud hormonal merece{" "}
-          <span className="text-dorado">atencion experta</span>
+          <span className="text-dorado">atención experta</span>
         </h2>
 
         <p className="mt-6 text-base md:text-lg leading-relaxed text-malva-200">
           Agenda tu consulta con la Dra. Jennifer Manrique y recibe un plan
-          personalizado para diabetes, perdida de peso, tiroides o salud
-          hormonal. Atencion en Barinas, previa cita.
+          personalizado para diabetes, pérdida de peso, tiroides o salud
+          hormonal. Atención en Barinas, previa cita.
         </p>
 
         <div className="mt-10 flex flex-wrap items-center justify-center gap-4">

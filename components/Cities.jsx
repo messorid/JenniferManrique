@@ -3,18 +3,18 @@ import { CONTACT, LOCATION } from "@/lib/constants";
 
 export default function Cities() {
   return (
-    <section id="ubicacion" className="relative py-24 md:py-32 bg-white">
+    <section id="ubicación" className="relative py-24 md:py-32 bg-white">
       <div className="container-page">
         <div className="max-w-2xl mx-auto text-center">
           <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-dorado/15 text-dorado-dark text-xs font-semibold uppercase tracking-[0.2em]">
-            Ciudades donde atiende
+            Ciudades dónde atiende
           </span>
           <h2 className="mt-5 font-[family-name:var(--font-display)] text-3xl md:text-4xl lg:text-5xl leading-tight text-malva-900">
-            Consulta endocrinologica en <span className="text-dorado">Barinas</span>
+            Consulta endocrinológica en <span className="text-dorado">Barinas</span>
           </h2>
           <p className="mt-5 text-base md:text-lg leading-relaxed text-texto-suave">
-            Atencion presencial previa cita. Consultorio moderno, equipado y de
-            facil acceso.
+            Atención presencial previa cita. Consultorio moderno, equipado y de
+            fácil acceso.
           </p>
         </div>
 
@@ -69,7 +69,7 @@ export default function Cities() {
                   </div>
                   <div>
                     <p className="text-xs uppercase tracking-wider text-malva-200">
-                      Direccion
+                      Dirección
                     </p>
                     <p className="mt-1 text-sm text-white font-medium leading-snug">
                       {LOCATION.name},<br />
@@ -113,7 +113,7 @@ export default function Cities() {
               Santa Barbara de Barinas
             </h3>
             <p className="mt-3 text-sm text-texto-suave leading-relaxed">
-              Consulta mensual disponible para pacientes del eje sur. Atencion
+              Consulta mensual disponible para pacientes del eje sur. Atención
               presencial {LOCATION.secondary.frequency}.
             </p>
 
@@ -128,7 +128,7 @@ export default function Cities() {
               </li>
               <li className="flex items-start gap-2">
                 <span className="shrink-0 mt-1 w-1.5 h-1.5 rounded-full bg-dorado" />
-                Misma calidad de atencion integral
+                Misma calidad de atención integral
               </li>
             </ul>
 
@@ -138,7 +138,7 @@ export default function Cities() {
               rel="noopener noreferrer"
               className="mt-8 inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-malva text-white font-semibold hover:bg-malva-700 hover:-translate-y-0.5 transition-all duration-300"
             >
-              Consultar proxima fecha
+              Consultar próxima fecha
             </Link>
           </article>
         </div>

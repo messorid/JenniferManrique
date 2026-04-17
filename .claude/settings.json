@@ -11,7 +11,11 @@
       "Bash(mv \"Dra. Jennifer Manrique FONDO BLANCO.jpg\" \"public/images/logo-fondo-blanco.jpg\")",
       "Bash(cp \"OZR_7446 \\(1\\) \\(1\\).jpg\" \"dr-jennifer-hero.jpg\")",
       "Bash(cp \"OZR_7452 \\(1\\) \\(1\\).jpg\" \"dr-jennifer-about.jpg\")",
-      "Bash(ls dr-jennifer-*.jpg)"
+      "Bash(ls dr-jennifer-*.jpg)",
+      "Bash(node fix_tildes.js)",
+      "Bash(node fix_tildes2.js)",
+      "Bash(grep -v \"function\\\\|const \\\\|let \\\\|var \\\\|return\\\\|=>\\\\\\\\|{\")",
+      "Bash(node fix_tildes3.js)"
     ]
   }
 }

@@ -1,10 +1,10 @@
 const timeline = [
   {
     year: "2019",
-    title: "Medico Cirujano",
+    title: "Médico Cirujano",
     place: "Universidad Nacional Experimental Francisco de Miranda (UNEFM)",
     description:
-      "Formacion medica integral con enfasis en fisiopatologia, clinica y atencion al paciente.",
+      "Formación médica integral con enfasis en fisiopatologia, clínica y atención al paciente.",
     icon: "cap",
   },
   {
@@ -12,15 +12,15 @@ const timeline = [
     title: "Experiencia hospitalaria inicial",
     place: "Hospital Dr. Luis Razetti y Cruz Roja Barinas",
     description:
-      "Rotaciones clinicas y ejercicio medico hospitalario en medicina interna, emergencias y atencion ambulatoria.",
+      "Rotaciónes clínicas y ejercicio médico hospitalario en medicina interna, emergencias y atención ambulatoria.",
     icon: "hospital",
   },
   {
     year: "2020 - 2024",
-    title: "Residencia en Endocrinologia",
+    title: "Residencia en Endocrinología",
     place: "Universidad de los Andes (ULA), Merida",
     description:
-      "Cuatro anos de formacion de postgrado en endocrinologia clinica, metabolismo y patologia hormonal, con pacientes de alta complejidad.",
+      "Cuatro años de formación de postgrado en endocrinología clínica, metabolismo y patologia hormonal, con pacientes de alta complejidad.",
     icon: "stethoscope",
   },
   {
@@ -28,39 +28,39 @@ const timeline = [
     title: "Practica en el Hospital Universitario de los Andes",
     place: "HULA, Merida",
     description:
-      "Atencion a pacientes con diabetes, obesidad, enfermedades tiroideas, hipofisis y suprarrenales dentro del centro de referencia nacional.",
+      "Atención a pacientes con diabetes, obesidad, enfermedades tiroideas, hipófisis y suprarrenales dentro del centro de referencia naciónal.",
     icon: "hospital",
   },
   {
     year: "Junio - Julio 2024",
-    title: "Rotacion internacional",
+    title: "Rotación internacional",
     place: "CEMDI, Bogota - Colombia",
     description:
-      "Entrenamiento en manejo avanzado de diabetes, tecnologia aplicada (monitoreo continuo de glucosa) y terapias modernas en obesidad y metabolismo.",
+      "Entrenamiento en manejo avanzado de diabetes, tecnología aplicada (monitoreo continuo de glucosa) y terapias modernas en obesidad y metabolismo.",
     icon: "globe",
   },
   {
     year: "2024",
-    title: "Tesis con mencion publicacion",
+    title: "Tesis con mención publicación",
     place: "Universidad de los Andes",
     description:
-      "Trabajo de investigacion sobre Vitamina D en HTA y Diabetes tipo 2 con disfuncion erectil. Recibio mencion de publicacion por su aporte clinico.",
+      "Trabajo de investigación sobre Vitamina D en HTA y Diabetes tipo 2 con disfunción erectil. Recibio mención de publicación por su aporte clinico.",
     icon: "research",
   },
   {
     year: "2024",
-    title: "Especialista en Endocrinologia",
+    title: "Especialista en Endocrinología",
     place: "Universidad de los Andes (ULA)",
     description:
-      "Obtencion del titulo de especialista en endocrinologia, avalado por una de las escuelas medicas mas prestigiosas del pais.",
+      "Obtencion del título de especialista en endocrinología, avalado por una de las escuelas médicas más prestigiosas del pais.",
     icon: "award",
   },
   {
     year: "2023 - 2025",
-    title: "Congresos nacionales de endocrinologia",
-    place: "XXIV, XXV y XXVI Congreso Venezolano de Endocrinologia",
+    title: "Congresos naciónales de endocrinología",
+    place: "XXIV, XXV y XXVI Congreso Venezolano de Endocrinología",
     description:
-      "Participacion activa y presentacion de 5 trabajos de investigacion en los ultimos congresos nacionales de la especialidad.",
+      "Participacion activa y presentacion de 5 trabajos de investigación en los ultimos congresos naciónales de la especialidad.",
     icon: "speaker",
   },
   {
@@ -68,7 +68,7 @@ const timeline = [
     title: "ENDOCONGRESS Medellin",
     place: "Medellin, Colombia",
     description:
-      "Actualizacion en ultimos avances internacionales en diabetes, obesidad, hormonas y tecnologias aplicadas a la endocrinologia.",
+      "Actualización en ultimos avances internacionales en diabetes, obesidad, hormonas y tecnologías aplicadas a la endocrinología.",
     icon: "globe",
   },
   {
@@ -76,7 +76,7 @@ const timeline = [
     title: "Consulta especializada en Barinas",
     place: "Hospital Privado San Juan - Consultorio 34, Piso 2",
     description:
-      "Atencion privada con enfoque personalizado en diabetes, obesidad, tiroides, salud hormonal y fertilidad. Consulta mensual tambien en Santa Barbara de Barinas.",
+      "Atención privada con enfoqué personalizado en diabetes, obesidad, tiroides, salud hormonal y fertilidad. Consulta mensual también en Santa Barbara de Barinas.",
     icon: "location",
   },
 ];
@@ -93,8 +93,8 @@ export default function Timeline() {
             Una carrera dedicada a la <span className="text-dorado">salud hormonal</span>
           </h2>
           <p className="mt-5 text-base md:text-lg leading-relaxed text-texto-suave">
-            Mas de una decada de formacion, practica hospitalaria y actualizacion
-            continua en centros de referencia nacional e internacional.
+            Más de una decada de formación, practica hospitalaria y actualización
+            continua en centros de referencia naciónal e internacional.
           </p>
         </div>
 

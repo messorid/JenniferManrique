@@ -4,7 +4,7 @@ import { CONTACT } from "@/lib/constants";
 
 const stats = [
   { value: "6+", label: "Especialidades" },
-  { value: "ULA", label: "Formacion" },
+  { value: "ULA", label: "Formación" },
   { value: "CEMDI", label: "Internacional" },
   { value: "100%", label: "Personalizado" },
 ];
@@ -33,7 +33,7 @@ export default function Hero() {
               <div className="relative aspect-[3/4] rounded-[2rem] overflow-hidden shadow-[0_24px_70px_rgba(138,114,145,0.22)]">
                 <Image
                   src="/images/dr-jennifer-hero.jpg"
-                  alt="Dra. Jennifer Manrique, Endocrinologa en Barinas"
+                  alt="Dra. Jennifer Manrique, Endocrinóloga en Barinas"
                   fill
                   priority
                   sizes="(max-width: 1024px) 85vw, 520px"
@@ -42,12 +42,12 @@ export default function Hero() {
                 {/* Gradiente inferior sobre la foto */}
                 <div className="absolute inset-x-0 bottom-0 h-36 bg-gradient-to-t from-malva-900/60 to-transparent pointer-events-none" />
 
-                {/* Nombre sobre la foto (solo mobile/tablet) */}
+                {/* Nombre sobre la foto (sólo mobile/tablet) */}
                 <div className="absolute bottom-5 left-5 right-5 lg:hidden">
                   <p className="text-white font-[family-name:var(--font-display)] text-xl font-semibold leading-tight">
                     Dra. Jennifer Manrique
                   </p>
-                  <p className="text-malva-200 text-sm mt-0.5">Endocrinologa en Barinas</p>
+                  <p className="text-malva-200 text-sm mt-0.5">Endocrinóloga en Barinas</p>
                 </div>
               </div>
 
@@ -60,7 +60,7 @@ export default function Hero() {
                 </div>
                 <div>
                   <p className="text-[10px] uppercase tracking-wider text-texto-suave">Especialista</p>
-                  <p className="text-sm font-semibold text-malva-900 leading-tight">Endocrinologia ULA</p>
+                  <p className="text-sm font-semibold text-malva-900 leading-tight">Endocrinología ULA</p>
                 </div>
               </div>
 
@@ -73,11 +73,11 @@ export default function Hero() {
                 </div>
                 <div>
                   <p className="text-[10px] uppercase tracking-wider text-texto-suave">Tratamientos</p>
-                  <p className="text-sm font-semibold text-malva-900 leading-tight">GLP-1 y Tecnologia</p>
+                  <p className="text-sm font-semibold text-malva-900 leading-tight">GLP-1 y Tecnología</p>
                 </div>
               </div>
 
-              {/* Badge disponible — solo mobile, arriba */}
+              {/* Badge disponible — sólo mobile, arriba */}
               <div className="absolute top-4 left-1/2 -translate-x-1/2 lg:hidden">
                 <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/90 backdrop-blur-sm shadow-md text-xs font-semibold text-malva-800 border border-malva-100">
                   <span className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse" />
@@ -92,7 +92,7 @@ export default function Hero() {
 
             <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-malva-100 text-malva-800 text-xs font-semibold uppercase tracking-[0.2em]">
               <span className="w-1.5 h-1.5 rounded-full bg-dorado" />
-              Endocrinologa en Barinas
+              Endocrinóloga en Barinas
             </span>
 
             <h1 className="mt-5 font-[family-name:var(--font-display)] text-4xl md:text-5xl lg:text-6xl leading-[1.06] text-malva-900">
@@ -104,8 +104,8 @@ export default function Hero() {
             </h1>
 
             <p className="mt-5 text-base md:text-lg leading-relaxed text-texto-suave max-w-lg">
-              Tratamientos personalizados con tecnologia avanzada para ayudarte a
-              controlar tu salud metabolica, peso y equilibrio hormonal en Barinas.
+              Tratamientos personalizados con tecnología avanzada para ayudarte a
+              controlar tu salud metabólica, peso y equilibrio hormonal en Barinas.
             </p>
 
             {/* Trust signal */}
@@ -114,7 +114,7 @@ export default function Hero() {
                 <circle cx="12" cy="12" r="10" />
                 <polyline points="12 6 12 12 16 14" />
               </svg>
-              Atencion previa cita — Lunes a Viernes
+              Atención previa cita — Lunes a Viernes
             </div>
 
             {/* CTAs */}

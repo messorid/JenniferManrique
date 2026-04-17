@@ -5,51 +5,51 @@ const services = [
   {
     slug: "diabetes",
     title: "Diabetes",
-    desc: "Control glucemico, insulinoterapia y monitores continuos de glucosa para tipo 1, tipo 2 y gestacional.",
+    desc: "Control glucémico, insulinoterapia y monitores continuos de glucosa para tipo 1, tipo 2 y gestacional.",
   },
   {
     slug: "obesidad",
     title: "Obesidad y Metabolismo",
-    desc: "Tratamientos medicos con Mounjaro (tirzepatida) y Ozempic (semaglutida). Evaluacion de causas hormonales.",
+    desc: "Tratamientos médicos con Mounjaro (tirzepatida) y Ozempic (semaglutida). Evaluación de causas hormonales.",
   },
   {
     slug: "tiroides",
     title: "Tiroides",
-    desc: "Hipotiroidismo, hipertiroidismo, nodulos tiroideos, ecografia y puncion (PAAF) en Barinas.",
+    desc: "Hipotiroidismo, hipertiroidismo, nódulos tiroideos, ecografía y punción (PAAF) en Barinas.",
   },
   {
     slug: "salud-hormonal",
     title: "Salud Hormonal y SOP",
-    desc: "Sindrome de ovario poliquistico, menopausia, andropausia y trastornos hormonales en hombres y mujeres.",
+    desc: "Síndrome de ovario poliquístico, menopausia, andropausia y trastornos hormonales en hombres y mujeres.",
   },
   {
     slug: "fertilidad",
     title: "Fertilidad",
-    desc: "Evaluacion hormonal para infertilidad, protocolos pre-concepcionales y optimizacion hormonal para embarazo.",
+    desc: "Evaluación hormonal para infertilidad, protocolos pre-concepcionales y optimización hormonal para embarazo.",
   },
   {
     slug: "crecimiento",
     title: "Crecimiento y Desarrollo",
-    desc: "Talla baja, pubertad precoz o retrasada y deficiencia de hormona de crecimiento en ninos.",
+    desc: "Talla baja, pubertad precoz o retrasada y deficiencia de hormona de crecimiento en niños.",
   },
 ];
 
 const faqs = [
   {
-    q: "Quien es el endocrino en Barinas de referencia?",
-    a: "La Dra. Jennifer Manrique es la endocrinologa de referencia en Barinas. Egresada de la ULA con entrenamiento internacional en el CEMDI Bogota, atiende en el Hospital Privado San Juan, Consultorio 34, Piso 2.",
+    q: "Quién es el endocrino en Barinas de referencia?",
+    a: "La Dra. Jennifer Manrique es la endocrinóloga de referencia en Barinas. Egresada de la ULA con entrenamiento internacional en el CEMDI Bogota, atiende en el Hospital Privado San Juan, Consultorio 34, Piso 2.",
   },
   {
-    q: "Donde queda el consultorio del endocrino en Barinas?",
+    q: "Dónde queda el consultorio del endocrino en Barinas?",
     a: "El consultorio de la Dra. Jennifer Manrique esta ubicado en el Hospital Privado San Juan, Consultorio 34, Piso 2, Barinas. Atiende de lunes a viernes de 8:00 AM a 12:00 PM y de 2:00 PM a 6:00 PM, previa cita.",
   },
   {
-    q: "Como agendo cita con el endocrino en Barinas?",
-    a: "La forma mas rapida es por WhatsApp al 0412-9337390. Tambien atiende pacientes de Santa Barbara de Barinas y otras ciudades de Venezuela con coordinacion previa.",
+    q: "Cómo agendo cita con el endocrino en Barinas?",
+    a: "La forma más rápida es por WhatsApp al 0412-9337390. También atiende pacientes de Santa Barbara de Barinas y otras ciudades de Venezuela con coordinación previa.",
   },
   {
-    q: "Que enfermedades trata el endocrinologo en Barinas?",
-    a: "La Dra. Manrique trata diabetes (tipo 1, 2 y gestacional), obesidad, hipotiroidismo, hipertiroidismo, nodulos tiroideos, sindrome de ovario poliquistico, menopausia, trastornos hormonales, infertilidad hormonal y talla baja en ninos.",
+    q: "Qué enfermedades trata el endocrinólogo en Barinas?",
+    a: "La Dra. Manrique trata diabetes (tipo 1, 2 y gestacional), obesidad, hipotiroidismo, hipertiroidismo, nódulos tiroideos, síndrome de ovario poliquístico, menopausia, trastornos hormonales, infertilidad hormonal y talla baja en niños.",
   },
   {
     q: "El endocrino en Barinas maneja Mounjaro y Ozempic?",
@@ -57,13 +57,13 @@ const faqs = [
   },
   {
     q: "Atienden pacientes de otras ciudades de Venezuela?",
-    a: "Si. Ademas de Barinas, la Dra. Manrique tiene consulta mensual en Santa Barbara de Barinas y coordina atencion para pacientes de otras ciudades de Venezuela via WhatsApp.",
+    a: "Si. Además de Barinas, la Dra. Manrique tiene consulta mensual en Santa Barbara de Barinas y coordina atención para pacientes de otras ciudades de Venezuela via WhatsApp.",
   },
 ];
 
 const credentials = [
-  { label: "Especialidad", value: "Endocrinologia - Universidad de Los Andes (ULA)" },
-  { label: "Formacion internacional", value: "CEMDI, Bogota, Colombia" },
+  { label: "Especialidad", value: "Endocrinología - Universidad de Los Andes (ULA)" },
+  { label: "Formación internacional", value: "CEMDI, Bogota, Colombia" },
   { label: "Sede principal", value: "Hospital Privado San Juan, Barinas" },
   { label: "Sede secundaria", value: "Santa Barbara de Barinas (mensual)" },
   { label: "Horario", value: "Lun - Vie, 8:00 AM - 12:00 PM y 2:00 PM - 6:00 PM" },
@@ -77,7 +77,7 @@ export default function EndocrinoBarinasPage() {
       <section className="relative pt-36 pb-20 md:pt-44 md:pb-28 overflow-hidden bg-gradient-to-b from-malva-50 via-white to-white">
         <div className="absolute -top-40 -right-40 w-[520px] h-[520px] rounded-full bg-malva-200/40 blur-3xl pointer-events-none" />
         <div className="container-page relative max-w-3xl mx-auto text-center">
-          <nav aria-label="Ruta de navegacion" className="mb-6">
+          <nav aria-label="Ruta de navegación" className="mb-6">
             <ol className="flex justify-center flex-wrap gap-x-2 text-xs text-texto-suave">
               <li>
                 <Link href="/" className="hover:text-dorado transition-colors">Inicio</Link>
@@ -90,16 +90,16 @@ export default function EndocrinoBarinasPage() {
           </nav>
           <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-malva-100 text-malva-800 text-xs font-semibold uppercase tracking-[0.2em]">
             <span className="w-1.5 h-1.5 rounded-full bg-dorado" />
-            Endocrinologia en Barinas
+            Endocrinología en Barinas
           </span>
           <h1 className="mt-6 font-[family-name:var(--font-display)] text-4xl md:text-5xl lg:text-6xl leading-[1.08] text-malva-900">
             Endocrino en Barinas,{" "}
-            <span className="text-dorado">atencion especializada</span>
+            <span className="text-dorado">atención especializada</span>
           </h1>
           <p className="mt-5 text-base md:text-lg leading-relaxed text-texto-suave max-w-2xl mx-auto">
-            La Dra. Jennifer Manrique es la endocrinologa de referencia en Barinas,
+            La Dra. Jennifer Manrique es la endocrinóloga de referencia en Barinas,
             Venezuela. Especialista en diabetes, obesidad, tiroides, salud hormonal
-            y tratamientos con Mounjaro y Ozempic. Atencion previa cita en el
+            y tratamientos con Mounjaro y Ozempic. Atención previa cita en el
             Hospital Privado San Juan.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-3">
@@ -124,28 +124,28 @@ export default function EndocrinoBarinasPage() {
         </div>
       </section>
 
-      {/* Quien es */}
+      {/* Quién es */}
       <section className="py-16 md:py-20 bg-white">
         <div className="container-page max-w-4xl mx-auto">
           <div className="grid gap-12 lg:grid-cols-[1fr_340px] items-center">
             <div>
               <span className="text-xs font-semibold uppercase tracking-[0.25em] text-dorado">
-                La endocrinologa en Barinas
+                La endocrinóloga en Barinas
               </span>
               <h2 className="mt-3 font-[family-name:var(--font-display)] text-2xl md:text-3xl lg:text-4xl text-malva-900 leading-tight">
                 Dra. Jennifer Manrique, especialista en Barinas
               </h2>
               <p className="mt-5 text-base leading-relaxed text-texto-suave">
-                La Dra. Jennifer Manrique es medica especialista en Endocrinologia
-                egresada de la Universidad de Los Andes (ULA). Cuenta con formacion
-                internacional en el Centro de Endocrinologia y Metabolismo (CEMDI)
-                en Bogota, Colombia, y experiencia en el manejo de tecnologia avanzada
-                para el control glucemico como el monitor continuo de glucosa (CGM).
+                La Dra. Jennifer Manrique es médica especialista en Endocrinología
+                egresada de la Universidad de Los Andes (ULA). Cuenta con formación
+                internacional en el Centro de Endocrinología y Metabolismo (CEMDI)
+                en Bogota, Colombia, y experiencia en el manejo de tecnología avanzada
+                para el control glucémico cómo el monitor continuo de glucosa (CGM).
               </p>
               <p className="mt-4 text-base leading-relaxed text-texto-suave">
-                Como endocrino en Barinas, ofrece atencion integral para diabetes,
+                Cómo endocrino en Barinas, ofrece atención integral para diabetes,
                 obesidad, tiroides, salud hormonal, fertilidad y crecimiento, con
-                tratamientos actualizados y un enfoque centrado en el paciente.
+                tratamientos actualizados y un enfoqué centrado en el paciente.
                 Atiende en el Hospital Privado San Juan y adicionalmente realiza
                 consulta mensual en Santa Barbara de Barinas.
               </p>
@@ -184,17 +184,17 @@ export default function EndocrinoBarinasPage() {
         </div>
       </section>
 
-      {/* Por que consultar */}
+      {/* Por qué consultar */}
       <section className="py-16 md:py-20 bg-malva-50">
         <div className="container-page max-w-4xl mx-auto">
           <div className="text-center max-w-2xl mx-auto">
             <h2 className="font-[family-name:var(--font-display)] text-2xl md:text-3xl lg:text-4xl text-malva-900 leading-tight">
-              Por que consultar a un{" "}
+              Por qué consultar a un{" "}
               <span className="text-dorado">endocrino en Barinas</span>
             </h2>
             <p className="mt-4 text-base text-texto-suave">
-              El endocrinologo es el especialista del sistema hormonal. Muchos
-              sintomas cotidianos tienen una causa hormonal que solo un endocrinólogo
+              El endocrinólogo es el especialista del sistema hormonal. Muchos
+              síntomás cotidiaños tienen una causa hormonal qué sólo un endocrinólogo
               puede diagnosticar y tratar correctamente.
             </p>
           </div>
@@ -203,7 +203,7 @@ export default function EndocrinoBarinasPage() {
               {
                 icon: "weight",
                 title: "Aumento de peso inexplicable",
-                desc: "El hipotiroidismo, el Sindrome de Cushing y la resistencia a la insulina son causas hormonales frecuentes del sobrepeso que requieren atencion endocrinologica.",
+                desc: "El hipotiroidismo, el Síndrome de Cushing y la resistencia a la insulina son causas hormonales frecuentes del sobrepeso qué requieren atención endocrinológica.",
               },
               {
                 icon: "energy",
@@ -213,22 +213,22 @@ export default function EndocrinoBarinasPage() {
               {
                 icon: "glucose",
                 title: "Glucemia elevada o diabetes",
-                desc: "La diabetes requiere seguimiento especializado. El endocrinologo en Barinas diseña el plan de control glucemico y ajusta el tratamiento segun cada caso.",
+                desc: "La diabetes requiere seguimiento especializado. El endocrinólogo en Barinas diseña el plan de control glucémico y ajusta el tratamiento según cada caso.",
               },
               {
                 icon: "cycle",
                 title: "Alteraciones del ciclo menstrual",
-                desc: "Ciclos irregulares, ausencia de menstruacion o sangrado excesivo pueden indicar SOP, alteraciones tiroideas u otros trastornos hormonales.",
+                desc: "Ciclos irregulares, ausencia de menstruación o sangrado excesivo pueden indicar SOP, alteraciones tiroideas u otros trastornos hormonales.",
               },
               {
                 icon: "thyroid",
-                title: "Problemas de tiroides",
-                desc: "El hipotiroidismo, hipertiroidismo y los nodulos tiroideos necesitan evaluacion especializada con ecografia y seguimiento continuo.",
+                title: "Problemás de tiroides",
+                desc: "El hipotiroidismo, hipertiroidismo y los nódulos tiroideos necesitan evaluación especializada con ecografía y seguimiento continuo.",
               },
               {
                 icon: "fertility",
                 title: "Dificultad para concebir",
-                desc: "Las alteraciones hormonales son una causa comun de infertilidad. El endocrinologo evalua y optimiza el perfil hormonal para favorecer el embarazo.",
+                desc: "Las alteraciones hormonales son una causa común de infertilidad. El endocrinólogo evalua y optimiza el perfil hormonal para favorecer el embarazo.",
               },
             ].map((item) => (
               <div
@@ -259,8 +259,8 @@ export default function EndocrinoBarinasPage() {
               Servicios del endocrino en Barinas
             </h2>
             <p className="mt-4 text-base text-texto-suave">
-              Atencion integral para todas las condiciones endocrinologicas, con
-              tratamientos actualizados y tecnologia avanzada disponible en Barinas.
+              Atención integral para todas las condiciónes endocrinológicas, con
+              tratamientos actualizados y tecnología avanzada disponible en Barinas.
             </p>
           </div>
           <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
@@ -295,20 +295,20 @@ export default function EndocrinoBarinasPage() {
         </div>
       </section>
 
-      {/* Ubicacion */}
+      {/* Ubicación */}
       <section className="py-16 md:py-20 bg-gradient-to-b from-malva-50 to-white">
         <div className="container-page max-w-4xl mx-auto">
           <div className="grid gap-8 lg:grid-cols-2 items-center">
             <div>
               <span className="text-xs font-semibold uppercase tracking-[0.25em] text-dorado">
-                Donde encontrarnos
+                Dónde encontrarnos
               </span>
               <h2 className="mt-3 font-[family-name:var(--font-display)] text-2xl md:text-3xl text-malva-900 leading-tight">
                 Consultorio del endocrino en Barinas
               </h2>
               <p className="mt-4 text-base text-texto-suave">
                 La Dra. Jennifer Manrique atiende en Barinas en el Hospital Privado
-                San Juan, una de las clinicas de referencia de la ciudad.
+                San Juan, una de las clínicas de referencia de la ciudad.
               </p>
               <ul className="mt-6 space-y-3">
                 {[
@@ -403,7 +403,7 @@ export default function EndocrinoBarinasPage() {
         <div className="absolute -top-40 -right-20 w-[520px] h-[520px] rounded-full bg-dorado/20 blur-3xl pointer-events-none" />
         <div className="relative container-page text-center max-w-2xl mx-auto text-white">
           <h2 className="font-[family-name:var(--font-display)] text-3xl md:text-4xl leading-tight">
-            Agenda tu consulta con la endocrinologa en Barinas
+            Agenda tu consulta con la endocrinóloga en Barinas
           </h2>
           <p className="mt-4 text-base text-malva-200">
             La Dra. Jennifer Manrique te atiende en el Hospital Privado San Juan,

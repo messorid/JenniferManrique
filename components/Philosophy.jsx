@@ -3,23 +3,23 @@ import Image from "next/image";
 const values = [
   {
     icon: "person",
-    title: "Atencion personalizada",
-    text: "Cada paciente es evaluado de manera individual. El mismo diagnostico puede tener causas distintas en diferentes personas.",
+    title: "Atención personalizada",
+    text: "Cada paciente es evaluado de manera individual. El mismo diagnóstico puede tener causas distintas en diferentes personas.",
   },
   {
     icon: "science",
     title: "Basada en evidencia",
-    text: "Tratamientos actualizados con los ultimos avances en endocrinologia, tecnologia de monitoreo y terapias metabolicas.",
+    text: "Tratamientos actualizados con los ultimos avances en endocrinología, tecnología de monitoreo y terapias metabólicas.",
   },
   {
     icon: "integral",
     title: "Vision integral",
-    text: "El sistema endocrino afecta todo el organismo. La evaluacion va mas alla del sintoma y considera al paciente en su totalidad.",
+    text: "El sistema endocrino afecta todo el organismo. La evaluación va más alla del síntoma y considera al paciente en su totalidad.",
   },
   {
     icon: "tech",
-    title: "Tecnologia aplicada",
-    text: "Uso de monitores continuos de glucosa, ecografia tiroidea y terapias GLP-1 para un manejo mas preciso y efectivo.",
+    title: "Tecnología aplicada",
+    text: "Uso de monitores continuos de glucosa, ecografía tiroidea y terapias GLP-1 para un manejo más preciso y efectivo.",
   },
 ];
 
@@ -32,16 +32,16 @@ export default function Philosophy() {
         <div className="grid gap-14 lg:grid-cols-2 lg:items-center">
           <div>
             <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-dorado/15 text-dorado-dark text-xs font-semibold uppercase tracking-[0.2em]">
-              Enfoque medico
+              Enfoqué médico
             </span>
 
             <h2 className="mt-5 font-[family-name:var(--font-display)] text-3xl md:text-4xl lg:text-5xl leading-tight text-malva-900">
-              Una medicina que <span className="text-dorado">escucha</span> y acompana
+              Una medicina qué <span className="text-dorado">escucha</span> y acompana
             </h2>
 
             <blockquote className="mt-8 pl-5 border-l-4 border-dorado">
               <p className="font-[family-name:var(--font-display)] text-xl md:text-2xl italic text-malva-900 leading-snug">
-                Cada paciente es unico. Mi enfoque es evaluar de manera
+                Cada paciente es único. Mi enfoqué es evaluar de manera
                 individual para ofrecer tratamientos efectivos, seguros y
                 adaptados a cada caso.
               </p>
@@ -51,8 +51,8 @@ export default function Philosophy() {
             </blockquote>
 
             <p className="mt-7 text-base leading-relaxed text-texto-suave">
-              La endocrinologia abarca desde la diabetes y la obesidad hasta las
-              patologias tiroideas, hormonales y reproductivas. Una atencion de
+              La endocrinología abarca desde la diabetes y la obesidad hasta las
+              patologias tiroideas, hormonales y reproductivas. Una atención de
               calidad requiere tiempo, escucha y un plan adaptado a la realidad
               de cada paciente.
             </p>
@@ -80,7 +80,7 @@ export default function Philosophy() {
             <div className="relative aspect-[4/5] rounded-[2.5rem] overflow-hidden shadow-[0_20px_60px_rgba(138,114,145,0.18)]">
               <Image
                 src="/images/OZR_7472 (1).jpg"
-                alt="Dra. Jennifer Manrique con glucometro, Endocrinologa en Barinas"
+                alt="Dra. Jennifer Manrique con glucometro, Endocrinóloga en Barinas"
                 fill
                 loading="lazy"
                 sizes="(max-width: 1024px) 90vw, 540px"

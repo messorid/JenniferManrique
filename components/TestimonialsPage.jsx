@@ -16,15 +16,15 @@ const testimonials = [
     city: "Barinas",
     service: "Manejo de obesidad",
     stars: 5,
-    text: "Con el tratamiento y seguimiento que me indico baje de peso de manera saludable. Lo mejor es que se siente un acompanamiento real, no solo una receta y adios.",
+    text: "Con el tratamiento y seguimiento qué me indico baje de peso de manera saludable. Lo mejor es qué se siente un acompañamiento real, no sólo una receta y adios.",
   },
   {
     initial: "C",
     name: "Carla P.",
     city: "Barinas",
-    service: "Sindrome de ovario poliquistico",
+    service: "Síndrome de ovario poliquístico",
     stars: 5,
-    text: "Por fin encontre una endocrinologa que escucha y explica. El plan que me propuso me ayudo a regular mi ciclo y mejorar mi energia despues de anos sin un diagnostico claro.",
+    text: "Por fin encontre una endocrinóloga qué escucha y explica. El plan qué me propuso me ayudo a regular mi ciclo y mejorar mi energia despues de años sin un diagnóstico claro.",
   },
   {
     initial: "A",
@@ -32,7 +32,7 @@ const testimonials = [
     city: "Barinas",
     service: "Hipotiroidismo",
     stars: 5,
-    text: "Llevaba dos anos con cansancio y aumento de peso sin explicacion. La Dra. Manrique identifico que mi dosis de levotiroxina no era la correcta y ajusto el tratamiento. En tres meses note un cambio enorme.",
+    text: "Llevaba dos años con cansancio y aumento de peso sin explicacion. La Dra. Manrique identifico qué mi dosis de levotiroxina no era la correcta y ajusto el tratamiento. En tres meses note un cambio enorme.",
   },
   {
     initial: "J",
@@ -40,7 +40,7 @@ const testimonials = [
     city: "Barinas",
     service: "Diabetes tipo 1 con CGM",
     stars: 5,
-    text: "Gracias a la Dra. pude colocarme el monitor continuo de glucosa en Barinas sin necesidad de viajar a Caracas. Ahora tengo un control glucemico que nunca habia logrado antes.",
+    text: "Gracias a la Dra. pude colocarme el monitor continuo de glucosa en Barinas sin necesidad de viajar a Caracas. Ahora tengo un control glucémico qué nunca habia logrado antes.",
   },
   {
     initial: "P",
@@ -48,7 +48,7 @@ const testimonials = [
     city: "Santa Barbara de Barinas",
     service: "Obesidad con Mounjaro",
     stars: 5,
-    text: "Vine desde Santa Barbara y valió completamente la pena. La evaluacion fue muy completa, me explico con detalle el tratamiento con Mounjaro y los resultados en dos meses han sido increibles.",
+    text: "Vine desde Santa Barbara y valió completamente la pena. La evaluación fue muy completa, me explico con detalle el tratamiento con Mounjaro y los resultados en dos meses han sido increibles.",
   },
   {
     initial: "R",
@@ -56,15 +56,15 @@ const testimonials = [
     city: "Barinas",
     service: "Menopausia y metabolismo",
     stars: 5,
-    text: "Llegue preocupada por los cambios que sentia con la menopausia. La doctora evaluo todo el impacto metabolico y me explico cada aspecto. Me fui con un plan claro y mucha tranquilidad.",
+    text: "Llegue preocupada por los cambios qué sentia con la menopausia. La doctora evaluo todo el impacto metabólico y me explico cada aspecto. Me fui con un plan claro y mucha tranquilidad.",
   },
   {
     initial: "D",
     name: "Diego S.",
     city: "Barinas",
-    service: "Nodulos tiroideos",
+    service: "Nódulos tiroideos",
     stars: 5,
-    text: "Me detectaron un nodulo y no sabia que hacer. La Dra. Manrique realizo la ecografia y la evaluacion completa aqui en Barinas, sin necesidad de ir a otra ciudad. Un alivio enorme.",
+    text: "Me detectaron un nodulo y no sabia qué hacer. La Dra. Manrique realizo la ecografía y la evaluación completa aqui en Barinas, sin necesidad de ir a otra ciudad. Un alivio enorme.",
   },
   {
     initial: "V",
@@ -72,7 +72,7 @@ const testimonials = [
     city: "Barinas",
     service: "Infertilidad hormonal",
     stars: 5,
-    text: "Estabamos buscando embarazo sin exito. La evaluacion hormonal que hizo la Dra. Manrique identifico el problema, optimizo mi tratamiento y a los cuatro meses quede embarazada. Le debo mucho.",
+    text: "Estabamos buscando embarazo sin exito. La evaluación hormonal qué hizo la Dra. Manrique identifico el problema, optimizo mi tratamiento y a los cuatro meses quede embarazada. Le debo mucho.",
   },
   {
     initial: "N",
@@ -80,23 +80,23 @@ const testimonials = [
     city: "Barinas",
     service: "Resistencia a la insulina",
     stars: 5,
-    text: "Mi medico general me dijo que tenia resistencia a la insulina pero no sabia como tratarla. La Dra. Manrique me explico todo y disenio un plan que junto con cambios de habitos ha mejorado mis valores notablemente.",
+    text: "Mi médico general me dijo qué tenia resistencia a la insulina pero no sabia cómo tratarla. La Dra. Manrique me explico todo y disenio un plan qué junto con cambios de hábitos ha mejorado mis valores notablemente.",
   },
   {
     initial: "G",
     name: "Gabriela T.",
     city: "Barinas",
-    service: "SOP y perdida de peso",
+    service: "SOP y pérdida de peso",
     stars: 5,
-    text: "Con el SOP siempre fue muy dificil bajar de peso. La doctora abordó el problema desde sus causas hormonales y metabolicas. Fue el enfoque que necesitaba y que ningún otro medico me habia dado.",
+    text: "Con el SOP siempre fue muy dificil bajar de peso. La doctora abordó el problema desde sus causas hormonales y metabólicas. Fue el enfoqué qué necesitaba y qué ningún otro médico me habia dado.",
   },
   {
     initial: "E",
     name: "Elena M.",
     city: "Barinas",
-    service: "Talla baja en ninos",
+    service: "Talla baja en niños",
     stars: 5,
-    text: "Mi hijo estaba por debajo del percentil para su edad. La Dra. Manrique hizo una evaluacion muy detallada, descarto causas hormonales y nos dio un seguimiento pediátrico especializado que nos tranquilizo mucho.",
+    text: "Mi hijo estaba por debajo del percentil para su edad. La Dra. Manrique hizo una evaluación muy detallada, descarto causas hormonales y nos dio un seguimiento pediátrico especializado qué nos tranquilizo mucho.",
   },
 ];
 
@@ -118,13 +118,13 @@ export default function TestimonialsPage() {
             Testimonios de pacientes
           </span>
           <h1 className="mt-6 font-[family-name:var(--font-display)] text-4xl md:text-5xl lg:text-6xl leading-[1.08] text-malva-900">
-            Pacientes que mejoran su salud{" "}
+            Pacientes qué mejoran su salud{" "}
             <span className="text-dorado">en Barinas</span>
           </h1>
           <p className="mt-5 text-base md:text-lg leading-relaxed text-texto-suave">
-            Experiencias reales de pacientes de Barinas y Venezuela que han
+            Experiencias reales de pacientes de Barinas y Venezuela qué han
             mejorado su calidad de vida con la Dra. Jennifer Manrique,
-            endocrinologa especialista.
+            endocrinóloga especialista.
           </p>
         </div>
       </section>
@@ -200,7 +200,7 @@ export default function TestimonialsPage() {
           </h2>
           <p className="mt-4 text-base text-texto-suave">
             Tu experiencia puede ayudar a otros pacientes en Barinas y Venezuela
-            a encontrar la atencion que necesitan. Escribenos y comparte tu historia.
+            a encontrar la atención qué necesitan. Escribenos y comparte tu historia.
           </p>
           <Link
             href={CONTACT.whatsappMessage}
@@ -224,7 +224,7 @@ export default function TestimonialsPage() {
           </h2>
           <p className="mt-4 text-base text-malva-200">
             Agenda tu consulta con la Dra. Jennifer Manrique y da el primer paso
-            hacia una mejor salud endocrinologica.
+            hacia una mejor salud endocrinológica.
           </p>
           <Link
             href={CONTACT.whatsappMessage}

@@ -10,7 +10,7 @@ export default function Loading() {
           Dra. Jennifer Manrique
         </span>
         <span className="text-xs text-texto-suave uppercase tracking-[0.2em]">
-          Endocrinologia en Barinas
+          Endocrinología en Barinas
         </span>
       </div>
     </div>

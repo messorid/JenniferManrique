@@ -21,19 +21,19 @@ export const metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
     default:
-      "Dra. Jennifer Manrique | Endocrinologa en Barinas - Diabetes, Obesidad y Hormonas",
+      "Dra. Jennifer Manrique | Endocrinóloga en Barinas - Diabetes, Obesidad y Hormonas",
     template: "%s | Dra. Jennifer Manrique",
   },
   description:
-    "Endocrinologa en Barinas especializada en diabetes, obesidad, tiroides y salud hormonal. Tratamientos con Mounjaro, Ozempic y tecnologia avanzada. Agenda tu consulta por WhatsApp.",
+    "Endocrinóloga en Barinas especializada en diabetes, obesidad, tiroides y salud hormonal. Tratamientos con Mounjaro, Ozempic y tecnología avanzada. Agenda tu consulta por WhatsApp.",
   applicationName: "Dra. Jennifer Manrique",
   keywords: [
     "endocrino en Barinas",
-    "endocrinologo en Barinas",
-    "endocrinologa en Barinas",
+    "endocrinólogo en Barinas",
+    "endocrinóloga en Barinas",
     "Mounjaro en Venezuela",
     "Ozempic Barinas",
-    "perdida de peso Barinas",
+    "pérdida de peso Barinas",
     "diabetes Barinas",
     "tiroides Barinas",
     "SOP Barinas",
@@ -55,23 +55,23 @@ export const metadata = {
     url: SITE_URL,
     siteName: "Dra. Jennifer Manrique",
     title:
-      "Dra. Jennifer Manrique | Endocrinologa en Barinas",
+      "Dra. Jennifer Manrique | Endocrinóloga en Barinas",
     description:
-      "Endocrinologa en Barinas especializada en diabetes, obesidad, tiroides y salud hormonal. Agenda tu consulta por WhatsApp.",
+      "Endocrinóloga en Barinas especializada en diabetes, obesidad, tiroides y salud hormonal. Agenda tu consulta por WhatsApp.",
     images: [
       {
         url: "/images/dr-jennifer-hero.jpg",
         width: 1200,
         height: 630,
-        alt: "Dra. Jennifer Manrique, Endocrinologa en Barinas",
+        alt: "Dra. Jennifer Manrique, Endocrinóloga en Barinas",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Dra. Jennifer Manrique | Endocrinologa en Barinas",
+    title: "Dra. Jennifer Manrique | Endocrinóloga en Barinas",
     description:
-      "Endocrinologa en Barinas. Diabetes, obesidad, tiroides y salud hormonal. Agenda por WhatsApp.",
+      "Endocrinóloga en Barinas. Diabetes, obesidad, tiroides y salud hormonal. Agenda por WhatsApp.",
     images: ["/images/dr-jennifer-hero.jpg"],
   },
   robots: {
@@ -117,7 +117,7 @@ export default function RootLayout({ children }) {
     "@id": `${SITE_URL}/#physician`,
     name: "Dra. Jennifer Manrique",
     alternateName: "Jennifer Kariana Manrique Davila",
-    medicalSpecialty: "Endocrinology",
+    médicalSpecialty: "Endocrinology",
     url: SITE_URL,
     image: `${SITE_URL}/images/dr-jennifer-hero.jpg`,
     telephone: "+58-412-9337390",
@@ -164,11 +164,11 @@ export default function RootLayout({ children }) {
     availableService: [
       { "@type": "MedicalProcedure", name: "Tratamiento de diabetes tipo 1, 2 y gestacional" },
       { "@type": "MedicalProcedure", name: "Manejo de obesidad con GLP-1 (Mounjaro, Ozempic)" },
-      { "@type": "MedicalProcedure", name: "Evaluacion y tratamiento de tiroides" },
-      { "@type": "MedicalProcedure", name: "Ecografia tiroidea y PAAF" },
-      { "@type": "MedicalProcedure", name: "Sindrome de ovario poliquistico" },
+      { "@type": "MedicalProcedure", name: "Evaluación y tratamiento de tiroides" },
+      { "@type": "MedicalProcedure", name: "Ecografía tiroidea y PAAF" },
+      { "@type": "MedicalProcedure", name: "Síndrome de ovario poliquístico" },
       { "@type": "MedicalProcedure", name: "Menopausia y andropausia" },
-      { "@type": "MedicalProcedure", name: "Evaluacion hormonal para fertilidad" },
+      { "@type": "MedicalProcedure", name: "Evaluación hormonal para fertilidad" },
     ],
   };
 

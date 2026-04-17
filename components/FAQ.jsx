@@ -4,36 +4,36 @@ import { useState } from "react";
 
 const faqs = [
   {
-    q: "Cuando deberia consultar con una endocrinologa?",
-    a: "Si presentas cansancio persistente, cambios de peso sin explicacion, alteraciones en el ciclo menstrual, caida de cabello, antecedentes familiares de diabetes o tiroides, problemas de fertilidad o resistencia a la insulina, es recomendable una evaluacion endocrinologica integral.",
+    q: "Cuándo deberia consultar con una endocrinologa?",
+    a: "Si presentas cansancio persistente, cambios de peso sin explicacion, alteraciones en el ciclo menstrual, caída de cabello, antecedentes familiares de diabetes o tiroides, problemas de fertilidad o resistencia a la insulina, es recomendable una evaluación endocrinológica integral.",
   },
   {
-    q: "Tratan el Sindrome de Ovario Poliquistico (SOP)?",
-    a: "Si. El SOP es una de las consultas mas frecuentes. Se evalua el perfil hormonal, metabolico y ginecologico, y se disena un plan individualizado que puede incluir cambios de habitos, medicacion, control de peso y acompanamiento para fertilidad si es necesario.",
+    q: "Tratan el Síndrome de Ovario Poliquístico (SOP)?",
+    a: "Si. El SOP es una de las consultas más frecuentes. Se evalua el perfil hormonal, metabólico y ginecológico, y se diseña un plan individualizado que puede incluir cambios de hábitos, medicación, control de peso y acompañamiento para fertilidad si es necesario.",
   },
   {
     q: "Usan Mounjaro u Ozempic para bajar de peso?",
-    a: "Si, se utilizan terapias basadas en analogos de GLP-1 como Ozempic y Mounjaro, siempre con indicacion medica, evaluacion previa y seguimiento clinico. Son una herramienta dentro de un tratamiento integral para obesidad y diabetes tipo 2.",
+    a: "Si, se utilizan terapias basadas en análogos de GLP-1 como Ozempic y Mounjaro, siempre con indicación médica, evaluación previa y seguimiento clinico. Son una herramienta dentro de un tratamiento integral para obesidad y diabetes tipo 2.",
   },
   {
-    q: "Que estudios se hacen en la evaluacion de tiroides?",
-    a: "Segun el caso se solicitan perfil tiroideo completo, anticuerpos, ecografia tiroidea y, si es necesario, puncion con aguja fina (PAAF) para evaluar nodulos. El objetivo es obtener un diagnostico preciso y proponer el tratamiento adecuado.",
+    q: "Qué estudios se hacen en la evaluación de tiroides?",
+    a: "Según el caso se solicitan perfil tiroideo completo, anticuerpos, ecografía tiroidea y, si es necesario, punción con aguja fina (PAAF) para evaluar nódulos. El objetivo es obtener un diagnóstico preciso y proponer el tratamiento adecuado.",
   },
   {
     q: "Atiende pacientes con problemas de fertilidad?",
-    a: "Si. Se evalua el componente hormonal en infertilidad, se diseñan protocolos pre-concepcionales, se trata el hipogonadismo y se optimiza el perfil hormonal para favorecer el embarazo, en conjunto con el equipo de ginecologia cuando aplica.",
+    a: "Si. Se evalua el componente hormonal en infertilidad, se diseñan protocolos pre-concepcionales, se trata el hipogonadismo y se optimiza el perfil hormonal para favorecer el embarazo, en conjunto con el equipo de ginecologia cuándo aplica.",
   },
   {
-    q: "Se atienden ninos y adolescentes?",
+    q: "Se atienden niños y adolescentes?",
     a: "Si, se evaluan talla baja, pubertad precoz o retrasada, deficiencia de hormona de crecimiento y otras alteraciones endocrinas del crecimiento y desarrollo.",
   },
   {
-    q: "Como agendo una cita?",
-    a: "La forma mas rapida es por WhatsApp al 0412-9337390. La atencion es previa cita, de lunes a viernes en Barinas, y una vez al mes en Santa Barbara de Barinas.",
+    q: "Cómo agendo una cita?",
+    a: "La forma más rápida es por WhatsApp al 0412-9337390. La atención es previa cita, de lunes a viernes en Barinas, y una vez al mes en Santa Barbara de Barinas.",
   },
   {
-    q: "Que debo llevar a la primera consulta?",
-    a: "Estudios previos de laboratorio, ecografias, listado de medicamentos actuales e informes de especialistas si los tienes. Si no cuentas con estudios recientes, se indicaran los necesarios en la consulta.",
+    q: "Qué debo llevar a la primera consulta?",
+    a: "Estudios previos de laboratorio, ecografías, listado de médicamentos actuales e informes de especialistas si los tienes. Si no cuentas con estudios recientes, se indicaran los necesarios en la consulta.",
   },
 ];
 
@@ -52,7 +52,7 @@ export default function FAQ() {
               Resolvemos tus <span className="text-dorado">dudas</span>
             </h2>
             <p className="mt-5 text-base leading-relaxed text-texto-suave">
-              Respuestas claras a las preguntas mas comunes sobre endocrinologia,
+              Respuestas claras a las preguntas más comúnes sobre endocrinología,
               diabetes, obesidad, tiroides y salud hormonal.
             </p>
             <p className="mt-4 text-sm text-texto-suave">

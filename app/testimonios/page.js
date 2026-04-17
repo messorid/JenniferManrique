@@ -4,33 +4,33 @@ import TestimonialsPage from "@/components/TestimonialsPage";
 import { SITE_URL } from "@/lib/constants";
 
 export const metadata = {
-  title: "Testimonios de Pacientes | Endocrinologa en Barinas - Dra. Jennifer Manrique",
+  title: "Testimonios de Pacientes | Endocrinóloga en Barinas - Dra. Jennifer Manrique",
   description:
-    "Opiniones y testimonios de pacientes de la Dra. Jennifer Manrique, endocrinologa en Barinas, Venezuela. Resultados reales en diabetes, tiroides, obesidad, SOP y mas.",
+    "Opiniones y testimonios de pacientes de la Dra. Jennifer Manrique, endocrinóloga en Barinas, Venezuela. Resultados reales en diabetes, tiroides, obesidad, SOP y más.",
   keywords: [
-    "testimonios endocrinologa Barinas",
-    "opiniones endocrinologo Barinas",
-    "pacientes endocrinologa Barinas Venezuela",
+    "testimonios endocrinóloga Barinas",
+    "opiniones endocrinólogo Barinas",
+    "pacientes endocrinóloga Barinas Venezuela",
     "resultados tratamiento diabetes Barinas",
     "testimonios Dra Jennifer Manrique",
-    "endocrinologa recomendada Barinas",
-    "opiniones endocrinologo Venezuela",
+    "endocrinóloga recomendada Barinas",
+    "opiniones endocrinólogo Venezuela",
     "mejores endocrinologos Barinas",
     "testimonios obesidad tratamiento Venezuela",
     "pacientes tiroides Barinas",
     "SOP tratamiento testimonios Venezuela",
     "Mounjaro resultados Venezuela",
     "Ozempic resultados Barinas",
-    "endocrinologia Barinas resenas",
+    "endocrinología Barinas resenas",
   ],
   openGraph: {
     type: "website",
     locale: "es_VE",
     url: `${SITE_URL}/testimonios`,
     title:
-      "Testimonios de Pacientes | Endocrinologa en Barinas - Dra. Jennifer Manrique",
+      "Testimonios de Pacientes | Endocrinóloga en Barinas - Dra. Jennifer Manrique",
     description:
-      "Opiniones y testimonios de pacientes reales de la Dra. Jennifer Manrique, endocrinologa especialista en Barinas, Venezuela.",
+      "Opiniones y testimonios de pacientes reales de la Dra. Jennifer Manrique, endocrinóloga especialista en Barinas, Venezuela.",
     images: [
       {
         url: `${SITE_URL}/images/dr-jennifer-hero.jpg`,
@@ -42,9 +42,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Testimonios de Pacientes | Endocrinologa en Barinas",
+    title: "Testimonios de Pacientes | Endocrinóloga en Barinas",
     description:
-      "Opiniones y testimonios de pacientes reales de la Dra. Jennifer Manrique, endocrinologa especialista en Barinas, Venezuela.",
+      "Opiniones y testimonios de pacientes reales de la Dra. Jennifer Manrique, endocrinóloga especialista en Barinas, Venezuela.",
     images: [`${SITE_URL}/images/dr-jennifer-hero.jpg`],
   },
   alternates: {

@@ -4,9 +4,9 @@ import { CONTACT } from "@/lib/constants";
 
 const quickCreds = [
   "Especialista ULA 2024",
-  "Medico Cirujano UNEFM",
-  "Formacion en HULA y Hospital Luis Razetti",
-  "Rotacion internacional CEMDI Bogota",
+  "Médico Cirujano UNEFM",
+  "Formación en HULA y Hospital Luis Razetti",
+  "Rotación internacional CEMDI Bogota",
 ];
 
 export default function About() {
@@ -20,7 +20,7 @@ export default function About() {
           <div className="relative aspect-[3/4] rounded-[2.5rem] overflow-hidden shadow-[0_20px_60px_rgba(138,114,145,0.18)]">
             <Image
               src="/images/dr-jennifer-about.jpg"
-              alt="Dra. Jennifer Manrique, Especialista en Endocrinologia"
+              alt="Dra. Jennifer Manrique, Especialista en Endocrinología"
               fill
               loading="lazy"
               sizes="(max-width: 1024px) 90vw, 540px"
@@ -30,7 +30,7 @@ export default function About() {
 
           <div className="absolute -bottom-8 left-8 right-8 lg:left-12 lg:right-12 bg-white rounded-2xl shadow-[0_20px_60px_rgba(44,37,48,0.12)] p-5 border border-malva-100">
             <p className="text-xs uppercase tracking-[0.25em] text-dorado font-semibold">
-              Mencion publicacion
+              Mencion publicación
             </p>
             <p className="mt-2 text-sm text-malva-900 font-medium leading-snug">
               Tesis sobre Vitamina D en HTA y Diabetes tipo 2, 2024
@@ -44,19 +44,19 @@ export default function About() {
           </span>
 
           <h2 className="mt-5 font-[family-name:var(--font-display)] text-3xl md:text-4xl lg:text-5xl leading-tight text-malva-900">
-            Formacion solida y enfoque integral
+            Formación solida y enfoqué integral
           </h2>
 
           <div className="mt-6 space-y-4 text-base leading-relaxed text-texto-suave">
             <p>
               La <strong className="text-malva-900">Dra. Jennifer Manrique</strong>{" "}
-              es Medico Cirujano y Especialista en Endocrinologia, formada en la
+              es Médico Cirujano y Especialista en Endocrinología, formada en la
               UNEFM y especializada en la Universidad de los Andes, con
               experiencia en hospitales reconocidos y centros especializados en
-              diabetes y tecnologia aplicada.
+              diabetes y tecnología aplicada.
             </p>
             <p>
-              Su enfoque se basa en una atencion integral: evalua cada paciente
+              Su enfoqué se basa en una atención integral: evalua cada paciente
               de manera individual para ofrecer tratamientos efectivos, seguros
               y adaptados a cada caso.
             </p>

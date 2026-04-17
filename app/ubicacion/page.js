@@ -4,23 +4,23 @@ import Link from "next/link";
 import { CONTACT, LOCATION, SITE_URL } from "@/lib/constants";
 
 export const metadata = {
-  title: "Ubicacion | Consultorio Endocrinologa en Barinas - Dra. Jennifer Manrique",
+  title: "Ubicación | Consultorio Endocrinóloga en Barinas - Dra. Jennifer Manrique",
   description:
-    "Donde queda el consultorio de la Dra. Jennifer Manrique en Barinas. Hospital Privado San Juan, Consultorio 34, Piso 2. Horario, direccion y como llegar.",
+    "Dónde queda el consultorio de la Dra. Jennifer Manrique en Barinas. Hospital Privado San Juan, Consultorio 34, Piso 2. Horario, dirección y cómo llegar.",
   keywords: [
-    "consultorio endocrinologa Barinas",
-    "donde queda endocrinologo Barinas",
+    "consultorio endocrinóloga Barinas",
+    "dónde queda endocrinólogo Barinas",
     "Hospital San Juan Barinas endocrinologo",
-    "direccion endocrinologa Barinas",
-    "como llegar endocrinologo Barinas",
+    "dirección endocrinóloga Barinas",
+    "cómo llegar endocrinólogo Barinas",
     "Dra Jennifer Manrique consultorio Barinas",
-    "ubicacion endocrinologo Barinas Venezuela",
+    "ubicación endocrinólogo Barinas Venezuela",
   ],
   openGraph: {
     type: "website",
     locale: "es_VE",
     url: `${SITE_URL}/ubicacion`,
-    title: "Ubicacion del Consultorio | Dra. Jennifer Manrique - Barinas",
+    title: "Ubicación del Consultorio | Dra. Jennifer Manrique - Barinas",
     description:
       "Hospital Privado San Juan, Consultorio 34, Piso 2, Barinas. Lunes a viernes previa cita.",
     images: [{ url: `${SITE_URL}/images/dr-jennifer-hero.jpg`, width: 1200, height: 630, alt: "Consultorio Dra. Jennifer Manrique Barinas" }],
@@ -33,14 +33,14 @@ const breadcrumbSchema = {
   "@type": "BreadcrumbList",
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "Inicio", item: SITE_URL },
-    { "@type": "ListItem", position: 2, name: "Ubicacion", item: `${SITE_URL}/ubicacion` },
+    { "@type": "ListItem", position: 2, name: "Ubicación", item: `${SITE_URL}/ubicacion` },
   ],
 };
 
 const localBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "MedicalClinic",
-  name: "Dra. Jennifer Manrique - Endocrinologa en Barinas",
+  name: "Dra. Jennifer Manrique - Endocrinóloga en Barinas",
   url: SITE_URL,
   telephone: "+58-412-9337390",
   image: `${SITE_URL}/images/dr-jennifer-hero.jpg`,
@@ -63,7 +63,7 @@ const localBusinessSchema = {
   hasMap: "https://maps.google.com/?cid=17071225739697038960",
 };
 
-export default function UbicacionPage() {
+export default function UbicaciónPage() {
   return (
     <>
       <Header />
@@ -72,16 +72,16 @@ export default function UbicacionPage() {
         <section className="relative pt-36 pb-16 md:pt-44 md:pb-20 overflow-hidden bg-gradient-to-b from-malva-50 via-white to-white">
           <div className="absolute -top-40 -right-40 w-[520px] h-[520px] rounded-full bg-malva-200/40 blur-3xl pointer-events-none" />
           <div className="container-page relative max-w-3xl mx-auto text-center">
-            <nav aria-label="Ruta de navegacion" className="mb-6">
+            <nav aria-label="Ruta de navegación" className="mb-6">
               <ol className="flex justify-center flex-wrap gap-x-2 text-xs text-texto-suave">
                 <li><Link href="/" className="hover:text-dorado transition-colors">Inicio</Link></li>
                 <li aria-hidden="true">/</li>
-                <li className="text-malva-900 font-medium" aria-current="page">Ubicacion</li>
+                <li className="text-malva-900 font-medium" aria-current="page">Ubicación</li>
               </ol>
             </nav>
             <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-malva-100 text-malva-800 text-xs font-semibold uppercase tracking-[0.2em]">
               <span className="w-1.5 h-1.5 rounded-full bg-dorado" />
-              Como llegar
+              Cómo llegar
             </span>
             <h1 className="mt-6 font-[family-name:var(--font-display)] text-4xl md:text-5xl lg:text-6xl leading-[1.08] text-malva-900">
               Consultorio en{" "}
@@ -89,7 +89,7 @@ export default function UbicacionPage() {
             </h1>
             <p className="mt-5 text-base md:text-lg leading-relaxed text-texto-suave max-w-xl mx-auto">
               Hospital Privado San Juan, Consultorio 34, Piso 2, Barinas.
-              Atencion de lunes a viernes previa cita.
+              Atención de lunes a viernes previa cita.
             </p>
           </div>
         </section>
@@ -123,7 +123,7 @@ export default function UbicacionPage() {
                     {[
                       {
                         icon: "pin",
-                        label: "Direccion",
+                        label: "Dirección",
                         value: `${LOCATION.name}, ${LOCATION.detail}, ${LOCATION.city}`,
                       },
                       {
@@ -170,7 +170,7 @@ export default function UbicacionPage() {
                     Santa Barbara de Barinas
                   </h2>
                   <p className="mt-2 text-sm text-texto-suave leading-relaxed">
-                    Consulta mensual disponible. Fecha confirmada por WhatsApp con anticipacion.
+                    Consulta mensual disponible. Fecha confirmada por WhatsApp con anticipación.
                   </p>
                   <Link
                     href={CONTACT.whatsappMessage}
@@ -178,7 +178,7 @@ export default function UbicacionPage() {
                     rel="noopener noreferrer"
                     className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-malva-700 hover:text-dorado-dark transition-colors"
                   >
-                    Consultar proxima fecha →
+                    Consultar próxima fecha →
                   </Link>
                 </div>
               </div>
@@ -186,17 +186,17 @@ export default function UbicacionPage() {
           </div>
         </section>
 
-        {/* Como llegar */}
+        {/* Cómo llegar */}
         <section className="py-12 md:py-16 bg-malva-50">
           <div className="container-page max-w-3xl mx-auto">
             <h2 className="font-[family-name:var(--font-display)] text-2xl md:text-3xl text-malva-900 text-center mb-8">
-              Como llegar al consultorio
+              Cómo llegar al consultorio
             </h2>
             <div className="grid gap-4 sm:grid-cols-3">
               {[
-                { icon: "car", title: "En vehiculo", desc: "El Hospital Privado San Juan se encuentra en una zona de facil acceso en Barinas. Hay estacionamiento disponible." },
+                { icon: "car", title: "En vehiculo", desc: "El Hospital Privado San Juan se encuentra en una zona de fácil acceso en Barinas. Hay estacionamiento disponible." },
                 { icon: "walk", title: "Referencia", desc: "Consultorio 34, Piso 2. Al entrar al hospital, dirígete al segundo piso y busca el consultorio 34." },
-                { icon: "map", title: "Google Maps", desc: "Busca 'Dra. Jennifer Manrique Endocrinologa Barinas' en Google Maps para obtener indicaciones desde tu ubicacion." },
+                { icon: "map", title: "Google Maps", desc: "Busca 'Dra. Jennifer Manrique Endocrinóloga Barinas' en Google Maps para obtener indicaciónes desde tu ubicación." },
               ].map((item) => (
                 <div key={item.title} className="p-5 rounded-2xl bg-white border border-malva-100 shadow-[0_4px_20px_rgba(44,37,48,0.04)]">
                   <span className="inline-flex w-9 h-9 rounded-xl bg-dorado/10 items-center justify-center text-dorado-dark mb-3">

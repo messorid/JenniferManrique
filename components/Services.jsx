@@ -5,12 +5,12 @@ const services = [
   {
     slug: "diabetes",
     icon: "diabetes",
-    title: "Diabetes y Tecnologia Aplicada",
+    title: "Diabetes y Tecnología Aplicada",
     items: [
       "Diabetes tipo 1, tipo 2 y gestacional",
       "Control y seguimiento personalizado",
       "Monitores continuos de glucosa",
-      "Ajustes con tecnologia avanzada",
+      "Ajustes con tecnología avanzada",
     ],
   },
   {
@@ -19,7 +19,7 @@ const services = [
     title: "Manejo de Obesidad y Metabolismo",
     items: [
       "Causas hormonales del sobrepeso",
-      "Tratamientos medicos para perdida de peso",
+      "Tratamientos médicos para pérdida de peso",
       "Terapias GLP-1 (Ozempic, Mounjaro)",
       "Colesterol, trigliceridos y resistencia a la insulina",
     ],
@@ -30,9 +30,9 @@ const services = [
     title: "Patologias Tiroideas",
     items: [
       "Hipotiroidismo e hipertiroidismo",
-      "Evaluacion de nodulos tiroideos",
-      "Ecografia tiroidea",
-      "Puncion de tiroides (PAAF)",
+      "Evaluación de nódulos tiroideos",
+      "Ecografía tiroidea",
+      "Punción de tiroides (PAAF)",
     ],
   },
   {
@@ -40,10 +40,10 @@ const services = [
     icon: "hormone",
     title: "Salud Hormonal",
     items: [
-      "Sindrome de ovario poliquistico (SOP)",
+      "Síndrome de ovario poliquístico (SOP)",
       "Trastornos hormonales en hombres y mujeres",
       "Menopausia y andropausia",
-      "Hipofisis y glandulas suprarrenales",
+      "Hipófisis y glándulas suprarrenales",
     ],
   },
   {
@@ -51,7 +51,7 @@ const services = [
     icon: "fertility",
     title: "Fertilidad y Salud Reproductiva",
     items: [
-      "Evaluacion hormonal para infertilidad",
+      "Evaluación hormonal para infertilidad",
       "Protocolos pre-concepcionales",
       "Tratamiento de hipogonadismo",
       "Optimizacion hormonal para embarazo",
@@ -62,7 +62,7 @@ const services = [
     icon: "growth",
     title: "Crecimiento y Desarrollo",
     items: [
-      "Evaluacion de talla baja",
+      "Evaluación de talla baja",
       "Pubertad precoz o retrasada",
       "Deficiencia de hormona de crecimiento",
       "Seguimiento pediatrico endocrino",
@@ -71,10 +71,10 @@ const services = [
 ];
 
 const reasons = [
-  "Atencion personalizada",
+  "Atención personalizada",
   "Tratamientos actualizados y basados en evidencia",
-  "Uso de tecnologia avanzada",
-  "Enfoque integral en cada paciente",
+  "Uso de tecnología avanzada",
+  "Enfoqué integral en cada paciente",
   "Experiencia en centros especializados",
 ];
 
@@ -90,10 +90,10 @@ export default function Services() {
             Servicios especializados
           </span>
           <h2 className="mt-5 font-[family-name:var(--font-display)] text-3xl md:text-4xl lg:text-5xl leading-tight text-malva-900">
-            Atencion endocrinologica <span className="text-dorado">integral</span>
+            Atención endocrinológica <span className="text-dorado">integral</span>
           </h2>
           <p className="mt-5 text-base md:text-lg leading-relaxed text-texto-suave">
-            Evaluacion completa y tratamientos adaptados para diabetes, obesidad,
+            Evaluación completa y tratamientos adaptados para diabetes, obesidad,
             tiroides, salud hormonal, fertilidad y crecimiento.
           </p>
         </div>
@@ -136,7 +136,7 @@ export default function Services() {
           </div>
 
           <p className="mt-3 text-center text-xs text-texto-suave lg:hidden">
-            Desliza para ver mas servicios
+            Desliza para ver más servicios
           </p>
         </div>
 
@@ -144,7 +144,7 @@ export default function Services() {
           <div className="grid gap-10 lg:grid-cols-[1fr_auto] lg:items-center">
             <div>
               <span className="text-xs font-semibold uppercase tracking-[0.25em] text-dorado">
-                Por que elegirnos
+                Por qué elegirnos
               </span>
               <h3 className="mt-3 font-[family-name:var(--font-display)] text-2xl md:text-3xl text-malva-900 leading-tight">
                 Una experiencia de consulta distinta

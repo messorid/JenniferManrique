@@ -4,9 +4,9 @@ import { CONTACT } from "@/lib/constants";
 
 const stats = [
   { value: "2024", label: "Especialista ULA" },
-  { value: "5+", label: "Trabajos de investigacion" },
+  { value: "5+", label: "Trabajos de investigación" },
   { value: "6", label: "Areas de especialidad" },
-  { value: "2", label: "Sedes de atencion" },
+  { value: "2", label: "Sedes de atención" },
 ];
 
 export default function AboutIntro() {
@@ -19,7 +19,7 @@ export default function AboutIntro() {
         <div className="[animation:var(--animate-slide-up)]">
           <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-malva-100 text-malva-800 text-xs font-semibold uppercase tracking-[0.2em]">
             <span className="w-1.5 h-1.5 rounded-full bg-dorado" />
-            Endocrinologa en Barinas
+            Endocrinóloga en Barinas
           </span>
 
           <h1 className="mt-6 font-[family-name:var(--font-display)] text-4xl md:text-5xl lg:text-6xl leading-[1.08] text-malva-900">
@@ -28,22 +28,22 @@ export default function AboutIntro() {
           </h1>
 
           <p className="mt-2 text-lg md:text-xl text-malva-700 font-medium">
-            Medico Cirujano y Especialista en Endocrinologia
+            Médico Cirujano y Especialista en Endocrinología
           </p>
 
           <div className="mt-6 space-y-4 text-base leading-relaxed text-texto-suave">
             <p>
-              La Dra. Jennifer Manrique es Medico Cirujano y Especialista en
-              Endocrinologia, con formacion en la Universidad Nacional
+              La Dra. Jennifer Manrique es Médico Cirujano y Especialista en
+              Endocrinología, con formación en la Universidad Nacional
               Experimental Francisco de Miranda y especializacion de cuatro
-              anos en la Universidad de los Andes, Merida.
+              años en la Universidad de los Andes, Merida.
             </p>
             <p>
-              Cuenta con experiencia en centros de referencia nacional como el
+              Cuenta con experiencia en centros de referencia naciónal cómo el
               Hospital Universitario de los Andes y el Hospital Dr. Luis
-              Razetti, ademas de una rotacion internacional en el CEMDI de
-              Bogota. Ha participado activamente en congresos nacionales e
-              internacionales de endocrinologia.
+              Razetti, además de una rotación internacional en el CEMDI de
+              Bogota. Ha participado activamente en congresos naciónales e
+              internacionales de endocrinología.
             </p>
           </div>
 
@@ -86,7 +86,7 @@ export default function AboutIntro() {
           <div className="relative aspect-[3/4] rounded-[2.5rem] overflow-hidden shadow-[0_20px_60px_rgba(138,114,145,0.18)]">
             <Image
               src="/images/OZR_7464 (1).jpg"
-              alt="Dra. Jennifer Manrique, Endocrinologa en Barinas"
+              alt="Dra. Jennifer Manrique, Endocrinóloga en Barinas"
               fill
               priority
               sizes="(max-width: 1024px) 90vw, 540px"

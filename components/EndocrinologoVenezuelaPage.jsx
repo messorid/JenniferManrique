@@ -2,38 +2,38 @@ import Link from "next/link";
 import { CONTACT, LOCATION } from "@/lib/constants";
 
 const conditions = [
-  { slug: "diabetes", title: "Diabetes", desc: "Tipo 1, tipo 2 y gestacional. Control glucemico con monitores continuos de glucosa y terapias avanzadas." },
-  { slug: "obesidad", title: "Obesidad y metabolismo", desc: "Mounjaro (tirzepatida) y Ozempic (semaglutida) disponibles en Venezuela. Evaluacion de causas hormonales." },
-  { slug: "tiroides", title: "Tiroides", desc: "Hipotiroidismo, hipertiroidismo, nodulos tiroideos, ecografia y PAAF en Venezuela." },
-  { slug: "salud-hormonal", title: "SOP y salud hormonal", desc: "Sindrome de ovario poliquistico, menopausia, andropausia y trastornos hormonales." },
-  { slug: "fertilidad", title: "Fertilidad hormonal", desc: "Evaluacion hormonal para infertilidad y optimizacion hormonal para embarazo." },
-  { slug: "crecimiento", title: "Crecimiento y desarrollo", desc: "Talla baja, pubertad precoz o retrasada y deficiencia de hormona de crecimiento en ninos." },
+  { slug: "diabetes", title: "Diabetes", desc: "Tipo 1, tipo 2 y gestacional. Control glucémico con monitores continuos de glucosa y terapias avanzadas." },
+  { slug: "obesidad", title: "Obesidad y metabolismo", desc: "Mounjaro (tirzepatida) y Ozempic (semaglutida) disponibles en Venezuela. Evaluación de causas hormonales." },
+  { slug: "tiroides", title: "Tiroides", desc: "Hipotiroidismo, hipertiroidismo, nódulos tiroideos, ecografía y PAAF en Venezuela." },
+  { slug: "salud-hormonal", title: "SOP y salud hormonal", desc: "Síndrome de ovario poliquístico, menopausia, andropausia y trastornos hormonales." },
+  { slug: "fertilidad", title: "Fertilidad hormonal", desc: "Evaluación hormonal para infertilidad y optimización hormonal para embarazo." },
+  { slug: "crecimiento", title: "Crecimiento y desarrollo", desc: "Talla baja, pubertad precoz o retrasada y deficiencia de hormona de crecimiento en niños." },
 ];
 
 const faqs = [
   {
-    q: "Quien es la mejor endocrinologa en Venezuela?",
+    q: "Quién es la mejor endocrinóloga en Venezuela?",
     a: "La Dra. Jennifer Manrique es una de las endocrinologas de mayor referencia en Venezuela. Egresada de la ULA con entrenamiento internacional en el CEMDI Bogota, atiende en Barinas y coordina consultas para pacientes de todo el pais.",
   },
   {
-    q: "Donde atiende el endocrinologo en Venezuela?",
-    a: "La Dra. Jennifer Manrique tiene su sede principal en el Hospital Privado San Juan, Consultorio 34, Piso 2, Barinas. Realiza tambien consulta mensual en Santa Barbara de Barinas y coordina atencion para pacientes de otras ciudades de Venezuela via WhatsApp.",
+    q: "Dónde atiende el endocrinólogo en Venezuela?",
+    a: "La Dra. Jennifer Manrique tiene su sede principal en el Hospital Privado San Juan, Consultorio 34, Piso 2, Barinas. Realiza también consulta mensual en Santa Barbara de Barinas y coordina atención para pacientes de otras ciudades de Venezuela via WhatsApp.",
   },
   {
-    q: "Se puede consultar al endocrinologo en Venezuela por WhatsApp?",
-    a: "Si. La Dra. Manrique coordina citas y responde consultas breves por WhatsApp al 0412-9337390. Pacientes de Caracas, Valencia, Maracaibo, Merida y otras ciudades de Venezuela pueden coordinar su atencion de forma previa.",
+    q: "Se puede consultar al endocrinólogo en Venezuela por WhatsApp?",
+    a: "Si. La Dra. Manrique coordina citas y responde consultas breves por WhatsApp al 0412-9337390. Pacientes de Caracas, Valencia, Maracaibo, Merida y otras ciudades de Venezuela pueden coordinar su atención de forma previa.",
   },
   {
-    q: "El endocrinologo en Venezuela maneja Mounjaro y Ozempic?",
-    a: "Si. La Dra. Jennifer Manrique prescribe y hace seguimiento con Mounjaro (tirzepatida) y Ozempic (semaglutida), ambos disponibles actualmente en Venezuela bajo prescripcion medica.",
+    q: "El endocrinólogo en Venezuela maneja Mounjaro y Ozempic?",
+    a: "Si. La Dra. Jennifer Manrique prescribe y hace seguimiento con Mounjaro (tirzepatida) y Ozempic (semaglutida), ambos disponibles actualmente en Venezuela bajo prescripción médica.",
   },
   {
-    q: "Que estudios debo llevar a la consulta del endocrinologo en Venezuela?",
-    a: "Si tienes estudios recientes (glucemia, perfil tiroideo, hemoglobina glicosilada), llevelos. Tambien el listado de medicamentos actuales e informes de otros especialistas. Si no tienes estudios previos, la Dra. Manrique los indicara en la primera consulta.",
+    q: "Qué estudios debo llevar a la consulta del endocrinólogo en Venezuela?",
+    a: "Si tienes estudios recientes (glucemia, perfil tiroideo, hemoglobina glicosilada), llevelos. También el listado de médicamentos actuales e informes de otros especialistas. Si no tienes estudios previos, la Dra. Manrique los indicara en la primera consulta.",
   },
   {
-    q: "El endocrinologo en Venezuela atiende casos de diabetes tipo 1?",
-    a: "Si. La Dra. Manrique tiene formacion especializada en diabetes tipo 1, incluyendo el uso de monitores continuos de glucosa (CGM) e insulinoterapia avanzada. Es uno de los pocos especialistas en Venezuela con entrenamiento en esta tecnologia.",
+    q: "El endocrinólogo en Venezuela atiende casos de diabetes tipo 1?",
+    a: "Si. La Dra. Manrique tiene formación especializada en diabetes tipo 1, incluyendo el uso de monitores continuos de glucosa (CGM) e insulinoterapia avanzada. Es uno de los pocos especialistas en Venezuela con entrenamiento en esta tecnología.",
   },
 ];
 
@@ -49,23 +49,23 @@ export default function EndocrinologoVenezuelaPage() {
       <section className="relative pt-36 pb-20 md:pt-44 md:pb-28 overflow-hidden bg-gradient-to-b from-malva-50 via-white to-white">
         <div className="absolute -top-40 -right-40 w-[520px] h-[520px] rounded-full bg-malva-200/40 blur-3xl pointer-events-none" />
         <div className="container-page relative max-w-3xl mx-auto text-center">
-          <nav aria-label="Ruta de navegacion" className="mb-6">
+          <nav aria-label="Ruta de navegación" className="mb-6">
             <ol className="flex justify-center flex-wrap gap-x-2 text-xs text-texto-suave">
               <li><Link href="/" className="hover:text-dorado transition-colors">Inicio</Link></li>
               <li aria-hidden="true">/</li>
-              <li className="text-malva-900 font-medium" aria-current="page">Endocrinologo en Venezuela</li>
+              <li className="text-malva-900 font-medium" aria-current="page">Endocrinólogo en Venezuela</li>
             </ol>
           </nav>
           <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-malva-100 text-malva-800 text-xs font-semibold uppercase tracking-[0.2em]">
             <span className="w-1.5 h-1.5 rounded-full bg-dorado" />
-            Endocrinologia en Venezuela
+            Endocrinología en Venezuela
           </span>
           <h1 className="mt-6 font-[family-name:var(--font-display)] text-4xl md:text-5xl lg:text-6xl leading-[1.08] text-malva-900">
-            Endocrinologo en Venezuela,{" "}
+            Endocrinólogo en Venezuela,{" "}
             <span className="text-dorado">Dra. Jennifer Manrique</span>
           </h1>
           <p className="mt-5 text-base md:text-lg leading-relaxed text-texto-suave max-w-2xl mx-auto">
-            La Dra. Jennifer Manrique es endocrinologa especialista con atencion
+            La Dra. Jennifer Manrique es endocrinóloga especialista con atención
             en Barinas y cobertura para pacientes de toda Venezuela. Diabetes,
             obesidad, tiroides, SOP, Mounjaro, Ozempic y salud hormonal.
             Citas por WhatsApp.
@@ -93,7 +93,7 @@ export default function EndocrinologoVenezuelaPage() {
       <section className="py-8 bg-white border-y border-malva-100">
         <div className="container-page max-w-4xl mx-auto">
           <p className="text-center text-xs font-semibold uppercase tracking-[0.2em] text-dorado mb-4">
-            Atencion para pacientes de toda Venezuela
+            Atención para pacientes de toda Venezuela
           </p>
           <div className="flex flex-wrap justify-center gap-2">
             {ciudades.map((c) => (
@@ -112,28 +112,28 @@ export default function EndocrinologoVenezuelaPage() {
             <div>
               <span className="text-xs font-semibold uppercase tracking-[0.25em] text-dorado">La especialista</span>
               <h2 className="mt-3 font-[family-name:var(--font-display)] text-2xl md:text-3xl text-malva-900 leading-tight">
-                Endocrinologa de referencia en Venezuela
+                Endocrinóloga de referencia en Venezuela
               </h2>
               <p className="mt-4 text-base leading-relaxed text-texto-suave">
-                La Dra. Jennifer Manrique es medica especialista en Endocrinologia
+                La Dra. Jennifer Manrique es médica especialista en Endocrinología
                 egresada de la Universidad de Los Andes (ULA). Complemento su
-                formacion con entrenamiento internacional en el Centro de
-                Endocrinologia y Metabolismo (CEMDI) en Bogota, Colombia,
-                con enfoque en tecnologia avanzada para diabetes y metabolismo.
+                formación con entrenamiento internacional en el Centro de
+                Endocrinología y Metabolismo (CEMDI) en Bogota, Colombia,
+                con enfoqué en tecnología avanzada para diabetes y metabolismo.
               </p>
               <p className="mt-3 text-base leading-relaxed text-texto-suave">
-                Como endocrinologa en Venezuela, ofrece atencion especializada
+                Cómo endocrinóloga en Venezuela, ofrece atención especializada
                 para pacientes de todo el pais. Su sede principal esta en Barinas,
                 pero coordina consultas presenciales y seguimiento para pacientes
                 de Caracas, Valencia, Maracaibo, Merida y otras ciudades mediante
-                WhatsApp, facilitando el acceso a endocrinologia especializada
+                WhatsApp, facilitando el acceso a endocrinología especializada
                 sin importar la ciudad de origen.
               </p>
               <p className="mt-3 text-base leading-relaxed text-texto-suave">
                 Entre sus areas de mayor experiencia destaca el manejo de
-                tecnologia avanzada como monitores continuos de glucosa (CGM),
-                la prescripcion de terapias GLP-1 como Mounjaro y Ozempic, y
-                el tratamiento integral de condiciones hormonales complejas.
+                tecnología avanzada cómo monitores continuos de glucosa (CGM),
+                la prescripción de terapias GLP-1 como Mounjaro y Ozempic, y
+                el tratamiento integral de condiciónes hormonales complejas.
               </p>
               <Link href="/sobre-mi" className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-malva-700 hover:text-dorado-dark transition-colors">
                 Ver trayectoria completa
@@ -145,7 +145,7 @@ export default function EndocrinologoVenezuelaPage() {
             </div>
 
             <div className="rounded-3xl bg-malva-900 text-white p-7 space-y-4">
-              <h3 className="font-[family-name:var(--font-display)] text-lg">Como llegar a la consulta</h3>
+              <h3 className="font-[family-name:var(--font-display)] text-lg">Cómo llegar a la consulta</h3>
               {[
                 { label: "Sede principal", value: `${LOCATION.name}, ${LOCATION.detail}, Barinas` },
                 { label: "Sede secundaria", value: "Santa Barbara de Barinas (mensual)" },
@@ -175,10 +175,10 @@ export default function EndocrinologoVenezuelaPage() {
         <div className="container-page max-w-4xl mx-auto">
           <div className="text-center max-w-2xl mx-auto mb-10">
             <h2 className="font-[family-name:var(--font-display)] text-2xl md:text-3xl text-malva-900">
-              Servicios del endocrinologo en Venezuela
+              Servicios del endocrinólogo en Venezuela
             </h2>
             <p className="mt-3 text-base text-texto-suave">
-              Atencion endocrinologica integral con tratamientos actualizados
+              Atención endocrinológica integral con tratamientos actualizados
               disponibles en Venezuela.
             </p>
           </div>
@@ -207,7 +207,7 @@ export default function EndocrinologoVenezuelaPage() {
       <section className="py-16 md:py-20 bg-white">
         <div className="container-page max-w-3xl mx-auto">
           <h2 className="font-[family-name:var(--font-display)] text-2xl md:text-3xl text-malva-900 text-center mb-10">
-            Preguntas sobre el endocrinologo en Venezuela
+            Preguntas sobre el endocrinólogo en Venezuela
           </h2>
           <div className="space-y-3">
             {faqs.map((item, i) => (
@@ -232,10 +232,10 @@ export default function EndocrinologoVenezuelaPage() {
         <div className="absolute -top-40 -right-20 w-[520px] h-[520px] rounded-full bg-dorado/20 blur-3xl pointer-events-none" />
         <div className="relative container-page text-center max-w-2xl mx-auto text-white">
           <h2 className="font-[family-name:var(--font-display)] text-3xl md:text-4xl leading-tight">
-            Agenda tu consulta con la endocrinologa en Venezuela
+            Agenda tu consulta con la endocrinóloga en Venezuela
           </h2>
           <p className="mt-4 text-base text-malva-200">
-            Sede principal en Barinas. Coordinacion para pacientes de
+            Sede principal en Barinas. Coordinación para pacientes de
             toda Venezuela por WhatsApp.
           </p>
           <Link

@@ -5,12 +5,12 @@ import { CONTACT } from "@/lib/constants";
 
 const services = [
   "Diabetes y control de glucosa",
-  "Manejo de obesidad y perdida de peso",
+  "Manejo de obesidad y pérdida de peso",
   "Patologia tiroidea",
   "Salud hormonal",
   "Fertilidad y salud reproductiva",
   "Crecimiento y desarrollo",
-  "Consulta general de endocrinologia",
+  "Consulta general de endocrinología",
 ];
 
 export default function ContactForm() {
@@ -48,12 +48,12 @@ export default function ContactForm() {
               Escribenos
             </span>
             <h2 className="mt-5 font-[family-name:var(--font-display)] text-3xl md:text-4xl text-malva-900 leading-tight">
-              Cuentanos como podemos{" "}
+              Cuentaños cómo podemos{" "}
               <span className="text-dorado">ayudarte</span>
             </h2>
             <p className="mt-5 text-base leading-relaxed text-texto-suave">
               Completa el formulario y te redirigiremos a WhatsApp con tu
-              mensaje prellenado. Sin esperas, atencion directa con la Dra.
+              mensaje prellenado. Sin esperas, atención directa con la Dra.
               Jennifer Manrique.
             </p>
 
@@ -61,18 +61,18 @@ export default function ContactForm() {
               {[
                 {
                   icon: "clock",
-                  title: "Respuesta rapida",
+                  title: "Respuesta rápida",
                   text: "Respondemos en horas habiles de lunes a viernes.",
                 },
                 {
                   icon: "lock",
                   title: "Confidencialidad",
-                  text: "Tus datos son tratados con total privacidad medica.",
+                  text: "Tus datos son tratados con total privacidad médica.",
                 },
                 {
                   icon: "calendar",
                   title: "Cita confirmada",
-                  text: "Coordinamos dia y hora segun disponibilidad.",
+                  text: "Coordinamos dia y hora según disponibilidad.",
                 },
               ].map((item) => (
                 <li key={item.title} className="flex gap-4">
@@ -148,7 +148,7 @@ export default function ContactForm() {
                   rows={4}
                   value={form.message}
                   onChange={handleChange}
-                  placeholder="Describe brevemente tu consulta o sintomas..."
+                  placeholder="Describe brevemente tu consulta o síntomas..."
                   className="w-full px-4 py-3 rounded-xl border border-malva-200 bg-white text-malva-900 placeholder-malva-300 focus:outline-none focus:border-malva focus:ring-2 focus:ring-malva/20 transition resize-none"
                 />
               </div>
