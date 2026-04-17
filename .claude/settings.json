@@ -15,7 +15,8 @@
       "Bash(node fix_tildes.js)",
       "Bash(node fix_tildes2.js)",
       "Bash(grep -v \"function\\\\|const \\\\|let \\\\|var \\\\|return\\\\|=>\\\\\\\\|{\")",
-      "Bash(node fix_tildes3.js)"
+      "Bash(node fix_tildes3.js)",
+      "Read(//c/Users/Daniel/.claude/projects/c--Users-Daniel-Documents-projects-jennifer/memory/**)"
     ]
   }
 }
