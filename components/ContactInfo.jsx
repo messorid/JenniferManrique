@@ -195,6 +195,19 @@ export default function ContactInfo() {
               </div>
             </article>
 
+            <div className="lg:col-span-5 mt-4 rounded-3xl overflow-hidden shadow-[0_4px_20px_rgba(44,37,48,0.08)] border border-malva-100">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.6918006936403!2d-70.21492992431106!3d8.62555759517227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e7b59d9ffb32035%3A0xecc71ae0ee23d270!2sDra.%20Jennifer%20Manrique-%20Endocrin%C3%B3logo%20en%20Barinas!5e0!3m2!1ses-419!2sus!4v1776438575514!5m2!1ses-419!2sus"
+                width="100%"
+                height="400"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Consultorio Dra. Jennifer Manrique - Hospital Privado San Juan, Barinas"
+              />
+            </div>
+
             <article className="lg:col-span-2 rounded-3xl bg-white border border-malva-100 p-8 md:p-10 flex flex-col shadow-[0_4px_20px_rgba(44,37,48,0.05)]">
               <span className="inline-flex items-center gap-2 text-xs uppercase tracking-[0.25em] text-dorado-dark font-semibold">
                 Sede secundaria
