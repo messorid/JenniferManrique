@@ -9,9 +9,9 @@ import { SITE_URL } from "@/lib/constants";
 export const metadata = {
   title: "Sobre la Dra. Jennifer Manrique | Endocrinóloga en Barinas",
   description:
-    "Conoce la formación, trayectoria y enfoqué médico de la Dra. Jennifer Manrique, Especialista en Endocrinología graduada en la ULA con experiencia en HULA, Luis Razetti y rotación internacional en CEMDI Bogota.",
+    "Conoce la formación, trayectoria y enfoque médico de la Dra. Jennifer Manrique, Especialista en Endocrinología graduada en la ULA con experiencia en HULA, Luis Razetti y rotación internacional en CEMDI Bogotá.",
   keywords: [
-    "Dra Jennifer Manrique endocrinologa",
+    "Dra Jennifer Manrique endocrinóloga",
     "endocrinóloga formación ULA",
     "especialista endocrinología Barinas",
     "médico endocrinóloga Venezuela",
@@ -23,7 +23,7 @@ export const metadata = {
     url: `${SITE_URL}/sobre-mi`,
     title: "Sobre la Dra. Jennifer Manrique | Endocrinóloga en Barinas",
     description:
-      "Formación, trayectoria y enfoqué médico de la Dra. Jennifer Manrique, Especialista en Endocrinología.",
+      "Formación, trayectoria y enfoque médico de la Dra. Jennifer Manrique, Especialista en Endocrinología.",
     images: [
       {
         url: "/images/dr-jennifer-about.jpg",

@@ -6,7 +6,7 @@ const quickCreds = [
   "Especialista ULA 2024",
   "Médico Cirujano UNEFM",
   "Formación en HULA y Hospital Luis Razetti",
-  "Rotación internacional CEMDI Bogota",
+  "Rotación internacional CEMDI Bogotá",
 ];
 
 export default function About() {
@@ -30,7 +30,7 @@ export default function About() {
 
           <div className="absolute -bottom-8 left-8 right-8 lg:left-12 lg:right-12 bg-white rounded-2xl shadow-[0_20px_60px_rgba(44,37,48,0.12)] p-5 border border-malva-100">
             <p className="text-xs uppercase tracking-[0.25em] text-dorado font-semibold">
-              Mencion publicación
+              Mención publicación
             </p>
             <p className="mt-2 text-sm text-malva-900 font-medium leading-snug">
               Tesis sobre Vitamina D en HTA y Diabetes tipo 2, 2024
@@ -44,7 +44,7 @@ export default function About() {
           </span>
 
           <h2 className="mt-5 font-[family-name:var(--font-display)] text-3xl md:text-4xl lg:text-5xl leading-tight text-malva-900">
-            Formación solida y enfoqué integral
+            Formación sólida y enfoque integral
           </h2>
 
           <div className="mt-6 space-y-4 text-base leading-relaxed text-texto-suave">
@@ -56,7 +56,7 @@ export default function About() {
               diabetes y tecnología aplicada.
             </p>
             <p>
-              Su enfoqué se basa en una atención integral: evalua cada paciente
+              Su enfoque se basa en una atención integral: evalúa cada paciente
               de manera individual para ofrecer tratamientos efectivos, seguros
               y adaptados a cada caso.
             </p>

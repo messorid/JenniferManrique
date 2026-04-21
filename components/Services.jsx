@@ -21,13 +21,13 @@ const services = [
       "Causas hormonales del sobrepeso",
       "Tratamientos médicos para pérdida de peso",
       "Terapias GLP-1 (Ozempic, Mounjaro)",
-      "Colesterol, trigliceridos y resistencia a la insulina",
+      "Colesterol, triglicéridos y resistencia a la insulina",
     ],
   },
   {
     slug: "tiroides",
     icon: "thyroid",
-    title: "Patologias Tiroideas",
+    title: "Patologías Tiroideas",
     items: [
       "Hipotiroidismo e hipertiroidismo",
       "Evaluación de nódulos tiroideos",
@@ -54,7 +54,7 @@ const services = [
       "Evaluación hormonal para infertilidad",
       "Protocolos pre-concepcionales",
       "Tratamiento de hipogonadismo",
-      "Optimizacion hormonal para embarazo",
+      "Optimización hormonal para embarazo",
     ],
   },
   {
@@ -65,7 +65,7 @@ const services = [
       "Evaluación de talla baja",
       "Pubertad precoz o retrasada",
       "Deficiencia de hormona de crecimiento",
-      "Seguimiento pediatrico endocrino",
+      "Seguimiento pediátrico endocrino",
     ],
   },
 ];
@@ -74,7 +74,7 @@ const reasons = [
   "Atención personalizada",
   "Tratamientos actualizados y basados en evidencia",
   "Uso de tecnología avanzada",
-  "Enfoqué integral en cada paciente",
+  "Enfoque integral en cada paciente",
   "Experiencia en centros especializados",
 ];
 
@@ -125,7 +125,7 @@ export default function Services() {
                 href={`/servicios/${s.slug}`}
                 className="mt-5 inline-flex items-center gap-1 text-sm font-semibold text-malva-700 group-hover:text-dorado-dark transition-colors"
               >
-                Ver mas
+                Ver más
                 <svg viewBox="0 0 24 24" className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                   <line x1="5" y1="12" x2="19" y2="12" />
                   <polyline points="12 5 19 12 12 19" />

@@ -48,7 +48,7 @@ export default function CTAFinal() {
         <div className="mt-12 grid gap-6 sm:grid-cols-3 text-left sm:text-center">
           <div>
             <p className="text-xs uppercase tracking-[0.25em] text-dorado">
-              Telefono
+              Teléfono
             </p>
             <p className="mt-1 text-sm font-medium text-white">
               {CONTACT.phone}

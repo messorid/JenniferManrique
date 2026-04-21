@@ -3,11 +3,11 @@ import { CONTACT, LOCATION } from "@/lib/constants";
 
 export default function Cities() {
   return (
-    <section id="ubicación" className="relative py-24 md:py-32 bg-white">
+    <section id="ubicacion" className="relative py-24 md:py-32 bg-white">
       <div className="container-page">
         <div className="max-w-2xl mx-auto text-center">
           <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-dorado/15 text-dorado-dark text-xs font-semibold uppercase tracking-[0.2em]">
-            Ciudades dónde atiende
+            Ciudades donde atiende
           </span>
           <h2 className="mt-5 font-[family-name:var(--font-display)] text-3xl md:text-4xl lg:text-5xl leading-tight text-malva-900">
             Consulta endocrinológica en <span className="text-dorado">Barinas</span>
@@ -120,7 +120,7 @@ export default function Cities() {
             <ul className="mt-6 space-y-3 text-sm text-malva-900">
               <li className="flex items-start gap-2">
                 <span className="shrink-0 mt-1 w-1.5 h-1.5 rounded-full bg-dorado" />
-                Agenda con antelacion recomendada
+                Agenda con antelación recomendada
               </li>
               <li className="flex items-start gap-2">
                 <span className="shrink-0 mt-1 w-1.5 h-1.5 rounded-full bg-dorado" />

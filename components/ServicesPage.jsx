@@ -129,11 +129,11 @@ export default function ServicesPage() {
           <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {[
               { title: "Especialista ULA", text: "Postgrado en endocrinología por la Universidad de los Andes, una de las escuelas médicas más prestigiosas de Venezuela." },
-              { title: "Formación internacional", text: "Rotación en el CEMDI, Bogota, con enfoqué en tecnología avanzada para diabetes y metabolismo." },
+              { title: "Formación internacional", text: "Rotación en el CEMDI, Bogotá, con enfoque en tecnología avanzada para diabetes y metabolismo." },
               { title: "Tecnología aplicada", text: "Monitores continuos de glucosa, terapias GLP-1 (Mounjaro, Ozempic) y protocolos de precisión." },
-              { title: "Atención personalizada", text: "Cada paciente recibe un plan adaptado a su caso, sin protocolos genericos." },
-              { title: "Barinas y Venezuela", text: "Atención en Barinas con cobertura regional. Disponible también para pacientes de Santa Barbara y toda Venezuela." },
-              { title: "Actualización continua", text: "Participacion activa en congresos naciónales e internacionales de endocrinología." },
+              { title: "Atención personalizada", text: "Cada paciente recibe un plan adaptado a su caso, sin protocolos genéricos." },
+              { title: "Barinas y Venezuela", text: "Atención en Barinas con cobertura regional. Disponible también para pacientes de Santa Bárbara y toda Venezuela." },
+              { title: "Actualización continua", text: "Participación activa en congresos nacionales e internacionales de endocrinología." },
             ].map((item) => (
               <div key={item.title} className="flex gap-4 p-6 rounded-2xl bg-white border border-malva-100 shadow-[0_4px_20px_rgba(44,37,48,0.03)]">
                 <span className="shrink-0 w-8 h-8 rounded-full bg-dorado/15 flex items-center justify-center text-dorado-dark">

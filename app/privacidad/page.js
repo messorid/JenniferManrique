@@ -24,7 +24,7 @@ export default function PrivacidadPage() {
             Política de Privacidad
           </h1>
           <p className="mt-3 text-sm text-texto-suave">
-            Ultima actualización: {year}
+            Última actualización: {year}
           </p>
 
           <div className="mt-10 prose-section space-y-10">
@@ -39,15 +39,15 @@ export default function PrivacidadPage() {
               <p>Contacto: <a href={`mailto:${CONTACT.email}`} className="text-dorado-dark hover:underline">{CONTACT.email}</a></p>
             </Section>
 
-            <Section title="2. Datos qué recopilamos">
+            <Section title="2. Datos que recopilamos">
               <p>Este sitio web puede recopilar los siguientes datos:</p>
               <ul>
-                <li><strong>Datos de contacto:</strong> nombre, numero de telefono y mensaje cuándo el usuario inicia contacto a traves de WhatsApp o el formulario de contacto.</li>
-                <li><strong>Datos de navegación:</strong> dirección IP, tipo de navegador, paginas visitadas y tiempo de permanencia, a traves de cookies técnicas y analiticas.</li>
+                <li><strong>Datos de contacto:</strong> nombre, número de teléfono y mensaje cuando el usuario inicia contacto a través de WhatsApp o el formulario de contacto.</li>
+                <li><strong>Datos de navegación:</strong> dirección IP, tipo de navegador, páginas visitadas y tiempo de permanencia, a través de cookies técnicas y analíticas.</li>
               </ul>
               <p>
-                No recopilamos datos sensibles de salud a traves de este sitio web.
-                La información médica se gestióna exclusivamente en el entorno de
+                No recopilamos datos sensibles de salud a través de este sitio web.
+                La información médica se gestiona exclusivamente en el entorno de
                 la consulta médica presencial.
               </p>
             </Section>
@@ -55,12 +55,12 @@ export default function PrivacidadPage() {
             <Section title="3. Finalidad del tratamiento">
               <p>Los datos recopilados se utilizan para:</p>
               <ul>
-                <li>Gestiónar solicitudes de citas y consultas realizadas por el usuario.</li>
+                <li>Gestionar solicitudes de citas y consultas realizadas por el usuario.</li>
                 <li>Mejorar la experiencia de navegación en el sitio web.</li>
-                <li>Analizar el trafico del sitio de forma anónima y agregada.</li>
+                <li>Analizar el tráfico del sitio de forma anónima y agregada.</li>
               </ul>
               <p>
-                No utilizamos los datos para envio de comúnicaciones comerciales
+                No utilizamos los datos para envío de comunicaciones comerciales
                 no solicitadas ni los cedemos a terceros salvo obligación legal.
               </p>
             </Section>
@@ -68,12 +68,12 @@ export default function PrivacidadPage() {
             <Section title="4. Base legal">
               <p>
                 El tratamiento de datos se basa en el consentimiento del usuario
-                al utilizar el sitio web y en el interes legitimo de gestiónar
+                al utilizar el sitio web y en el interés legítimo de gestionar
                 las solicitudes de información recibidas.
               </p>
             </Section>
 
-            <Section title="5. Conservacion de los datos">
+            <Section title="5. Conservación de los datos">
               <p>
                 Los datos de contacto se conservan durante el tiempo necesario
                 para responder a la solicitud y, en su caso, durante el plazo
@@ -85,8 +85,8 @@ export default function PrivacidadPage() {
               <p>El usuario tiene derecho a:</p>
               <ul>
                 <li>Acceder a sus datos personales.</li>
-                <li>Solicitar la rectificacion o supresión de sus datos.</li>
-                <li>Oponerse al tratamiento o solicitar su limitacion.</li>
+                <li>Solicitar la rectificación o supresión de sus datos.</li>
+                <li>Oponerse al tratamiento o solicitar su limitación.</li>
                 <li>Retirar el consentimiento en cualquier momento.</li>
               </ul>
               <p>
@@ -107,7 +107,7 @@ export default function PrivacidadPage() {
               <p>
                 Adoptamos medidas técnicas y organizativas para proteger los
                 datos personales contra acceso no autorizado, pérdida o
-                destruccion. El sitio web usa protocolo HTTPS para la
+                destrucción. El sitio web usa protocolo HTTPS para la
                 transmisión segura de datos.
               </p>
             </Section>
@@ -115,8 +115,8 @@ export default function PrivacidadPage() {
             <Section title="9. Cambios en esta política">
               <p>
                 Podemos actualizar esta política periódicamente. La fecha de
-                ultima actualización aparece al inicio de este documento.
-                El uso continuado del sitio implica la aceptacion de los cambios.
+                última actualización aparece al inicio de este documento.
+                El uso continuado del sitio implica la aceptación de los cambios.
               </p>
             </Section>
 

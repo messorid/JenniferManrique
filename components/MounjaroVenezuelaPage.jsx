@@ -3,31 +3,31 @@ import { CONTACT } from "@/lib/constants";
 
 const faqs = [
   {
-    q: "Qué es Mounjaro y para qué sirve?",
-    a: "Mounjaro (tirzepatida) es un médicamento inyectable qué actua sobre dos receptores hormonales: GLP-1 y GIP. Esta aprobado para el tratamiento de diabetes tipo 2 y obesidad. En estudios clinicos ha demostrado ser el agente fármacologico más efectivo para pérdida de peso disponible hasta la fecha.",
+    q: "¿Qué es Mounjaro y para qué sirve?",
+    a: "Mounjaro (tirzepatida) es un medicamento inyectable que actúa sobre dos receptores hormonales: GLP-1 y GIP. Está aprobado para el tratamiento de diabetes tipo 2 y obesidad. En estudios clínicos ha demostrado ser el agente farmacológico más efectivo para pérdida de peso disponible hasta la fecha.",
   },
   {
-    q: "Mounjaro esta disponible en Venezuela?",
-    a: "Si, Mounjaro (tirzepatida) se consigue actualmente en Venezuela bajo prescripción médica. La Dra. Jennifer Manrique evalua candidatos, indica la dosis correcta y realiza el seguimiento necesario en Barinas para garantizar resultados seguros y sostenibles.",
+    q: "¿Mounjaro está disponible en Venezuela?",
+    a: "Sí, Mounjaro (tirzepatida) se consigue actualmente en Venezuela bajo prescripción médica. La Dra. Jennifer Manrique evalúa candidatos, indica la dosis correcta y realiza el seguimiento necesario en Barinas para garantizar resultados seguros y sostenibles.",
   },
   {
-    q: "Cuánto peso se puede bajar con Mounjaro en Venezuela?",
-    a: "En los ensayos clinicos SURMOUNT, los pacientes con obesidad perdieron entre un 15% y un 22% de su peso corporal en 72 semanas con tirzepatida. Los resultados individuales dependen de la dosis, el plan alimentario y el seguimiento médico. La Dra. Manrique acompana cada caso en Barinas.",
+    q: "¿Cuánto peso se puede bajar con Mounjaro en Venezuela?",
+    a: "En los ensayos clínicos SURMOUNT, los pacientes con obesidad perdieron entre un 15% y un 22% de su peso corporal en 72 semanas con tirzepatida. Los resultados individuales dependen de la dosis, el plan alimentario y el seguimiento médico. La Dra. Manrique acompaña cada caso en Barinas.",
   },
   {
-    q: "Cual es la diferencia entre Mounjaro y Ozempic?",
-    a: "Ozempic (semaglutida) actua sobre el receptor GLP-1. Mounjaro (tirzepatida) actua sobre GLP-1 y GIP simultaneamente, lo qué explica su mayor eficacia en pérdida de peso. La eleccion entre uno y otro depende del perfil clinico de cada paciente, qué la Dra. Manrique evalua en consulta.",
+    q: "¿Cuál es la diferencia entre Mounjaro y Ozempic?",
+    a: "Ozempic (semaglutida) actúa sobre el receptor GLP-1. Mounjaro (tirzepatida) actúa sobre GLP-1 y GIP simultáneamente, lo que explica su mayor eficacia en pérdida de peso. La elección entre uno y otro depende del perfil clínico de cada paciente, que la Dra. Manrique evalúa en consulta.",
   },
   {
-    q: "Mounjaro tiene efectos secundarios?",
-    a: "Los efectos secundarios más frecuentes son náuseas, vomitos, diarrea o estrenimiento, especialmente al inicio del tratamiento. Suelen ser transitorios y se manejan con ajustes de dosis progresivos bajo supervisión médica. Por esto es fundamental el seguimiento con un endocrinologo.",
+    q: "¿Mounjaro tiene efectos secundarios?",
+    a: "Los efectos secundarios más frecuentes son náuseas, vómitos, diarrea o estreñimiento, especialmente al inicio del tratamiento. Suelen ser transitorios y se manejan con ajustes de dosis progresivos bajo supervisión médica. Por esto es fundamental el seguimiento con un endocrinólogo.",
   },
   {
-    q: "Se puede usar Mounjaro sin ser diabetico sólo para bajar de peso?",
-    a: "Si, tirzepatida esta indicada para el manejo de la obesidad independientemente de la presencia de diabetes. Sin embargo, requiere evaluación previa por un especialista para confirmar qué el paciente es candidato adecuado y descartar contraindicaciónes.",
+    q: "¿Se puede usar Mounjaro sin ser diabético solo para bajar de peso?",
+    a: "Sí, tirzepatida está indicada para el manejo de la obesidad independientemente de la presencia de diabetes. Sin embargo, requiere evaluación previa por un especialista para confirmar que el paciente es candidato adecuado y descartar contraindicaciones.",
   },
   {
-    q: "Cómo agendo una consulta para Mounjaro en Venezuela?",
+    q: "¿Cómo agendo una consulta para Mounjaro en Venezuela?",
     a: "Escribiendo por WhatsApp al 0412-9337390. La Dra. Jennifer Manrique atiende en el Hospital Privado San Juan, Consultorio 34, Piso 2, Barinas, de lunes a viernes previa cita.",
   },
 ];
@@ -36,8 +36,8 @@ const comparativa = [
   { param: "Mecanismo", mounjaro: "GLP-1 + GIP (doble acción)", ozempic: "GLP-1" },
   { param: "Pérdida de peso promedio", mounjaro: "15% - 22% del peso", ozempic: "10% - 15% del peso" },
   { param: "Indicación principal", mounjaro: "Diabetes tipo 2 y obesidad", ozempic: "Diabetes tipo 2 y obesidad" },
-  { param: "Administracion", mounjaro: "Inyección semanal", ozempic: "Inyección semanal" },
-  { param: "Disponible en Venezuela", mounjaro: "Si", ozempic: "Si" },
+  { param: "Administración", mounjaro: "Inyección semanal", ozempic: "Inyección semanal" },
+  { param: "Disponible en Venezuela", mounjaro: "Sí", ozempic: "Sí" },
 ];
 
 export default function MounjaroVenezuelaPage() {
@@ -63,7 +63,7 @@ export default function MounjaroVenezuelaPage() {
             <span className="text-dorado">disponible en Barinas</span>
           </h1>
           <p className="mt-5 text-base md:text-lg leading-relaxed text-texto-suave max-w-2xl mx-auto">
-            Mounjaro (tirzepatida) ya esta disponible en Venezuela. La Dra. Jennifer
+            Mounjaro (tirzepatida) ya está disponible en Venezuela. La Dra. Jennifer
             Manrique, endocrinóloga en Barinas, prescribe y hace seguimiento con
             Mounjaro para pacientes con obesidad o diabetes tipo 2, con resultados
             seguros y monitoreados.
@@ -96,32 +96,32 @@ export default function MounjaroVenezuelaPage() {
                 Tirzepatida
               </span>
               <h2 className="mt-3 font-[family-name:var(--font-display)] text-2xl md:text-3xl text-malva-900 leading-tight">
-                Qué es Mounjaro y cómo funcióna
+                Qué es Mounjaro y cómo funciona
               </h2>
               <p className="mt-4 text-base leading-relaxed text-texto-suave">
-                Mounjaro (tirzepatida) es el primer médicamento de su clase qué actua
-                sobre dos receptores hormonales de forma simultanea: GLP-1 (glucagon-like
+                Mounjaro (tirzepatida) es el primer medicamento de su clase que actúa
+                sobre dos receptores hormonales de forma simultánea: GLP-1 (glucagon-like
                 peptide-1) y GIP (glucose-dependent insulinotropic polypeptide). Esta
-                doble acción lo convierte en el agente fármacologico más efectivo para
+                doble acción lo convierte en el agente farmacológico más efectivo para
                 pérdida de peso disponible hasta la fecha.
               </p>
               <p className="mt-3 text-base leading-relaxed text-texto-suave">
                 Reduce el apetito, mejora la sensibilidad a la insulina, optimiza el
                 control glucémico y favorece la pérdida de masa grasa. Se administra
-                en inyección subcutanea una vez por semana.
+                en inyección subcutánea una vez por semana.
               </p>
               <p className="mt-3 text-base leading-relaxed text-texto-suave">
-                En los estudios clinicos SURMOUNT y SURPASS, los pacientes tratados
+                En los estudios clínicos SURMOUNT y SURPASS, los pacientes tratados
                 con tirzepatida perdieron entre un 15% y un 22% de su peso corporal,
-                superando los resultados de cualquier otro médicamento para obesidad.
+                superando los resultados de cualquier otro medicamento para obesidad.
               </p>
             </div>
             <div className="space-y-4">
               {[
-                { icon: "check", title: "Mayor eficacia qué Ozempic", desc: "Doble mecanismo GLP-1 + GIP con mayor pérdida de peso en estudios comparativos." },
-                { icon: "check", title: "Una inyección semanal", desc: "Administracion simple, subcutanea, una vez por semana con autoinyector." },
-                { icon: "check", title: "Control glucémico y peso", desc: "Indicado tanto para diabetes tipo 2 cómo para obesidad con o sin diabetes." },
-                { icon: "check", title: "Seguimiento especializado", desc: "La Dra. Manrique monitorea la evolucion y ajusta la dosis en Barinas." },
+                { icon: "check", title: "Mayor eficacia que Ozempic", desc: "Doble mecanismo GLP-1 + GIP con mayor pérdida de peso en estudios comparativos." },
+                { icon: "check", title: "Una inyección semanal", desc: "Administración simple, subcutánea, una vez por semana con autoinyector." },
+                { icon: "check", title: "Control glucémico y peso", desc: "Indicado tanto para diabetes tipo 2 como para obesidad con o sin diabetes." },
+                { icon: "check", title: "Seguimiento especializado", desc: "La Dra. Manrique monitorea la evolución y ajusta la dosis en Barinas." },
               ].map((item) => (
                 <div key={item.title} className="flex gap-3 p-4 rounded-2xl bg-malva-50 border border-malva-100">
                   <span className="shrink-0 w-6 h-6 rounded-full bg-dorado/20 text-dorado-dark flex items-center justify-center mt-0.5">
@@ -154,12 +154,12 @@ export default function MounjaroVenezuelaPage() {
           </div>
           <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {[
-              { title: "Obesidad (IMC mayor de 30)", desc: "Personas con indice de masa corporal mayor a 30 qué no han respondido a dieta y ejercicio solos." },
-              { title: "Sobrepeso con comorbilidades", desc: "IMC mayor a 27 con hipertensión, diabetes, apnea del sueno, colesterol alto o resistencia a la insulina." },
-              { title: "Diabetes tipo 2", desc: "Pacientes con diabetes tipo 2 qué necesitan mejor control glucémico o reduccion de peso." },
-              { title: "Resistencia a la insulina", desc: "Personas con resistencia a la insulina qué no responden bien a otros tratamientos." },
-              { title: "SOP con obesidad", desc: "Mujeres con síndrome de ovario poliquístico qué presentan sobrepeso y resistencia metabólica." },
-              { title: "Prediabetes con obesidad", desc: "Pacientes con prediabetes qué buscan revertir su riesgo metabólico mediante pérdida de peso significativa." },
+              { title: "Obesidad (IMC mayor de 30)", desc: "Personas con índice de masa corporal mayor a 30 que no han respondido a dieta y ejercicio solos." },
+              { title: "Sobrepeso con comorbilidades", desc: "IMC mayor a 27 con hipertensión, diabetes, apnea del sueño, colesterol alto o resistencia a la insulina." },
+              { title: "Diabetes tipo 2", desc: "Pacientes con diabetes tipo 2 que necesitan mejor control glucémico o reducción de peso." },
+              { title: "Resistencia a la insulina", desc: "Personas con resistencia a la insulina que no responden bien a otros tratamientos." },
+              { title: "SOP con obesidad", desc: "Mujeres con síndrome de ovario poliquístico que presentan sobrepeso y resistencia metabólica." },
+              { title: "Prediabetes con obesidad", desc: "Pacientes con prediabetes que buscan revertir su riesgo metabólico mediante pérdida de peso significativa." },
             ].map((item) => (
               <div key={item.title} className="p-6 rounded-2xl bg-white border border-malva-100 shadow-[0_4px_20px_rgba(44,37,48,0.04)]">
                 <h3 className="font-[family-name:var(--font-display)] text-base font-semibold text-malva-900">{item.title}</h3>
@@ -168,7 +168,7 @@ export default function MounjaroVenezuelaPage() {
             ))}
           </div>
           <p className="mt-8 text-center text-sm text-texto-suave">
-            También existen contraindicaciónes. La evaluación médica previa es obligatoria.{" "}
+            También existen contraindicaciones. La evaluación médica previa es obligatoria.{" "}
             <Link href={CONTACT.whatsappMessage} target="_blank" rel="noopener noreferrer" className="text-dorado-dark font-semibold hover:underline">
               Consulta con la Dra. Manrique.
             </Link>
@@ -184,14 +184,14 @@ export default function MounjaroVenezuelaPage() {
               Mounjaro vs Ozempic en Venezuela
             </h2>
             <p className="mt-3 text-base text-texto-suave">
-              Ambos estan disponibles en Venezuela. La eleccion depende del perfil de cada paciente.
+              Ambos están disponibles en Venezuela. La elección depende del perfil de cada paciente.
             </p>
           </div>
           <div className="overflow-x-auto rounded-2xl border border-malva-100 shadow-[0_4px_20px_rgba(44,37,48,0.04)]">
             <table className="w-full text-sm">
               <thead>
                 <tr className="bg-malva-50 border-b border-malva-100">
-                  <th className="px-5 py-3.5 text-left text-xs font-semibold uppercase tracking-wider text-malva-600">Parametro</th>
+                  <th className="px-5 py-3.5 text-left text-xs font-semibold uppercase tracking-wider text-malva-600">Parámetro</th>
                   <th className="px-5 py-3.5 text-left text-xs font-semibold uppercase tracking-wider text-dorado-dark">Mounjaro</th>
                   <th className="px-5 py-3.5 text-left text-xs font-semibold uppercase tracking-wider text-malva-600">Ozempic</th>
                 </tr>
@@ -208,7 +208,7 @@ export default function MounjaroVenezuelaPage() {
             </table>
           </div>
           <p className="mt-4 text-xs text-center text-texto-suave">
-            La eleccion entre Mounjaro y Ozempic debe ser indicada por un especialista según tu caso clinico.
+            La elección entre Mounjaro y Ozempic debe ser indicada por un especialista según tu caso clínico.
           </p>
         </div>
       </section>
@@ -245,7 +245,7 @@ export default function MounjaroVenezuelaPage() {
             Comienza tu tratamiento con Mounjaro en Barinas
           </h2>
           <p className="mt-4 text-base text-malva-200">
-            La Dra. Jennifer Manrique evalua tu caso, indica la dosis correcta y
+            La Dra. Jennifer Manrique evalúa tu caso, indica la dosis correcta y
             realiza el seguimiento necesario para obtener resultados seguros.
           </p>
           <Link

@@ -30,27 +30,27 @@ const features = [
 
 const faqs = [
   {
-    q: "Dónde trato la obesidad en Barinas?",
+    q: "¿Dónde trato la obesidad en Barinas?",
     a: "La Dra. Jennifer Manrique es la especialista en obesidad en Barinas. Atiende en el Hospital Privado San Juan, Consultorio 34, Piso 2. Agenda tu cita por WhatsApp al 0412-9337390.",
   },
   {
-    q: "El endocrinólogo trata la obesidad o necesito otro especialista?",
+    q: "¿El endocrinólogo trata la obesidad o necesito otro especialista?",
     a: "El endocrinólogo es el especialista indicado para tratar la obesidad, ya que evalúa las causas hormonales y metabólicas. La Dra. Manrique maneja Ozempic, Mounjaro y otros tratamientos médicos para la pérdida de peso.",
   },
   {
-    q: "Ozempic y Mounjaro están disponibles en Barinas?",
-    a: "Sí. La Dra. Jennifer Manrique prescribe y hace seguimiento con Ozempic (semaglutida) y Mounjaro (tirzepatida) en Barinas. Ambos requieren evaluación previa y prescripción médica. Contáctenos por WhatsApp para más información.",
+    q: "¿Ozempic y Mounjaro están disponibles en Barinas?",
+    a: "Sí. La Dra. Jennifer Manrique prescribe y hace seguimiento con Ozempic (semaglutida) y Mounjaro (tirzepatida) en Barinas. Ambos requieren evaluación previa y prescripción médica. Contáctanos por WhatsApp para más información.",
   },
   {
-    q: "Cuánto peso se pierde con Mounjaro u Ozempic?",
+    q: "¿Cuánto peso se pierde con Mounjaro u Ozempic?",
     a: "Los estudios muestran pérdida de 15-22% del peso corporal con tirzepatida (Mounjaro) y 10-15% con semaglutida (Ozempic), en combinación con cambios de estilo de vida y bajo supervisión médica. Los resultados varían según cada paciente.",
   },
   {
-    q: "La obesidad tiene causas hormonales?",
+    q: "¿La obesidad tiene causas hormonales?",
     a: "Sí. El hipotiroidismo, la resistencia a la insulina, el SOP, el síndrome de Cushing y otras alteraciones hormonales pueden causar o agravar el sobrepeso. Por eso es fundamental la evaluación endocrinológica antes de iniciar cualquier tratamiento.",
   },
   {
-    q: "Se puede revertir la resistencia a la insulina?",
+    q: "¿Se puede revertir la resistencia a la insulina?",
     a: "Sí. Con el tratamiento adecuado — que puede incluir medicación, cambios de alimentación, actividad física y control del peso — la resistencia a la insulina puede mejorar significativamente e incluso revertirse, previniendo la diabetes tipo 2.",
   },
 ];

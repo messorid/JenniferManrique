@@ -1,5 +1,6 @@
 import { SITE_URL } from "@/lib/constants";
 import { SERVICES } from "@/lib/services";
+import { BLOG_POSTS } from "@/lib/blog";
 
 export default function sitemap() {
   const now = new Date().toISOString();
@@ -14,7 +15,12 @@ export default function sitemap() {
     { url: `${SITE_URL}/diabetes-en-barinas`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${SITE_URL}/obesidad-en-barinas`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${SITE_URL}/tiroides-en-barinas`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${SITE_URL}/sop-en-barinas`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${SITE_URL}/hipotiroidismo-en-barinas`, lastModified: now, changeFrequency: "monthly", priority: 0.88 },
+    { url: `${SITE_URL}/fertilidad-en-barinas`, lastModified: now, changeFrequency: "monthly", priority: 0.88 },
+    { url: `${SITE_URL}/crecimiento-en-barinas`, lastModified: now, changeFrequency: "monthly", priority: 0.85 },
     { url: `${SITE_URL}/servicios`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${SITE_URL}/blog`, lastModified: now, changeFrequency: "weekly", priority: 0.85 },
     { url: `${SITE_URL}/sobre-mi`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${SITE_URL}/faq`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${SITE_URL}/testimonios`, lastModified: now, changeFrequency: "monthly", priority: 0.75 },
@@ -31,5 +37,12 @@ export default function sitemap() {
     priority: 0.85,
   }));
 
-  return [...staticRoutes, ...serviceRoutes];
+  const blogRoutes = BLOG_POSTS.map((p) => ({
+    url: `${SITE_URL}/blog/${p.slug}`,
+    lastModified: now,
+    changeFrequency: "monthly",
+    priority: 0.75,
+  }));
+
+  return [...staticRoutes, ...serviceRoutes, ...blogRoutes];
 }

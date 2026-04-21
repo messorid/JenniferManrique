@@ -110,7 +110,7 @@ export default function ServiceDetail({ service }) {
           <div className="grid gap-8 md:grid-cols-2">
             <div>
               <h2 className="font-[family-name:var(--font-display)] text-2xl md:text-3xl text-malva-900 mb-6">
-                Condiciones qué tratamos
+                Condiciones que tratamos
               </h2>
               <ul className="space-y-3">
                 {service.conditions.map((c) => (
@@ -166,7 +166,7 @@ export default function ServiceDetail({ service }) {
         <div className="absolute -top-40 -right-20 w-[520px] h-[520px] rounded-full bg-dorado/20 blur-3xl pointer-events-none" />
         <div className="container-page relative text-center max-w-2xl mx-auto text-white">
           <h2 className="font-[family-name:var(--font-display)] text-3xl md:text-4xl lg:text-5xl leading-tight">
-            Lista para tu <span className="text-dorado">consulta en Barinas?</span>
+            ¿Lista para tu <span className="text-dorado">consulta en Barinas?</span>
           </h2>
           <p className="mt-5 text-base text-malva-200">
             Agenda tu cita con la Dra. Jennifer Manrique. Atención personalizada

@@ -15,7 +15,7 @@ const methods = [
   },
   {
     id: "email",
-    label: "Correo electronico",
+    label: "Correo electrónico",
     value: CONTACT.email,
     detail: "Para consultas generales y seguimiento",
     href: CONTACT.emailUrl,
@@ -53,7 +53,7 @@ export default function ContactInfo() {
             Agenda tu <span className="text-dorado">consulta</span>
           </h1>
           <p className="mt-5 text-base md:text-lg leading-relaxed text-texto-suave max-w-xl mx-auto">
-            Contactanos por WhatsApp para agendar tu cita con la Dra. Jennifer
+            Contáctanos por WhatsApp para agendar tu cita con la Dra. Jennifer
             Manrique. Atención personalizada de lunes a viernes en Barinas.
           </p>
         </div>
@@ -104,7 +104,7 @@ export default function ContactInfo() {
               Sedes de atención
             </span>
             <h2 className="mt-4 font-[family-name:var(--font-display)] text-3xl md:text-4xl text-malva-900">
-              Dónde encontrarnos
+              ¿Dónde encontrarnos?
             </h2>
           </div>
 
@@ -164,7 +164,7 @@ export default function ContactInfo() {
                       </svg>
                     </div>
                     <div>
-                      <p className="text-xs uppercase tracking-wider text-malva-200">Telefono</p>
+                      <p className="text-xs uppercase tracking-wider text-malva-200">Teléfono</p>
                       <p className="mt-1 text-sm text-white font-medium">{CONTACT.phone}</p>
                     </div>
                   </div>
@@ -213,12 +213,12 @@ export default function ContactInfo() {
                 Sede secundaria
               </span>
               <h3 className="mt-4 font-[family-name:var(--font-display)] text-2xl md:text-3xl font-semibold text-malva-900">
-                Santa Barbara de Barinas
+                Santa Bárbara de Barinas
               </h3>
               <p className="mt-3 text-sm text-texto-suave leading-relaxed">
                 Consulta mensual disponible para pacientes del eje sur. Misma
                 calidad de atención, con fecha confirmada por WhatsApp con
-                antelacion.
+                antelación.
               </p>
 
               <ul className="mt-6 space-y-3">

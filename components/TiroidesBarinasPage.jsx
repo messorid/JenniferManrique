@@ -30,27 +30,27 @@ const features = [
 
 const faqs = [
   {
-    q: "Dónde trato el tiroides en Barinas?",
+    q: "¿Dónde trato el tiroides en Barinas?",
     a: "La Dra. Jennifer Manrique es la especialista en patologías tiroideas en Barinas. Atiende en el Hospital Privado San Juan, Consultorio 34, Piso 2. Agenda tu cita por WhatsApp al 0412-9337390.",
   },
   {
-    q: "Cuáles son los síntomas del hipotiroidismo?",
+    q: "¿Cuáles son los síntomas del hipotiroidismo?",
     a: "Cansancio, aumento de peso sin causa aparente, frío excesivo, caída del cabello, piel seca, estreñimiento, depresión y ciclos menstruales irregulares son los síntomas más frecuentes. Si tienes varios de estos, conviene hacer un perfil tiroideo.",
   },
   {
-    q: "Cuáles son los síntomas del hipertiroidismo?",
+    q: "¿Cuáles son los síntomas del hipertiroidismo?",
     a: "Palpitaciones, nerviosismo, pérdida de peso involuntaria, calor excesivo, temblor, insomnio y ojos prominentes (en la enfermedad de Graves). El diagnóstico se confirma con perfil tiroideo y, en algunos casos, ecografía.",
   },
   {
-    q: "Un nódulo tiroideo es peligroso?",
+    q: "¿Un nódulo tiroideo es peligroso?",
     a: "La mayoría de los nódulos tiroideos son benignos. La evaluación con ecografía y la clasificación TIRADS permiten decidir si requieren punción (PAAF) o solo seguimiento. La Dra. Manrique realiza este proceso completo en Barinas.",
   },
   {
-    q: "Qué estudios necesito para el tiroides?",
+    q: "¿Qué estudios necesito para el tiroides?",
     a: "El perfil tiroideo básico incluye TSH, T4 libre y, en algunos casos, T3 libre y anticuerpos (anti-TPO, anti-tiroglobulina). Si hay nódulos o bocio, también se solicita ecografía tiroidea. La Dra. Manrique indica los estudios necesarios en la consulta.",
   },
   {
-    q: "El hipotiroidismo se cura?",
+    q: "¿El hipotiroidismo se cura?",
     a: "El hipotiroidismo de causa autoinmune (Hashimoto) es crónico pero controlable con levotiroxina. Con el tratamiento adecuado y los controles periódicos, los pacientes llevan una vida completamente normal. El ajuste de dosis es clave para el bienestar.",
   },
 ];
@@ -146,7 +146,7 @@ export default function TiroidesBarinasPage() {
                 La Dra. Jennifer Manrique es médica especialista en Endocrinología
                 egresada de la Universidad de Los Andes (ULA), con amplia experiencia
                 en el manejo de patologías tiroideas. Completó formación internacional
-                en el CEMDI Bogota, Colombia, centro de referencia en endocrinología
+                en el CEMDI Bogotá, Colombia, centro de referencia en endocrinología
                 y metabolismo de América Latina.
               </p>
               <p className="mt-3 text-base leading-relaxed text-texto-suave">
@@ -172,7 +172,7 @@ export default function TiroidesBarinasPage() {
               <h3 className="font-[family-name:var(--font-display)] text-lg">Datos del consultorio</h3>
               {[
                 { label: "Especialista", value: "Endocrinología - ULA" },
-                { label: "Formación", value: "CEMDI Bogota, Colombia" },
+                { label: "Formación", value: "CEMDI Bogotá, Colombia" },
                 { label: "Sede", value: `${LOCATION.name}, ${LOCATION.detail}` },
                 { label: "Ciudad", value: "Barinas, Venezuela" },
                 { label: "Horario", value: "Lun - Vie, 8AM-12PM / 2PM-6PM" },

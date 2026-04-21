@@ -10,7 +10,7 @@ export const metadata = {
   keywords: [
     "consultorio endocrinóloga Barinas",
     "dónde queda endocrinólogo Barinas",
-    "Hospital San Juan Barinas endocrinologo",
+    "Hospital San Juan Barinas endocrinólogo",
     "dirección endocrinóloga Barinas",
     "cómo llegar endocrinólogo Barinas",
     "Dra Jennifer Manrique consultorio Barinas",
@@ -133,7 +133,7 @@ export default function UbicaciónPage() {
                       },
                       {
                         icon: "phone",
-                        label: "Telefono / WhatsApp",
+                        label: "Teléfono / WhatsApp",
                         value: CONTACT.phone,
                       },
                       {
@@ -167,7 +167,7 @@ export default function UbicaciónPage() {
                 <div className="rounded-3xl bg-white border border-malva-100 p-6 shadow-[0_4px_20px_rgba(44,37,48,0.04)]">
                   <span className="text-xs uppercase tracking-[0.25em] text-dorado-dark font-semibold">Sede secundaria</span>
                   <h2 className="mt-2 font-[family-name:var(--font-display)] text-xl text-malva-900">
-                    Santa Barbara de Barinas
+                    Santa Bárbara de Barinas
                   </h2>
                   <p className="mt-2 text-sm text-texto-suave leading-relaxed">
                     Consulta mensual disponible. Fecha confirmada por WhatsApp con anticipación.
@@ -194,9 +194,9 @@ export default function UbicaciónPage() {
             </h2>
             <div className="grid gap-4 sm:grid-cols-3">
               {[
-                { icon: "car", title: "En vehiculo", desc: "El Hospital Privado San Juan se encuentra en una zona de fácil acceso en Barinas. Hay estacionamiento disponible." },
+                { icon: "car", title: "En vehículo", desc: "El Hospital Privado San Juan se encuentra en una zona de fácil acceso en Barinas. Hay estacionamiento disponible." },
                 { icon: "walk", title: "Referencia", desc: "Consultorio 34, Piso 2. Al entrar al hospital, dirígete al segundo piso y busca el consultorio 34." },
-                { icon: "map", title: "Google Maps", desc: "Busca 'Dra. Jennifer Manrique Endocrinóloga Barinas' en Google Maps para obtener indicaciónes desde tu ubicación." },
+                { icon: "map", title: "Google Maps", desc: "Busca 'Dra. Jennifer Manrique Endocrinóloga Barinas' en Google Maps para obtener indicaciones desde tu ubicación." },
               ].map((item) => (
                 <div key={item.title} className="p-5 rounded-2xl bg-white border border-malva-100 shadow-[0_4px_20px_rgba(44,37,48,0.04)]">
                   <span className="inline-flex w-9 h-9 rounded-xl bg-dorado/10 items-center justify-center text-dorado-dark mb-3">

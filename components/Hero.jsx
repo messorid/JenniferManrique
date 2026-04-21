@@ -108,13 +108,21 @@ export default function Hero() {
               controlar tu salud metabólica, peso y equilibrio hormonal en Barinas.
             </p>
 
-            {/* Trust signal */}
-            <div className="mt-5 inline-flex items-center gap-2 text-sm text-texto-suave">
-              <svg viewBox="0 0 24 24" className="w-4 h-4 text-dorado shrink-0" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                <circle cx="12" cy="12" r="10" />
-                <polyline points="12 6 12 12 16 14" />
-              </svg>
-              Atención previa cita — Lunes a Viernes
+            {/* Trust signals */}
+            <div className="mt-5 flex flex-col gap-2">
+              <div className="inline-flex items-center gap-2 text-sm text-texto-suave">
+                <svg viewBox="0 0 24 24" className="w-4 h-4 text-dorado shrink-0" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <circle cx="12" cy="12" r="10" />
+                  <polyline points="12 6 12 12 16 14" />
+                </svg>
+                Atención previa cita — Lunes a Viernes
+              </div>
+              <div className="inline-flex items-center gap-2 text-sm text-texto-suave">
+                <svg viewBox="0 0 24 24" className="w-4 h-4 text-dorado shrink-0" fill="currentColor" aria-hidden="true">
+                  <path d="M12 2 15.09 8.26 22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14l-5-4.87 6.91-1.01L12 2z" />
+                </svg>
+                Miembro Sociedad Venezolana de Endocrinología
+              </div>
             </div>
 
             {/* CTAs */}

@@ -12,34 +12,34 @@ const conditions = [
 
 const faqs = [
   {
-    q: "Quién es la mejor endocrinóloga en Venezuela?",
-    a: "La Dra. Jennifer Manrique es una de las endocrinologas de mayor referencia en Venezuela. Egresada de la ULA con entrenamiento internacional en el CEMDI Bogota, atiende en Barinas y coordina consultas para pacientes de todo el pais.",
+    q: "¿Quién es la mejor endocrinóloga en Venezuela?",
+    a: "La Dra. Jennifer Manrique es una de las endocrinólogas de mayor referencia en Venezuela. Egresada de la ULA con entrenamiento internacional en el CEMDI Bogotá, atiende en Barinas y coordina consultas para pacientes de todo el país.",
   },
   {
-    q: "Dónde atiende el endocrinólogo en Venezuela?",
-    a: "La Dra. Jennifer Manrique tiene su sede principal en el Hospital Privado San Juan, Consultorio 34, Piso 2, Barinas. Realiza también consulta mensual en Santa Barbara de Barinas y coordina atención para pacientes de otras ciudades de Venezuela via WhatsApp.",
+    q: "¿Dónde atiende el endocrinólogo en Venezuela?",
+    a: "La Dra. Jennifer Manrique tiene su sede principal en el Hospital Privado San Juan, Consultorio 34, Piso 2, Barinas. Realiza también consulta mensual en Santa Bárbara de Barinas y coordina atención para pacientes de otras ciudades de Venezuela vía WhatsApp.",
   },
   {
-    q: "Se puede consultar al endocrinólogo en Venezuela por WhatsApp?",
-    a: "Si. La Dra. Manrique coordina citas y responde consultas breves por WhatsApp al 0412-9337390. Pacientes de Caracas, Valencia, Maracaibo, Merida y otras ciudades de Venezuela pueden coordinar su atención de forma previa.",
+    q: "¿Se puede consultar al endocrinólogo en Venezuela por WhatsApp?",
+    a: "Sí. La Dra. Manrique coordina citas y responde consultas breves por WhatsApp al 0412-9337390. Pacientes de Caracas, Valencia, Maracaibo, Mérida y otras ciudades de Venezuela pueden coordinar su atención de forma previa.",
   },
   {
-    q: "El endocrinólogo en Venezuela maneja Mounjaro y Ozempic?",
-    a: "Si. La Dra. Jennifer Manrique prescribe y hace seguimiento con Mounjaro (tirzepatida) y Ozempic (semaglutida), ambos disponibles actualmente en Venezuela bajo prescripción médica.",
+    q: "¿El endocrinólogo en Venezuela maneja Mounjaro y Ozempic?",
+    a: "Sí. La Dra. Jennifer Manrique prescribe y hace seguimiento con Mounjaro (tirzepatida) y Ozempic (semaglutida), ambos disponibles actualmente en Venezuela bajo prescripción médica.",
   },
   {
-    q: "Qué estudios debo llevar a la consulta del endocrinólogo en Venezuela?",
-    a: "Si tienes estudios recientes (glucemia, perfil tiroideo, hemoglobina glicosilada), llevelos. También el listado de médicamentos actuales e informes de otros especialistas. Si no tienes estudios previos, la Dra. Manrique los indicara en la primera consulta.",
+    q: "¿Qué estudios debo llevar a la consulta del endocrinólogo en Venezuela?",
+    a: "Si tienes estudios recientes (glucemia, perfil tiroideo, hemoglobina glicosilada), llévalos. También el listado de medicamentos actuales e informes de otros especialistas. Si no tienes estudios previos, la Dra. Manrique los indicará en la primera consulta.",
   },
   {
-    q: "El endocrinólogo en Venezuela atiende casos de diabetes tipo 1?",
-    a: "Si. La Dra. Manrique tiene formación especializada en diabetes tipo 1, incluyendo el uso de monitores continuos de glucosa (CGM) e insulinoterapia avanzada. Es uno de los pocos especialistas en Venezuela con entrenamiento en esta tecnología.",
+    q: "¿El endocrinólogo en Venezuela atiende casos de diabetes tipo 1?",
+    a: "Sí. La Dra. Manrique tiene formación especializada en diabetes tipo 1, incluyendo el uso de monitores continuos de glucosa (CGM) e insulinoterapia avanzada. Es uno de los pocos especialistas en Venezuela con entrenamiento en esta tecnología.",
   },
 ];
 
 const ciudades = [
-  "Barinas", "Caracas", "Valencia", "Maracaibo", "Merida",
-  "Barquisimeto", "Maracay", "San Cristobal", "Puerto Ordaz", "Santa Barbara de Barinas",
+  "Barinas", "Caracas", "Valencia", "Maracaibo", "Mérida",
+  "Barquisimeto", "Maracay", "San Cristóbal", "Puerto Ordaz", "Santa Bárbara de Barinas",
 ];
 
 export default function EndocrinologoVenezuelaPage() {
@@ -116,24 +116,24 @@ export default function EndocrinologoVenezuelaPage() {
               </h2>
               <p className="mt-4 text-base leading-relaxed text-texto-suave">
                 La Dra. Jennifer Manrique es médica especialista en Endocrinología
-                egresada de la Universidad de Los Andes (ULA). Complemento su
+                egresada de la Universidad de Los Andes (ULA). Complementó su
                 formación con entrenamiento internacional en el Centro de
-                Endocrinología y Metabolismo (CEMDI) en Bogota, Colombia,
-                con enfoqué en tecnología avanzada para diabetes y metabolismo.
+                Endocrinología y Metabolismo (CEMDI) en Bogotá, Colombia,
+                con enfoque en tecnología avanzada para diabetes y metabolismo.
               </p>
               <p className="mt-3 text-base leading-relaxed text-texto-suave">
-                Cómo endocrinóloga en Venezuela, ofrece atención especializada
-                para pacientes de todo el pais. Su sede principal esta en Barinas,
+                Como endocrinóloga en Venezuela, ofrece atención especializada
+                para pacientes de todo el país. Su sede principal está en Barinas,
                 pero coordina consultas presenciales y seguimiento para pacientes
-                de Caracas, Valencia, Maracaibo, Merida y otras ciudades mediante
+                de Caracas, Valencia, Maracaibo, Mérida y otras ciudades mediante
                 WhatsApp, facilitando el acceso a endocrinología especializada
                 sin importar la ciudad de origen.
               </p>
               <p className="mt-3 text-base leading-relaxed text-texto-suave">
-                Entre sus areas de mayor experiencia destaca el manejo de
-                tecnología avanzada cómo monitores continuos de glucosa (CGM),
+                Entre sus áreas de mayor experiencia destaca el manejo de
+                tecnología avanzada como monitores continuos de glucosa (CGM),
                 la prescripción de terapias GLP-1 como Mounjaro y Ozempic, y
-                el tratamiento integral de condiciónes hormonales complejas.
+                el tratamiento integral de condiciones hormonales complejas.
               </p>
               <Link href="/sobre-mi" className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-malva-700 hover:text-dorado-dark transition-colors">
                 Ver trayectoria completa
@@ -148,7 +148,7 @@ export default function EndocrinologoVenezuelaPage() {
               <h3 className="font-[family-name:var(--font-display)] text-lg">Cómo llegar a la consulta</h3>
               {[
                 { label: "Sede principal", value: `${LOCATION.name}, ${LOCATION.detail}, Barinas` },
-                { label: "Sede secundaria", value: "Santa Barbara de Barinas (mensual)" },
+                { label: "Sede secundaria", value: "Santa Bárbara de Barinas (mensual)" },
                 { label: "Horario", value: "Lun - Vie, 8AM-12PM / 2PM-6PM" },
                 { label: "Citas Venezuela", value: "WhatsApp 0412-9337390" },
               ].map((item) => (

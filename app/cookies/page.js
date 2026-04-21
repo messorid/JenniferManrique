@@ -13,23 +13,23 @@ export const metadata = {
 const cookieTable = [
   {
     nombre: "cookie_consent",
-    tipo: "Técnica / Funciónal",
-    duracion: "1 ano",
+    tipo: "Técnica / Funcional",
+    duracion: "1 año",
     finalidad: "Almacena la preferencia de cookies del usuario para no volver a mostrar el aviso.",
     tercero: "No",
   },
   {
     nombre: "_ga, _ga_*",
-    tipo: "Analitica",
+    tipo: "Analítica",
     duracion: "2 años",
     finalidad: "Google Analytics. Contabiliza visitas y comportamiento de navegación de forma anónima.",
     tercero: "Google LLC",
   },
   {
     nombre: "_gid",
-    tipo: "Analitica",
+    tipo: "Analítica",
     duracion: "24 horas",
-    finalidad: "Google Analytics. Distingue usuarios únicos durante una sesion.",
+    finalidad: "Google Analytics. Distingue usuarios únicos durante una sesión.",
     tercero: "Google LLC",
   },
 ];
@@ -48,14 +48,14 @@ export default function CookiesPage() {
             Política de Cookies
           </h1>
           <p className="mt-3 text-sm text-texto-suave">
-            Ultima actualización: {year}
+            Última actualización: {year}
           </p>
 
           <div className="mt-10 space-y-10">
 
             <Section title="1. Qué son las cookies">
               <p>
-                Las cookies son pequenos archivos de texto que los sitios web
+                Las cookies son pequeños archivos de texto que los sitios web
                 almacenan en el navegador del usuario. Permiten al sitio
                 recordar información sobre tu visita, como el idioma de
                 preferencia y la configuración, lo que facilita tu próxima
@@ -69,8 +69,8 @@ export default function CookiesPage() {
                 cookies propias y de terceros con las siguientes finalidades:
               </p>
               <ul>
-                <li><strong>Cookies técnicas:</strong> Necesarias para el funcionamiento basico del sitio, como recordar tu preferencia de cookies.</li>
-                <li><strong>Cookies analiticas:</strong> Nos permiten conocer el numero de visitas y el comportamiento de los usuarios en el sitio de forma anónima, para mejorar la navegación.</li>
+                <li><strong>Cookies técnicas:</strong> Necesarias para el funcionamiento básico del sitio, como recordar tu preferencia de cookies.</li>
+                <li><strong>Cookies analíticas:</strong> Nos permiten conocer el número de visitas y el comportamiento de los usuarios en el sitio de forma anónima, para mejorar la navegación.</li>
               </ul>
               <p>
                 No utilizamos cookies de publicidad ni de seguimiento publicitario.
@@ -84,7 +84,7 @@ export default function CookiesPage() {
                     <tr>
                       <th className="px-4 py-3 font-semibold">Cookie</th>
                       <th className="px-4 py-3 font-semibold">Tipo</th>
-                      <th className="px-4 py-3 font-semibold">Duracion</th>
+                      <th className="px-4 py-3 font-semibold">Duración</th>
                       <th className="px-4 py-3 font-semibold">Finalidad</th>
                       <th className="px-4 py-3 font-semibold">Tercero</th>
                     </tr>
@@ -104,41 +104,41 @@ export default function CookiesPage() {
               </div>
             </Section>
 
-            <Section title="4. Cómo gestiónar las cookies">
+            <Section title="4. Cómo gestionar las cookies">
               <p>
                 Al acceder al sitio por primera vez, se muestra un aviso que
                 permite aceptar o rechazar las cookies no esenciales.
               </p>
               <p>
-                También puedes gestiónar o deshabilitar las cookies desde la
+                También puedes gestionar o deshabilitar las cookies desde la
                 configuración de tu navegador:
               </p>
               <ul>
-                <li><strong>Google Chrome:</strong> Configuracion &gt; Privacidad y seguridad &gt; Cookies</li>
+                <li><strong>Google Chrome:</strong> Configuración &gt; Privacidad y seguridad &gt; Cookies</li>
                 <li><strong>Mozilla Firefox:</strong> Opciones &gt; Privacidad y seguridad</li>
                 <li><strong>Safari:</strong> Preferencias &gt; Privacidad</li>
-                <li><strong>Microsoft Edge:</strong> Configuracion &gt; Privacidad, busqueda y servicios</li>
+                <li><strong>Microsoft Edge:</strong> Configuración &gt; Privacidad, búsqueda y servicios</li>
               </ul>
               <p>
                 Ten en cuenta que deshabilitar ciertas cookies puede afectar
-                la funciónalidad del sitio.
+                la funcionalidad del sitio.
               </p>
             </Section>
 
             <Section title="5. Cookies de terceros">
               <p>
                 Este sitio puede utilizar Google Analytics (Google LLC) para
-                el análisis del trafico web. Google puede utilizar estos datos
+                el análisis del tráfico web. Google puede utilizar estos datos
                 de acuerdo con su propia política de privacidad, disponible en
                 su sitio oficial. No tenemos control sobre las cookies que
                 establece Google.
               </p>
             </Section>
 
-            <Section title="6. Actualizaciónes de esta política">
+            <Section title="6. Actualizaciones de esta política">
               <p>
                 Podemos actualizar esta política para reflejar cambios en las
-                cookies qué utilizamos. La fecha de ultima actualización
+                cookies que utilizamos. La fecha de última actualización
                 aparece al inicio del documento.
               </p>
             </Section>

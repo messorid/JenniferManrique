@@ -6,7 +6,7 @@ import { CONTACT } from "@/lib/constants";
 const services = [
   "Diabetes y control de glucosa",
   "Manejo de obesidad y pérdida de peso",
-  "Patologia tiroidea",
+  "Patología tiroidea",
   "Salud hormonal",
   "Fertilidad y salud reproductiva",
   "Crecimiento y desarrollo",
@@ -45,10 +45,10 @@ export default function ContactForm() {
         <div className="grid gap-12 lg:grid-cols-2 lg:items-start">
           <div>
             <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-malva-100 text-malva-800 text-xs font-semibold uppercase tracking-[0.2em]">
-              Escribenos
+              Escríbenos
             </span>
             <h2 className="mt-5 font-[family-name:var(--font-display)] text-3xl md:text-4xl text-malva-900 leading-tight">
-              Cuentanos cómo podemos{" "}
+              Cuéntanos cómo podemos{" "}
               <span className="text-dorado">ayudarte</span>
             </h2>
             <p className="mt-5 text-base leading-relaxed text-texto-suave">
@@ -62,7 +62,7 @@ export default function ContactForm() {
                 {
                   icon: "clock",
                   title: "Respuesta rápida",
-                  text: "Respondemos en horas habiles de lunes a viernes.",
+                  text: "Respondemos en horas hábiles de lunes a viernes.",
                 },
                 {
                   icon: "lock",
@@ -72,7 +72,7 @@ export default function ContactForm() {
                 {
                   icon: "calendar",
                   title: "Cita confirmada",
-                  text: "Coordinamos dia y hora según disponibilidad.",
+                  text: "Coordinamos día y hora según disponibilidad.",
                 },
               ].map((item) => (
                 <li key={item.title} className="flex gap-4">
@@ -126,7 +126,7 @@ export default function ContactForm() {
                   onChange={handleChange}
                   className="w-full px-4 py-3 rounded-xl border border-malva-200 bg-white text-malva-900 focus:outline-none focus:border-malva focus:ring-2 focus:ring-malva/20 transition appearance-none"
                 >
-                  <option value="">Selecciona una opcion</option>
+                  <option value="">Selecciona una opción</option>
                   {services.map((s) => (
                     <option key={s} value={s}>
                       {s}
@@ -177,7 +177,7 @@ export default function ContactForm() {
             </button>
 
             <p className="mt-4 text-center text-xs text-texto-suave">
-              Se abrira WhatsApp con tu mensaje prellenado
+              Se abrirá WhatsApp con tu mensaje prellenado
             </p>
           </form>
         </div>

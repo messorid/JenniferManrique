@@ -5,7 +5,7 @@ import { CONTACT } from "@/lib/constants";
 const stats = [
   { value: "2024", label: "Especialista ULA" },
   { value: "5+", label: "Trabajos de investigación" },
-  { value: "6", label: "Areas de especialidad" },
+  { value: "6", label: "Áreas de especialidad" },
   { value: "2", label: "Sedes de atención" },
 ];
 
@@ -35,14 +35,14 @@ export default function AboutIntro() {
             <p>
               La Dra. Jennifer Manrique es Médico Cirujano y Especialista en
               Endocrinología, con formación en la Universidad Nacional
-              Experimental Francisco de Miranda y especializacion de tres
-              años en la Universidad de los Andes, Merida.
+              Experimental Francisco de Miranda y especialización de tres
+              años en la Universidad de los Andes, Mérida.
             </p>
             <p>
-              Cuenta con experiencia en centros de referencia naciónal cómo el
+              Cuenta con experiencia en centros de referencia nacional como el
               Hospital Universitario de los Andes y el Hospital Dr. Luis
               Razetti, además de una rotación internacional en el CEMDI de
-              Bogota. Ha participado activamente en congresos naciónales e
+              Bogotá. Ha participado activamente en congresos nacionales e
               internacionales de endocrinología.
             </p>
           </div>
@@ -116,7 +116,7 @@ export default function AboutIntro() {
             </div>
             <div>
               <p className="text-xs uppercase tracking-wider text-texto-suave">Internacional</p>
-              <p className="text-sm font-semibold text-malva-900">CEMDI Bogota 2024</p>
+              <p className="text-sm font-semibold text-malva-900">CEMDI Bogotá 2024</p>
             </div>
           </div>
         </div>

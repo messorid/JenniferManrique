@@ -30,27 +30,27 @@ const features = [
 
 const faqs = [
   {
-    q: "Dónde trato la diabetes en Barinas?",
-    a: "La Dra. Jennifer Manrique es la endocrinóloga especialista en diabetes en Barinas. Atiende en el Hospital Privado San Juan, Consultorio 34, Piso 2. Agrega su cita por WhatsApp al 0412-9337390.",
+    q: "¿Dónde trato la diabetes en Barinas?",
+    a: "La Dra. Jennifer Manrique es la endocrinóloga especialista en diabetes en Barinas. Atiende en el Hospital Privado San Juan, Consultorio 34, Piso 2. Agenda tu cita por WhatsApp al 0412-9337390.",
   },
   {
-    q: "Cuál es el mejor tratamiento para la diabetes tipo 2 en Venezuela?",
+    q: "¿Cuál es el mejor tratamiento para la diabetes tipo 2 en Venezuela?",
     a: "El tratamiento depende de cada paciente. La Dra. Manrique evalúa el perfil metabólico completo y puede incluir medicación oral, inyectables como Ozempic o Mounjaro (GLP-1), cambios de alimentación y actividad física. Todo personalizado.",
   },
   {
-    q: "Qué es la hemoglobina glicosilada y por qué es importante?",
+    q: "¿Qué es la hemoglobina glicosilada y por qué es importante?",
     a: "La hemoglobina glicosilada (HbA1c) mide el promedio de glucosa en sangre en los últimos 3 meses. Es el mejor indicador del control de la diabetes a largo plazo. El objetivo ideal es menos de 7% en la mayoría de los pacientes diabéticos.",
   },
   {
-    q: "Puedo controlar la diabetes sin insulina?",
+    q: "¿Puedo controlar la diabetes sin insulina?",
     a: "En diabetes tipo 2, sí es posible en muchos casos con medicación oral, inyectables tipo GLP-1 y cambios de estilo de vida. En diabetes tipo 1 la insulina es imprescindible. La Dra. Manrique evalúa cada caso individualmente.",
   },
   {
-    q: "El monitor continuo de glucosa está disponible en Barinas?",
+    q: "¿El monitor continuo de glucosa está disponible en Barinas?",
     a: "Sí. La Dra. Jennifer Manrique trabaja con monitores continuos de glucosa (CGM) en Barinas. Son dispositivos que miden la glucosa en tiempo real sin necesidad de pinchazos frecuentes, mejorando significativamente el control de la diabetes.",
   },
   {
-    q: "Cuánto tarda en controlarse la diabetes?",
+    q: "¿Cuánto tarda en controlarse la diabetes?",
     a: "Depende del tipo y estado inicial. Con el tratamiento adecuado, es posible ver mejoras en la hemoglobina glicosilada en 3 meses. La diabetes tipo 2 en etapas tempranas puede llegar a remisión con cambios de peso y tratamiento. La Dra. Manrique establece metas claras desde la primera consulta.",
   },
 ];
@@ -145,7 +145,7 @@ export default function DiabetesBarinasPage() {
               <p className="mt-4 text-base leading-relaxed text-texto-suave">
                 La Dra. Jennifer Manrique es médica especialista en Endocrinología
                 egresada de la Universidad de Los Andes (ULA) y con formación
-                internacional en el CEMDI Bogota, Colombia — uno de los centros
+                internacional en el CEMDI Bogotá, Colombia — uno de los centros
                 de referencia en diabetes y metabolismo de América Latina.
               </p>
               <p className="mt-3 text-base leading-relaxed text-texto-suave">
@@ -171,7 +171,7 @@ export default function DiabetesBarinasPage() {
               <h3 className="font-[family-name:var(--font-display)] text-lg">Datos del consultorio</h3>
               {[
                 { label: "Especialista", value: "Endocrinología - ULA" },
-                { label: "Formación", value: "CEMDI Bogota, Colombia" },
+                { label: "Formación", value: "CEMDI Bogotá, Colombia" },
                 { label: "Sede", value: `${LOCATION.name}, ${LOCATION.detail}` },
                 { label: "Ciudad", value: "Barinas, Venezuela" },
                 { label: "Horario", value: "Lun - Vie, 8AM-12PM / 2PM-6PM" },
