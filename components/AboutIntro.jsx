@@ -47,6 +47,16 @@ export default function AboutIntro() {
             </p>
           </div>
 
+          <div className="mt-6 inline-flex items-center gap-2.5 px-4 py-2.5 rounded-2xl bg-dorado/10 border border-dorado/30">
+            <svg viewBox="0 0 24 24" className="w-5 h-5 text-dorado-dark shrink-0" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <circle cx="12" cy="9" r="6" />
+              <polyline points="8.5 13 7 22 12 19 17 22 15.5 13" />
+            </svg>
+            <p className="text-sm font-semibold text-malva-900">
+              Miembro de la Sociedad Venezolana de Endocrinología
+            </p>
+          </div>
+
           <dl className="mt-10 grid grid-cols-2 sm:grid-cols-4 gap-5">
             {stats.map((s) => (
               <div key={s.label} className="border-l-2 border-dorado pl-4">

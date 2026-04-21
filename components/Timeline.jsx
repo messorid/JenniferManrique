@@ -73,6 +73,14 @@ const timeline = [
   },
   {
     year: "Actualidad",
+    title: "Miembro de la Sociedad Venezolana de Endocrinología",
+    place: "Sociedad Venezolana de Endocrinología y Metabolismo (SVEM)",
+    description:
+      "Miembro activo de la principal sociedad científica de endocrinología en Venezuela, que agrupa a los especialistas certificados de la especialidad en el país.",
+    icon: "award",
+  },
+  {
+    year: "Actualidad",
     title: "Consulta especializada en Barinas",
     place: "Hospital Privado San Juan - Consultorio 34, Piso 2",
     description:
