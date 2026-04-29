@@ -1,4 +1,4 @@
-import Header from "@/components/Header";
+﻿import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import TiroidesBarinasPage from "@/components/TiroidesBarinasPage";
 import { SITE_URL } from "@/lib/constants";
@@ -49,7 +49,7 @@ const faqSchema = {
     {
       "@type": "Question",
       name: "Dónde trato el tiroides en Barinas?",
-      acceptedAnswer: { "@type": "Answer", text: "La Dra. Jennifer Manrique es la endocrinóloga especialista en patologías tiroideas en Barinas. Atiende en el Hospital Privado San Juan, Consultorio 34, Piso 2. Agenda tu cita por WhatsApp al 0412-9337390." },
+      acceptedAnswer: { "@type": "Answer", text: "La Dra. Jennifer Manrique es la endocrinóloga especialista en patologías tiroideas en Barinas. Atiende en el Hospital Privado San Juan, Consultorio 34, Piso 2. Agenda tu cita por WhatsApp al 0412-9339730." },
     },
     {
       "@type": "Question",

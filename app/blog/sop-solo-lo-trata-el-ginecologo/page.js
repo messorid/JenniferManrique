@@ -78,7 +78,7 @@ export default function ArticleSOP() {
           {/* Contenido */}
           <div className="container-page max-w-3xl mx-auto mt-10 prose prose-malva max-w-none">
             <p className="text-base md:text-lg leading-relaxed text-texto-suave">
-              Es una pregunta que escucho constantemente en el consultorio. Una paciente lleva meses —a veces años— con ciclos irregulares, dificultad para bajar de peso, acné o vello en exceso, y cuando finalmente busca ayuda, va al ginecólogo. Le hacen una ecografía, le dicen que tiene &quot;ovarios poliquísticos&quot; y le recetan anticonceptivos.
+              Es una pregunta que escucho constantemente en el consultorio. Una paciente lleva meses —a veces años— con ciclos irregulares, dificultad para bajar de peso, acné o vello en exceso, y cuando finalmente busca ayuda, va al ginecólogo. Le hacen una ecografía, le dicen que tiene "ovarios poliquísticos" y le recetan anticonceptivos.
             </p>
             <p className="mt-5 text-base leading-relaxed text-texto-suave">
               El anticonceptivo regula el ciclo, sí. Pero no trata el problema de fondo.
@@ -94,7 +94,7 @@ export default function ArticleSOP() {
               <li className="flex gap-2"><span className="text-dorado font-bold shrink-0">3.</span> Apariencia poliquística en la ecografía ovárica</li>
             </ul>
             <p className="mt-5 text-base leading-relaxed text-texto-suave">
-              Lo importante es entender que los &quot;quistes&quot; no son el problema principal, sino una consecuencia. La raíz del SOP es <strong>hormonal y metabólica</strong>.
+              Lo importante es entender que los "quistes" no son el problema principal, sino una consecuencia. La raíz del SOP es <strong>hormonal y metabólica</strong>.
             </p>
 
             <h2 className="mt-10 font-[family-name:var(--font-display)] text-2xl text-malva-900">¿Por qué el SOP necesita también al endocrinólogo?</h2>

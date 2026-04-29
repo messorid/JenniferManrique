@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { CONTACT, LOCATION } from "@/lib/constants";
 
 const features = [
@@ -176,7 +176,7 @@ export default function FertilizadBarinasPage() {
                 { label: "Sede", value: `${LOCATION.name}, ${LOCATION.detail}` },
                 { label: "Ciudad", value: "Barinas, Venezuela" },
                 { label: "Horario", value: "Lun - Vie, 8AM-12PM / 2PM-6PM" },
-                { label: "Citas", value: "WhatsApp 0412-9337390" },
+                { label: "Citas", value: "WhatsApp 0412-9339730" },
               ].map((item) => (
                 <div key={item.label}>
                   <span className="text-xs uppercase tracking-wider text-dorado font-semibold block">{item.label}</span>

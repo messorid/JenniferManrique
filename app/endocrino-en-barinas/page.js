@@ -1,4 +1,4 @@
-import Header from "@/components/Header";
+﻿import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import EndocrinoBarinasPage from "@/components/EndocrinoBarinasPage";
 import { SITE_URL } from "@/lib/constants";
@@ -79,7 +79,7 @@ const faqSchema = {
       name: "Cómo agendo cita con el endocrino en Barinas?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "La forma más rápida es por WhatsApp al 0412-9337390. También atiende pacientes de Santa Barbara de Barinas y otras ciudades de Venezuela con coordinación previa.",
+        text: "La forma más rápida es por WhatsApp al 0412-9339730. También atiende pacientes de Santa Barbara de Barinas y otras ciudades de Venezuela con coordinación previa.",
       },
     },
     {

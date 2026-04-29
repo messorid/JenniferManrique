@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { CONTACT, LOCATION } from "@/lib/constants";
 
 const conditions = [
@@ -21,7 +21,7 @@ const faqs = [
   },
   {
     q: "¿Se puede consultar al endocrinólogo en Venezuela por WhatsApp?",
-    a: "Sí. La Dra. Manrique coordina citas y responde consultas breves por WhatsApp al 0412-9337390. Pacientes de Caracas, Valencia, Maracaibo, Mérida y otras ciudades de Venezuela pueden coordinar su atención de forma previa.",
+    a: "Sí. La Dra. Manrique coordina citas y responde consultas breves por WhatsApp al 0412-9339730. Pacientes de Caracas, Valencia, Maracaibo, Mérida y otras ciudades de Venezuela pueden coordinar su atención de forma previa.",
   },
   {
     q: "¿El endocrinólogo en Venezuela maneja Mounjaro y Ozempic?",
@@ -150,7 +150,7 @@ export default function EndocrinologoVenezuelaPage() {
                 { label: "Sede principal", value: `${LOCATION.name}, ${LOCATION.detail}, Barinas` },
                 { label: "Sede secundaria", value: "Santa Bárbara de Barinas (mensual)" },
                 { label: "Horario", value: "Lun - Vie, 8AM-12PM / 2PM-6PM" },
-                { label: "Citas Venezuela", value: "WhatsApp 0412-9337390" },
+                { label: "Citas Venezuela", value: "WhatsApp 0412-9339730" },
               ].map((item) => (
                 <div key={item.label}>
                   <span className="text-xs uppercase tracking-wider text-dorado font-semibold block">{item.label}</span>

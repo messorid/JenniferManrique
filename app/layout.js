@@ -1,4 +1,4 @@
-import { Inter, Playfair_Display } from "next/font/google";
+﻿import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import { SITE_URL, CONTACT, LOCATION } from "@/lib/constants";
 import CookieBanner from "@/components/CookieBanner";
@@ -120,7 +120,7 @@ export default function RootLayout({ children }) {
     médicalSpecialty: "Endocrinology",
     url: SITE_URL,
     image: `${SITE_URL}/images/dr-jennifer-hero.jpg`,
-    telephone: "+58-412-9337390",
+    telephone: "+58-412-9339730",
     email: CONTACT.email,
     priceRange: "$$",
     address: {

@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { CONTACT, LOCATION } from "@/lib/constants";
 
 const features = [
@@ -35,7 +35,7 @@ const faqs = [
   },
   {
     q: "¿Dónde evaluar el crecimiento de mi hijo con un endocrinólogo en Barinas?",
-    a: "La Dra. Jennifer Manrique atiende casos de talla baja, pubertad precoz y alteraciones del crecimiento en el Hospital Privado San Juan, Consultorio 34, Piso 2, Barinas. Agenda por WhatsApp al 0412-9337390.",
+    a: "La Dra. Jennifer Manrique atiende casos de talla baja, pubertad precoz y alteraciones del crecimiento en el Hospital Privado San Juan, Consultorio 34, Piso 2, Barinas. Agenda por WhatsApp al 0412-9339730.",
   },
   {
     q: "¿Qué exámenes se hacen para estudiar la talla baja?",
@@ -174,7 +174,7 @@ export default function CrecimientoBarinasPage() {
                 { label: "Sede", value: `${LOCATION.name}, ${LOCATION.detail}` },
                 { label: "Ciudad", value: "Barinas, Venezuela" },
                 { label: "Horario", value: "Lun - Vie, 8AM-12PM / 2PM-6PM" },
-                { label: "Citas", value: "WhatsApp 0412-9337390" },
+                { label: "Citas", value: "WhatsApp 0412-9339730" },
               ].map((item) => (
                 <div key={item.label}>
                   <span className="text-xs uppercase tracking-wider text-dorado font-semibold block">{item.label}</span>

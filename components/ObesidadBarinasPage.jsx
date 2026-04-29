@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { CONTACT, LOCATION } from "@/lib/constants";
 
 const features = [
@@ -31,7 +31,7 @@ const features = [
 const faqs = [
   {
     q: "¿Dónde trato la obesidad en Barinas?",
-    a: "La Dra. Jennifer Manrique es la especialista en obesidad en Barinas. Atiende en el Hospital Privado San Juan, Consultorio 34, Piso 2. Agenda tu cita por WhatsApp al 0412-9337390.",
+    a: "La Dra. Jennifer Manrique es la especialista en obesidad en Barinas. Atiende en el Hospital Privado San Juan, Consultorio 34, Piso 2. Agenda tu cita por WhatsApp al 0412-9339730.",
   },
   {
     q: "¿El endocrinólogo trata la obesidad o necesito otro especialista?",

@@ -1,4 +1,4 @@
-import Header from "@/components/Header";
+﻿import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import EndocrinologoVenezuelaPage from "@/components/EndocrinologoVenezuelaPage";
 import { SITE_URL } from "@/lib/constants";
@@ -54,7 +54,7 @@ const faqSchema = {
     {
       "@type": "Question",
       name: "Se puede consultar al endocrinólogo en Venezuela por WhatsApp?",
-      acceptedAnswer: { "@type": "Answer", text: "Si. La Dra. Manrique coordina citas para pacientes de toda Venezuela por WhatsApp al 0412-9337390." },
+      acceptedAnswer: { "@type": "Answer", text: "Si. La Dra. Manrique coordina citas para pacientes de toda Venezuela por WhatsApp al 0412-9339730." },
     },
     {
       "@type": "Question",

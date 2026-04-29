@@ -79,7 +79,7 @@ export default function ArticuloMenuopausia() {
           {/* Contenido */}
           <div className="container-page max-w-3xl mx-auto mt-10">
             <p className="text-base md:text-lg leading-relaxed text-texto-suave">
-              Muchas mujeres piensan que la menopausia es simplemente &quot;dejar de menstruar&quot;. Y aunque eso es la definición médica —12 meses consecutivos sin período— lo que ocurre en el cuerpo va mucho más allá de ese dato.
+              Muchas mujeres piensan que la menopausia es simplemente "dejar de menstruar". Y aunque eso es la definición médica —12 meses consecutivos sin período— lo que ocurre en el cuerpo va mucho más allá de ese dato.
             </p>
             <p className="mt-5 text-base leading-relaxed text-texto-suave">
               La menopausia es una de las transiciones hormonales más importantes en la vida de una mujer. Y entenderla bien puede marcar la diferencia entre vivirla con calidad o con sufrimiento innecesario.

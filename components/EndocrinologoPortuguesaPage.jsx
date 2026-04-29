@@ -1,61 +1,61 @@
-﻿import Link from "next/link";
+import Link from "next/link";
 import { CONTACT, LOCATION } from "@/lib/constants";
 
-const features = [
+const reasons = [
   {
-    title: "Diabetes Tipo 1",
-    desc: "Manejo con insulinoterapia intensiva, ajuste de dosis y tecnología avanzada. Monitores continuos de glucosa (CGM) disponibles en Barinas.",
+    title: "La endocrinóloga más accesible desde Portuguesa",
+    desc: "Barinas es la ciudad más cercana con especialista en endocrinología para pacientes de Guanare, Acarigua y otros municipios del estado Portuguesa.",
   },
   {
-    title: "Diabetes Tipo 2",
-    desc: "Tratamiento personalizado con medicación oral, inyectables y cambios de estilo de vida. Control de hemoglobina glicosilada y complicaciones.",
+    title: "Especialista formada en centros de referencia",
+    desc: "Egresada de la Universidad de los Andes (ULA) con residencia en el HULA y rotación internacional en el CEMDI de Bogotá. La misma formación de los centros del país, disponible en Barinas.",
   },
   {
-    title: "Diabetes Gestacional",
-    desc: "Seguimiento especializado durante el embarazo para proteger la salud de la madre y el bebé. Coordinación con ginecología.",
+    title: "Cita en pocos días por WhatsApp",
+    desc: "Sin meses de espera. La Dra. Manrique atiende en consulta privada con agenda ágil. Coordina tu cita desde Portuguesa directamente por WhatsApp.",
   },
   {
-    title: "Monitores de Glucosa (CGM)",
-    desc: "Dispositivos de monitoreo continuo que eliminan los pinchazos frecuentes y permiten un control glucémico más preciso.",
+    title: "Evaluación completa en una sola visita",
+    desc: "Diagnóstico, solicitud de exámenes, plan de tratamiento y seguimiento desde la primera consulta. Optimiza tu viaje a Barinas con una atención integral.",
   },
   {
-    title: "Resistencia a la Insulina",
-    desc: "Diagnóstico y tratamiento de prediabetes y resistencia a la insulina antes de que se convierta en diabetes tipo 2.",
+    title: "Seguimiento por WhatsApp entre consultas",
+    desc: "Para pacientes de Portuguesa, la Dra. Manrique ofrece seguimiento entre consultas por WhatsApp para ajustar tratamientos sin necesidad de viajar por cada control.",
   },
   {
-    title: "Complicaciones de la Diabetes",
-    desc: "Evaluación y manejo de neuropatía, nefropatía y pie diabético. Control integral para prevenir complicaciones a largo plazo.",
+    title: "Procedimientos disponibles en Barinas",
+    desc: "Ecografía tiroidea, punción de tiroides (PAAF) y monitores continuos de glucosa (CGM) en Barinas. Sin necesidad de trasladarse a Caracas o Valencia.",
   },
 ];
 
 const faqs = [
   {
-    q: "¿Dónde trato la diabetes en Barinas?",
-    a: "La Dra. Jennifer Manrique es la endocrinóloga especialista en diabetes en Barinas. Atiende en el Hospital Privado San Juan, Consultorio 34, Piso 2. Agenda tu cita por WhatsApp al 0412-9339730.",
+    q: "¿Hay endocrinólogos en Portuguesa?",
+    a: "La oferta de especialistas en endocrinología en el estado Portuguesa es escasa. Barinas, con acceso directo desde Guanare y Acarigua, es la opción más cercana con atención especializada de calidad.",
   },
   {
-    q: "¿Cuál es el mejor tratamiento para la diabetes tipo 2 en Venezuela?",
-    a: "El tratamiento depende de cada paciente. La Dra. Manrique evalúa el perfil metabólico completo y puede incluir medicación oral, inyectables como Ozempic o Mounjaro (GLP-1), cambios de alimentación y actividad física. Todo personalizado.",
+    q: "¿Cuánto se tarda de Portuguesa a Barinas?",
+    a: "Desde Guanare, capital de Portuguesa, Barinas está a aproximadamente 2 a 3 horas por vía terrestre. Desde Acarigua, el tiempo es similar o algo mayor dependiendo de la ruta.",
   },
   {
-    q: "¿Qué es la hemoglobina glicosilada y por qué es importante?",
-    a: "La hemoglobina glicosilada (HbA1c) mide el promedio de glucosa en sangre en los últimos 3 meses. Es el mejor indicador del control de la diabetes a largo plazo. El objetivo ideal es menos de 7% en la mayoría de los pacientes diabéticos.",
+    q: "¿Puedo agendar cita desde Portuguesa sin ir primero a Barinas?",
+    a: "Sí. Las citas se agendan por WhatsApp al 0412-9339730. La Dra. Manrique coordina el horario con anticipación para pacientes que vienen de otros estados.",
   },
   {
-    q: "¿Puedo controlar la diabetes sin insulina?",
-    a: "En diabetes tipo 2, sí es posible en muchos casos con medicación oral, inyectables tipo GLP-1 y cambios de estilo de vida. En diabetes tipo 1 la insulina es imprescindible. La Dra. Manrique evalúa cada caso individualmente.",
+    q: "¿Qué condiciones trata la endocrinóloga?",
+    a: "Diabetes tipo 1, 2 y gestacional, obesidad y pérdida de peso, hipotiroidismo, hipertiroidismo, nódulos tiroideos, SOP, menopausia, andropausia, talla baja, fertilidad hormonal y resistencia a la insulina.",
   },
   {
-    q: "¿El monitor continuo de glucosa está disponible en Barinas?",
-    a: "Sí. La Dra. Jennifer Manrique trabaja con monitores continuos de glucosa (CGM) en Barinas. Son dispositivos que miden la glucosa en tiempo real sin necesidad de pinchazos frecuentes, mejorando significativamente el control de la diabetes.",
+    q: "¿Puedo llevar mis resultados de exámenes previos?",
+    a: "Sí, y es recomendable. Si ya tienes exámenes recientes de Portuguesa, la Dra. Manrique los evalúa directamente y determina qué estudios adicionales necesitas, aprovechando al máximo tu consulta.",
   },
   {
-    q: "¿Cuánto tarda en controlarse la diabetes?",
-    a: "Depende del tipo y estado inicial. Con el tratamiento adecuado, es posible ver mejoras en la hemoglobina glicosilada en 3 meses. La diabetes tipo 2 en etapas tempranas puede llegar a remisión con cambios de peso y tratamiento. La Dra. Manrique establece metas claras desde la primera consulta.",
+    q: "¿Con qué frecuencia tendría que viajar a Barinas?",
+    a: "Depende de cada caso. Muchos pacientes de otros estados visitan a la Dra. Manrique cada 3 a 6 meses para control presencial, con seguimiento por WhatsApp entre visitas para ajustar el tratamiento.",
   },
 ];
 
-export default function DiabetesBarinasPage() {
+export default function EndocrinologoPortuguesaPage() {
   return (
     <>
       {/* Hero */}
@@ -66,22 +66,22 @@ export default function DiabetesBarinasPage() {
             <ol className="flex justify-center flex-wrap gap-x-2 text-xs text-texto-suave">
               <li><Link href="/" className="hover:text-dorado transition-colors">Inicio</Link></li>
               <li aria-hidden="true">/</li>
-              <li className="text-malva-900 font-medium" aria-current="page">Diabetes en Barinas</li>
+              <li className="text-malva-900 font-medium" aria-current="page">Endocrinólogo en Portuguesa</li>
             </ol>
           </nav>
           <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-malva-100 text-malva-800 text-xs font-semibold uppercase tracking-[0.2em]">
             <span className="w-1.5 h-1.5 rounded-full bg-dorado" />
-            Endocrinología · Barinas
+            Pacientes de Portuguesa · Atención en Barinas
           </span>
           <h1 className="mt-6 font-[family-name:var(--font-display)] text-4xl md:text-5xl lg:text-6xl leading-[1.08] text-malva-900">
-            Tratamiento de{" "}
-            <span className="text-dorado">Diabetes</span>{" "}
-            en Barinas
+            Endocrinólogo para{" "}
+            <span className="text-dorado">Portuguesa</span>{" "}
+            — Consulta en Barinas
           </h1>
           <p className="mt-5 text-base md:text-lg leading-relaxed text-texto-suave max-w-2xl mx-auto">
-            La Dra. Jennifer Manrique es la endocrinóloga especialista en diabetes en
-            Barinas. Maneja diabetes tipo 1, tipo 2 y gestacional con tecnología
-            avanzada, monitores continuos de glucosa y terapias GLP-1.
+            Si buscas un endocrinólogo en el estado Portuguesa, la Dra. Jennifer
+            Manrique atiende en Barinas — accesible desde Guanare, Acarigua y
+            municipios vecinos para una consulta especializada de calidad.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-3">
             <Link
@@ -90,34 +90,50 @@ export default function DiabetesBarinasPage() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2.5 px-7 py-3.5 rounded-full bg-dorado text-white font-semibold shadow-[0_10px_30px_rgba(201,168,76,0.3)] hover:bg-dorado-dark hover:-translate-y-0.5 transition-all duration-300"
             >
-              Agendar consulta
+              Agendar consulta desde Portuguesa
             </Link>
             <Link
-              href="/servicios/diabetes"
+              href="/ubicacion"
               className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-white border border-malva-200 text-malva-800 font-semibold hover:border-dorado/60 hover:text-dorado-dark transition-all duration-300"
             >
-              Ver servicio completo
+              Ver ubicación en Barinas
             </Link>
           </div>
         </div>
       </section>
 
-      {/* Qué tratamos */}
+      {/* Distancia */}
+      <section className="py-10 bg-white border-y border-malva-100">
+        <div className="container-page max-w-3xl mx-auto">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+            {[
+              { value: "~2-3h", label: "Guanare → Barinas" },
+              { value: "Lun-Vie", label: "Días de atención" },
+              { value: "WhatsApp", label: "Agenda tu cita" },
+              { value: "Previa cita", label: "Sin esperas largas" },
+            ].map((s) => (
+              <div key={s.label}>
+                <p className="font-[family-name:var(--font-display)] text-2xl md:text-3xl text-dorado font-bold">{s.value}</p>
+                <p className="mt-1 text-sm text-texto-suave">{s.label}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Por qué venir a Barinas */}
       <section className="py-16 md:py-20 bg-white">
         <div className="container-page max-w-4xl mx-auto">
           <div className="text-center max-w-2xl mx-auto mb-10">
-            <span className="text-xs font-semibold uppercase tracking-[0.25em] text-dorado">Especialidad</span>
+            <span className="text-xs font-semibold uppercase tracking-[0.25em] text-dorado">Por qué elegir Barinas</span>
             <h2 className="mt-3 font-[family-name:var(--font-display)] text-2xl md:text-3xl text-malva-900">
-              Qué incluye el tratamiento de diabetes en Barinas
+              Por qué pacientes de Portuguesa viajan a consultar con la Dra. Manrique
             </h2>
-            <p className="mt-3 text-base text-texto-suave">
-              Atención integral con tecnología de vanguardia para todos los tipos de diabetes.
-            </p>
           </div>
           <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {features.map((f) => (
+            {reasons.map((r) => (
               <div
-                key={f.title}
+                key={r.title}
                 className="p-6 rounded-2xl bg-malva-50 border border-malva-100 hover:shadow-[0_20px_50px_rgba(138,114,145,0.12)] hover:-translate-y-1 transition-all duration-300"
               >
                 <div className="w-8 h-8 rounded-xl bg-dorado/15 flex items-center justify-center mb-4">
@@ -125,39 +141,37 @@ export default function DiabetesBarinasPage() {
                     <polyline points="20 6 9 17 4 12" />
                   </svg>
                 </div>
-                <h3 className="font-semibold text-sm text-malva-900">{f.title}</h3>
-                <p className="mt-2 text-sm text-texto-suave leading-relaxed">{f.desc}</p>
+                <h3 className="font-semibold text-sm text-malva-900">{r.title}</h3>
+                <p className="mt-2 text-sm text-texto-suave leading-relaxed">{r.desc}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Perfil + Info */}
+      {/* Info consultorio */}
       <section className="py-16 md:py-20 bg-malva-50">
         <div className="container-page max-w-4xl mx-auto">
           <div className="grid gap-10 lg:grid-cols-[1fr_300px] items-start">
             <div>
-              <span className="text-xs font-semibold uppercase tracking-[0.25em] text-dorado">Por qué elegirnos</span>
+              <span className="text-xs font-semibold uppercase tracking-[0.25em] text-dorado">La especialista</span>
               <h2 className="mt-3 font-[family-name:var(--font-display)] text-2xl md:text-3xl text-malva-900 leading-tight">
-                Especialista en diabetes con tecnología avanzada en Barinas
+                Dra. Jennifer Manrique — Endocrinóloga en Barinas
               </h2>
               <p className="mt-4 text-base leading-relaxed text-texto-suave">
-                La Dra. Jennifer Manrique es médica especialista en Endocrinología
-                egresada de la Universidad de Los Andes (ULA) y con formación
-                internacional en el CEMDI Bogotá, Colombia — uno de los centros
-                de referencia en diabetes y metabolismo de América Latina.
+                La Dra. Jennifer Manrique es Médico Cirujano y Especialista en
+                Endocrinología, egresada de la Universidad de los Andes (ULA).
+                Miembro de la Sociedad Venezolana de Endocrinología, con experiencia
+                en el HULA y formación internacional en el CEMDI, Bogotá.
               </p>
               <p className="mt-3 text-base leading-relaxed text-texto-suave">
-                Trabaja con monitores continuos de glucosa (CGM), terapias GLP-1
-                como Ozempic y Mounjaro, y protocolos de insulinoterapia actualizados.
-                Su enfoque es personalizado: cada paciente recibe un plan específico
-                según su tipo de diabetes, estilo de vida y objetivos de control.
+                Atiende diabetes, obesidad, tiroides, SOP, menopausia, talla baja,
+                fertilidad hormonal y todas las patologías endocrinas con un enfoque
+                personalizado y actualizado.
               </p>
               <p className="mt-3 text-base leading-relaxed text-texto-suave">
-                Atiende en el Hospital Privado San Juan, Consultorio 34, Piso 2,
-                Barinas. También coordina atención para pacientes de otras ciudades
-                de Venezuela vía WhatsApp.
+                Para pacientes de Portuguesa, coordina el plan de seguimiento para
+                reducir la frecuencia de viajes a Barinas al mínimo necesario.
               </p>
               <Link href="/sobre-mi" className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-malva-700 hover:text-dorado-dark transition-colors">
                 Ver trayectoria completa
@@ -171,11 +185,11 @@ export default function DiabetesBarinasPage() {
               <h3 className="font-[family-name:var(--font-display)] text-lg">Datos del consultorio</h3>
               {[
                 { label: "Especialista", value: "Endocrinología - ULA" },
-                { label: "Formación", value: "CEMDI Bogotá, Colombia" },
                 { label: "Sede", value: `${LOCATION.name}, ${LOCATION.detail}` },
                 { label: "Ciudad", value: "Barinas, Venezuela" },
                 { label: "Horario", value: "Lun - Vie, 8AM-12PM / 2PM-6PM" },
                 { label: "Citas", value: "WhatsApp 0412-9339730" },
+                { label: "Modalidad", value: "Previa cita" },
               ].map((item) => (
                 <div key={item.label}>
                   <span className="text-xs uppercase tracking-wider text-dorado font-semibold block">{item.label}</span>
@@ -199,7 +213,7 @@ export default function DiabetesBarinasPage() {
       <section className="py-16 md:py-20 bg-white">
         <div className="container-page max-w-3xl mx-auto">
           <h2 className="font-[family-name:var(--font-display)] text-2xl md:text-3xl text-malva-900 text-center mb-10">
-            Preguntas sobre diabetes en Barinas
+            Preguntas de pacientes de Portuguesa
           </h2>
           <div className="space-y-3">
             {faqs.map((item, i) => (
@@ -216,11 +230,6 @@ export default function DiabetesBarinasPage() {
               </details>
             ))}
           </div>
-          <div className="mt-8 text-center">
-            <Link href="/faq" className="inline-flex items-center gap-1.5 text-sm font-semibold text-malva-700 hover:text-dorado-dark transition-colors">
-              Ver todas las preguntas frecuentes →
-            </Link>
-          </div>
         </div>
       </section>
 
@@ -229,11 +238,11 @@ export default function DiabetesBarinasPage() {
         <div className="absolute -top-40 -right-20 w-[520px] h-[520px] rounded-full bg-dorado/20 blur-3xl pointer-events-none" />
         <div className="relative container-page text-center max-w-2xl mx-auto text-white">
           <h2 className="font-[family-name:var(--font-display)] text-3xl md:text-4xl leading-tight">
-            Agenda tu consulta para diabetes en Barinas
+            Agenda tu consulta en Barinas desde Portuguesa
           </h2>
           <p className="mt-4 text-base text-malva-200">
             Hospital Privado San Juan, Consultorio 34, Piso 2, Barinas.
-            Lunes a viernes previa cita.
+            Coordina tu cita por WhatsApp con anticipación.
           </p>
           <Link
             href={CONTACT.whatsappMessage}

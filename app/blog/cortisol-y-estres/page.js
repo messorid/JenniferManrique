@@ -80,10 +80,10 @@ export default function ArticuloCortisol() {
           {/* Contenido */}
           <div className="container-page max-w-3xl mx-auto mt-10">
             <p className="text-base md:text-lg leading-relaxed text-texto-suave">
-              Una de las consultas que recibo con más frecuencia —tanto en el consultorio como en redes sociales— es esta: <em>&quot;Doctora, me siento muy estresada, ¿me pido un cortisol para ver si lo tengo alto?&quot;</em>
+              Una de las consultas que recibo con más frecuencia —tanto en el consultorio como en redes sociales— es esta: <em>"Doctora, me siento muy estresada, ¿me pido un cortisol para ver si lo tengo alto?"</em>
             </p>
             <p className="mt-5 text-base leading-relaxed text-texto-suave">
-              Es una pregunta completamente razonable. El cortisol se conoce popularmente como &quot;la hormona del estrés&quot;, y la lógica parece obvia: si estoy estresada, debería tener el cortisol alto, y eso debería verse en un análisis de sangre.
+              Es una pregunta completamente razonable. El cortisol se conoce popularmente como "la hormona del estrés", y la lógica parece obvia: si estoy estresada, debería tener el cortisol alto, y eso debería verse en un análisis de sangre.
             </p>
             <p className="mt-4 text-base leading-relaxed text-texto-suave">
               El problema es que eso no es exactamente lo que mide un cortisol en sangre.
@@ -110,11 +110,11 @@ export default function ArticuloCortisol() {
                 },
                 {
                   title: "El estrés crónico no siempre da cortisol alto",
-                  text: "Contrario a lo que mucha gente cree, el estrés crónico prolongado puede estar asociado tanto a cortisol elevado como a cortisol bajo (por agotamiento suprarrenal). No hay una relación simple entre &quot;más estrés = más cortisol&quot; que se pueda medir con un análisis puntual.",
+                  text: "Contrario a lo que mucha gente cree, el estrés crónico prolongado puede estar asociado tanto a cortisol elevado como a cortisol bajo (por agotamiento suprarrenal). No hay una relación simple entre “más estrés = más cortisol” que se pueda medir con un análisis puntual.",
                 },
                 {
-                  title: "No existe un valor de referencia para el &quot;estrés&quot;",
-                  text: "Los rangos normales del cortisol están establecidos para detectar enfermedades específicas (síndrome de Cushing, insuficiencia suprarrenal), no para cuantificar el estrés psicológico. Un valor dentro del rango normal no significa &quot;no estás estresada&quot;.",
+                  title: "No existe un valor de referencia para el \"estrés\"",
+                  text: "Los rangos normales del cortisol están establecidos para detectar enfermedades específicas (síndrome de Cushing, insuficiencia suprarrenal), no para cuantificar el estrés psicológico. Un valor dentro del rango normal no significa \"no estás estresada\".",
                 },
               ].map((item) => (
                 <div key={item.title} className="p-5 rounded-2xl bg-malva-50 border border-malva-100">

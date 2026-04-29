@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 
@@ -29,7 +29,7 @@ const faqs = [
   },
   {
     q: "¿Cómo agendo una cita?",
-    a: "La forma más rápida es por WhatsApp al 0412-9337390. La atención es previa cita, de lunes a viernes en Barinas, y una vez al mes en Santa Barbara de Barinas.",
+    a: "La forma más rápida es por WhatsApp al 0412-9339730. La atención es previa cita, de lunes a viernes en Barinas, y una vez al mes en Santa Barbara de Barinas.",
   },
   {
     q: "¿Qué debo llevar a la primera consulta?",

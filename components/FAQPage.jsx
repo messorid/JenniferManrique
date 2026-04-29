@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { CONTACT } from "@/lib/constants";
 import ServiceFAQ from "@/components/ServiceFAQ";
 
@@ -9,7 +9,7 @@ const categories = [
     faqs: [
       {
         q: "¿Cómo agendo una cita con la endocrinóloga en Barinas?",
-        a: "La forma más rápida es por WhatsApp al 0412-9337390. La Dra. Jennifer Manrique atiende en el Hospital Privado San Juan, Consultorio 34, Piso 2, Barinas. La atención es de lunes a viernes de 8:00 AM a 12:00 PM y de 2:00 PM a 6:00 PM, previa cita.",
+        a: "La forma más rápida es por WhatsApp al 0412-9339730. La Dra. Jennifer Manrique atiende en el Hospital Privado San Juan, Consultorio 34, Piso 2, Barinas. La atención es de lunes a viernes de 8:00 AM a 12:00 PM y de 2:00 PM a 6:00 PM, previa cita.",
       },
       {
         q: "¿Qué debo llevar a la primera consulta con la endocrinóloga?",

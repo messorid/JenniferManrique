@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { CONTACT, LOCATION } from "@/lib/constants";
 
 const conditions = [
@@ -17,7 +17,7 @@ const faqs = [
   },
   {
     q: "¿Cómo saco cita con el endocrinólogo en Barinas?",
-    a: "La forma más rápida es por WhatsApp al 0412-9337390. La atención es de lunes a viernes de 8:00 AM a 12:00 PM y de 2:00 PM a 6:00 PM, previa cita. También se puede coordinar para la sede de Santa Bárbara de Barinas.",
+    a: "La forma más rápida es por WhatsApp al 0412-9339730. La atención es de lunes a viernes de 8:00 AM a 12:00 PM y de 2:00 PM a 6:00 PM, previa cita. También se puede coordinar para la sede de Santa Bárbara de Barinas.",
   },
   {
     q: "¿Qué diferencia hay entre endocrino y endocrinólogo?",
@@ -25,7 +25,7 @@ const faqs = [
   },
   {
     q: "¿Cuánto cuesta la consulta del endocrinólogo en Barinas?",
-    a: "El valor de la consulta se confirma directamente por WhatsApp al 0412-9337390, ya que puede variar según el tipo de consulta (primera vez o seguimiento) y la evolución del caso.",
+    a: "El valor de la consulta se confirma directamente por WhatsApp al 0412-9339730, ya que puede variar según el tipo de consulta (primera vez o seguimiento) y la evolución del caso.",
   },
   {
     q: "¿El endocrinólogo en Barinas atiende niños?",
@@ -129,7 +129,7 @@ export default function EndocrinologoBarinasPage() {
                 { label: "Sede", value: `${LOCATION.name}, ${LOCATION.detail}` },
                 { label: "Ciudad", value: "Barinas, Venezuela" },
                 { label: "Horario", value: "Lun - Vie, 8AM-12PM / 2PM-6PM" },
-                { label: "Citas", value: "WhatsApp 0412-9337390" },
+                { label: "Citas", value: "WhatsApp 0412-9339730" },
               ].map((item) => (
                 <div key={item.label}>
                   <span className="text-xs uppercase tracking-wider text-dorado font-semibold block">{item.label}</span>

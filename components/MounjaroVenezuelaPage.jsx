@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { CONTACT } from "@/lib/constants";
 
 const faqs = [
@@ -28,7 +28,7 @@ const faqs = [
   },
   {
     q: "¿Cómo agendo una consulta para Mounjaro en Venezuela?",
-    a: "Escribiendo por WhatsApp al 0412-9337390. La Dra. Jennifer Manrique atiende en el Hospital Privado San Juan, Consultorio 34, Piso 2, Barinas, de lunes a viernes previa cita.",
+    a: "Escribiendo por WhatsApp al 0412-9339730. La Dra. Jennifer Manrique atiende en el Hospital Privado San Juan, Consultorio 34, Piso 2, Barinas, de lunes a viernes previa cita.",
   },
 ];
 

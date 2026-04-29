@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { CONTACT, LOCATION } from "@/lib/constants";
 
 const features = [
@@ -31,7 +31,7 @@ const features = [
 const faqs = [
   {
     q: "¿Dónde atender el SOP con una endocrinóloga en Barinas?",
-    a: "La Dra. Jennifer Manrique atiende el síndrome de ovario poliquístico en el Hospital Privado San Juan, Consultorio 34, Piso 2, Barinas. Agenda tu consulta por WhatsApp al 0412-9337390.",
+    a: "La Dra. Jennifer Manrique atiende el síndrome de ovario poliquístico en el Hospital Privado San Juan, Consultorio 34, Piso 2, Barinas. Agenda tu consulta por WhatsApp al 0412-9339730.",
   },
   {
     q: "¿Qué especialista trata el SOP en Venezuela?",
@@ -176,7 +176,7 @@ export default function SopBarinasPage() {
                 { label: "Sede", value: `${LOCATION.name}, ${LOCATION.detail}` },
                 { label: "Ciudad", value: "Barinas, Venezuela" },
                 { label: "Horario", value: "Lun - Vie, 8AM-12PM / 2PM-6PM" },
-                { label: "Citas", value: "WhatsApp 0412-9337390" },
+                { label: "Citas", value: "WhatsApp 0412-9339730" },
               ].map((item) => (
                 <div key={item.label}>
                   <span className="text-xs uppercase tracking-wider text-dorado font-semibold block">{item.label}</span>

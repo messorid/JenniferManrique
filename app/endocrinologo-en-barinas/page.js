@@ -1,4 +1,4 @@
-import Header from "@/components/Header";
+﻿import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import EndocrinologoBarinasPage from "@/components/EndocrinologoBarinasPage";
 import { SITE_URL } from "@/lib/constants";
@@ -54,7 +54,7 @@ const faqSchema = {
     {
       "@type": "Question",
       name: "Cómo saco cita con el endocrinólogo en Barinas?",
-      acceptedAnswer: { "@type": "Answer", text: "Por WhatsApp al 0412-9337390. Atiende lunes a viernes de 8:00 AM a 12:00 PM y 2:00 PM a 6:00 PM previa cita." },
+      acceptedAnswer: { "@type": "Answer", text: "Por WhatsApp al 0412-9339730. Atiende lunes a viernes de 8:00 AM a 12:00 PM y 2:00 PM a 6:00 PM previa cita." },
     },
     {
       "@type": "Question",

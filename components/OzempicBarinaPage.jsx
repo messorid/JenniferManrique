@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { CONTACT } from "@/lib/constants";
 
 const faqs = [
@@ -28,7 +28,7 @@ const faqs = [
   },
   {
     q: "¿Cómo agendo cita para Ozempic en Barinas?",
-    a: "Por WhatsApp al 0412-9337390. La Dra. Jennifer Manrique atiende de lunes a viernes de 8:00 AM a 12:00 PM y de 2:00 PM a 6:00 PM en el Hospital Privado San Juan, Barinas, previa cita.",
+    a: "Por WhatsApp al 0412-9339730. La Dra. Jennifer Manrique atiende de lunes a viernes de 8:00 AM a 12:00 PM y de 2:00 PM a 6:00 PM en el Hospital Privado San Juan, Barinas, previa cita.",
   },
 ];
 

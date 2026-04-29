@@ -1,4 +1,4 @@
-import Header from "@/components/Header";
+﻿import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Link from "next/link";
 import { CONTACT, LOCATION, SITE_URL } from "@/lib/constants";
@@ -42,7 +42,7 @@ const localBusinessSchema = {
   "@type": "MedicalClinic",
   name: "Dra. Jennifer Manrique - Endocrinóloga en Barinas",
   url: SITE_URL,
-  telephone: "+58-412-9337390",
+  telephone: "+58-412-9339730",
   image: `${SITE_URL}/images/dr-jennifer-hero.jpg`,
   address: {
     "@type": "PostalAddress",

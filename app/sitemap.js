@@ -19,6 +19,8 @@ export default function sitemap() {
     { url: `${SITE_URL}/hipotiroidismo-en-barinas`, lastModified: now, changeFrequency: "monthly", priority: 0.88 },
     { url: `${SITE_URL}/fertilidad-en-barinas`, lastModified: now, changeFrequency: "monthly", priority: 0.88 },
     { url: `${SITE_URL}/crecimiento-en-barinas`, lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+    { url: `${SITE_URL}/endocrinologo-en-apure`, lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+    { url: `${SITE_URL}/endocrinologo-en-portuguesa`, lastModified: now, changeFrequency: "monthly", priority: 0.85 },
     { url: `${SITE_URL}/servicios`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${SITE_URL}/blog`, lastModified: now, changeFrequency: "weekly", priority: 0.85 },
     { url: `${SITE_URL}/sobre-mi`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
